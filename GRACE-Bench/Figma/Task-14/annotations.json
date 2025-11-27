@@ -1,0 +1,73 @@
+{
+  "task_name": "Task-14",
+  "task_query": "Create a Desktop 1440 frame named Web/Home",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T20:46:46Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click Frame tool in toolbar;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            798.1044386568053,
+            983.5945614039762,
+            21.50758019544901,
+            21.507580195449123
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "In right sidebar click Desktop with 1440 resolution;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1692.450162013378,
+            359.5697632963159,
+            51.91690886068136,
+            19.715281845828315
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click layer name in left panel;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            38.96450335672486,
+            336.6658624606929,
+            65.71760615276102,
+            15.533252363379859
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Type Web/Home;",
+      "bboxes": []
+    }
+  ]
+}

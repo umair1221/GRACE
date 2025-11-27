@@ -1,0 +1,65 @@
+{
+  "task_name": "Task-18",
+  "task_query": "Open the Markers panel",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-05T13:54:57Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open Window menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            324.7927557643116,
+            24.326862756140983,
+            50.5102262165849,
+            16.836742072194966
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose Markers;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            354.29001726072534,
+            543.5187249361273,
+            70.11194645899371,
+            19.256097971132135
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click Markers panel to focus",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            445.61262182509773,
+            631.0012437312315,
+            55.56124883824344,
+            19.715281845828258
+          ]
+        }
+      ]
+    }
+  ]
+}

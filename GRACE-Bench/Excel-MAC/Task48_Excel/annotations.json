@@ -1,0 +1,84 @@
+{
+  "task_name": "Task48_Excel",
+  "task_query": "Table(Tickets)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T18:14:28Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select the top header cell of TicketId column",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            59.31267369956114,
+            423.40373581721116,
+            107.31571523142452,
+            43.548406180867914
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click Insert tab.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            143.7442939255315,
+            169.8499654279295,
+            100.68235978994593,
+            37.63826534203588
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click Table.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            312.97154113966087,
+            225.0324560739804,
+            73.56570044125192,
+            80.40902141253113
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_4.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 4,
+      "instruction": "4) Click OK.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1588.9430405960804,
+            711.3213255844533,
+            122.73650136711171,
+            41.32963821545604
+          ]
+        }
+      ]
+    }
+  ]
+}

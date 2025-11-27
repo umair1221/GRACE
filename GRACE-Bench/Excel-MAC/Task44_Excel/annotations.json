@@ -1,0 +1,46 @@
+{
+  "task_name": "Task44_Excel",
+  "task_query": "Center Align Header (Students)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T18:08:01Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click on the first cell of the program column.",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            255.2703359121954,
+            481.9381073010366,
+            108.87101545216981,
+            30.32835430453298
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click on Center Text icon.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            818.7532225235955,
+            254.07493216322155,
+            43.548406180867914,
+            37.32720529788679
+          ]
+        }
+      ]
+    }
+  ]
+}

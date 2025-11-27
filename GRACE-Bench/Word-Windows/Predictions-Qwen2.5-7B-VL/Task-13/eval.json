@@ -1,0 +1,47 @@
+{
+  "task": "Task-13",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.08455135604883755,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click at the end of a sentence in the Introduction section",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click the References tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.25365406814651265,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.25365406814651265
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click Insert Footnote",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

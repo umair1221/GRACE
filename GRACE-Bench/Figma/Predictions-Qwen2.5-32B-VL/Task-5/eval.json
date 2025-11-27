@@ -1,0 +1,47 @@
+{
+  "task": "Task-5",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.44097003997448475,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Main menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5099097164791437,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5099097164791437
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click View menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.36257316621012176,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.36257316621012176
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Rulers;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.45042723723418887,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.45042723723418887
+      ]
+    }
+  ]
+}

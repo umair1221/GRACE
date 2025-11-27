@@ -1,0 +1,48 @@
+{
+  "task": "Task22_Excel",
+  "task_query": "Landscape Orientation (Expenses)",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.6243797010726768,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.6666666666666666,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the Page Layout from tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.47448547439221034,
+      "ious_per_gt": [
+        0.47448547439221034
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Orientation icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6759041696591543,
+      "ious_per_gt": [
+        0.6759041696591543
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Select Landscape from the orientation icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7227494591666657,
+      "ious_per_gt": [
+        0.7227494591666657
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

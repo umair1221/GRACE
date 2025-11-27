@@ -1,0 +1,2640 @@
+{
+  "overall": {
+    "num_tasks": 50,
+    "overall_num_gt_boxes": 172,
+    "task_completion_rate@0.30": 0.0,
+    "overall_mIoU": 0.0015294188323013572,
+    "Acc@0.3": 0.0,
+    "Acc@0.5": 0.0,
+    "Acc@0.8": 0.0,
+    "Acc@0.9": 0.0
+  },
+  "per_task": [
+    {
+      "task": "Task1_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click the 5th row number.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click Home tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click Insert drop down icon on the home tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Click Insert Sheet Rows.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task2_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click the 3rd Column in 1st row",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Open Home tab menu.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Insert drop down icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Click Insert Sheet Columns.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task3_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0082233235634766,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click first cell of sheet.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0328932942539064,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0328932942539064
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click View tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Freeze Panes icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Select Freeze Top Row.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task4_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 1,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click a Resolvedon column.",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        },
+        {
+          "image": "Step_3.png",
+          "best_iou": 0.0,
+          "gt_count": 1,
+          "pred_count": 0,
+          "note": "no_pred"
+        }
+      ]
+    },
+    {
+      "task": "Task5_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on 'Name' header column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Data tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Sort Z\u2192A .",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task6_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on 1st cell of the 9th column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Data tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Filter icon",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        }
+      ]
+    },
+    {
+      "task": "Task7_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click Page Layout tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Width drop-down.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click 1 page.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Click Height drop-down.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_5.png",
+          "instruction": "5) Click 1 page.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task8_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click the firs below the 5th row position.",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Page Layout tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Breaks.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Click Insert Page Break.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task9_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click first cell inside the EndTime column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Data tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Remove Duplicates.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Click OK.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task10_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select first cell of third column to access the data",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Insert tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click PivotChart icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Click OK.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_5.png",
+          "instruction": "5)Select Date check box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task11_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click Insert tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click on Pivotchart icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3)Click Ok.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Select the Category check box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_5.png",
+          "instruction": "5) Click on Jan check box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_6.png",
+          "instruction": "5) Click on Feb check box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task12_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click Data tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click What-If Analysis.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Goal Seek.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Click OK.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task13_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click the first cell in date column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Select Formulas tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Date & Time icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Choose TODAY option.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task14_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the first right cell next to Salary header",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Insert.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Check Box icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task15_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click Insert tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Choose Pictures ico.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task16_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select Insert from the excel tab bar",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click ok.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Object.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task17_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on the first cell of Checklist column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Insert tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click on checkbox tick icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Click on the added check box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task18_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on the header of Style column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click on Home tab to op",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click on Cell styles icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Click on Good design style.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task19_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.00427834626979771,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on header of first column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.01711338507919084,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.01711338507919084
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Choose Freeze First Column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Open Freeze Panes",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Select View from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task20_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Open the View tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click the Gridlines checkbox to hide the Grid.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task21_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the View tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Select the Headings checkbox to show the row numbers",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task22_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the Page Layout from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Orientation icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Select Landscape from the orientation icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task23_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.037636407083875424,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on Page Layout from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Margins icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Select Narrow from the click margins icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.11290922125162627,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.11290922125162627
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task24_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select Home tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Select first row  in Ammount Column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "2) Select Conditional Formating icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_5.png",
+          "instruction": "5) Click OK in the rule dialog",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Choose Top 10% from the menu",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task25_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the top header cell of column \"UnitPrice\"",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click \"Insert\" from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click \"Recommended Charts\" icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Select 3D clustured column from the options",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task26_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on Home tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Analyse Data icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task27_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.00817161204440548,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on the top header cell of Amount column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click on Formulas tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click an AutoSum Icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Select Max from the options",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.03268644817762192,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.03268644817762192
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task28_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Go to View tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Select Page Layout icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task29_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the top header cell of salary column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click \"Insert\" from Tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click \"Recommended Charts\" icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Select clustered bar chart",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task30_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select top header cell of Unit Price Column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Formulas from the Tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "View .png",
+          "instruction": "3) Click Watch Window icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task31_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click Review tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Protect Workbook icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Ok",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task32_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select cell in first row of first column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Select Review from the tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Select Translator",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task33_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the top header cell of category column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Select Review from Tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Select Notes icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Select new note",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task34_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select Review from the tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Select check Accesibility icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Select Check Accessibility from the options",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task35_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click the Data from tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Select get data (Power Query) icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Select Get Data",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Select Blank Query",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task36_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click Add-ins icon from the tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Add button on Gpt for Excel",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task37_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.005675531320807296,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click Find & Select icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Select Replace option",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Type in the find search bar 'Ali'",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.028377656604036478,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.028377656604036478
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Type in the replace search bar by 'Ahmed'",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_5.png",
+          "instruction": "5) Click Replace all.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task38_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 7,
+      "num_gt_boxes": 7,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the top header cell of description column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Data tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Text to Columns icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) click Next.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_5.png",
+          "instruction": "5) Tick in box beside Comma",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_6.png",
+          "instruction": "6) Click Next.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_7.png",
+          "instruction": "7) Select Finish.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task39_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select top header cell of Category column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click View from the tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Zoom icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Select 200%",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task40_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the top header cell of salary column header.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Open General drop-down menu",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Currency.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task41_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on the first cell of ammount column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Increase Decimal icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task42_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on the second cell of Ammount column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Decrease Decimal icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task43_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the header cell of probability column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2)Click Wrap Text icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task44_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on the first cell of the program column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click on Center Text icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task45_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.007324402938707976,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Click on the first row of StudentId column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.03662201469353988,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.03662201469353988
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2)Click Format drop-down icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Row Height.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Type 20.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_5.png",
+          "instruction": "5) Click ok.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task46_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the top header cell of Email Column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Right-click in the Email Column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Hide.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task47_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Open drop-down menu for Format icon.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Hide & Unhide.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Select Unhide Columns.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task48_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the top header cell of TicketId column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Insert tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Click Table.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Click OK.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task49_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0008193396986372071,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the 5th cell in the value column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.002458019095911621,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.002458019095911621
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Select yellow color from standard colors options",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Open drop-down menu for fill color from Home tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task50_Excel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Step_1.png",
+          "instruction": "1) Select the top header cell of ammount column.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_2.png",
+          "instruction": "2) Click Home tab.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_3.png",
+          "instruction": "3) Open drop-down menu for Click Conditional Formatting.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_4.png",
+          "instruction": "4) Click Top/Bottom Rules.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_5.png",
+          "instruction": "5) Choose Top 10 Items from the list.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "Step_6.png",
+          "instruction": "6) Click OK.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "task_name": "Task26_Excel",
+  "task_query": "Analyse (Expenses)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:22:35Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click on Home tab.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            27.627254253099395,
+            150.3797488526234,
+            101.53314454930366,
+            37.88550169750138
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click Analyse Data icon",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            2802.515625,
+            209.671875,
+            91.546875,
+            103.359375
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "task": "Task-15",
+  "task_query": "Deselect the current selection",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.45489197112822366,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Select menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5892970189642572,
+      "ious_per_gt": [
+        0.5892970189642572
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Deselect;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3204869232921901,
+      "ious_per_gt": [
+        0.3204869232921901
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

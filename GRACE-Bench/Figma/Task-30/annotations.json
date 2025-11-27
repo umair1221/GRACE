@@ -1,0 +1,54 @@
+{
+  "task_name": "Task-30",
+  "task_query": "Round avatar corners to 64",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T21:10:37Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Select the avatar image;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            740.379519363676,
+            258.43871406453695,
+            77.12314110489308,
+            73.86441683285534
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click Corner radius field;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1792.0922870606792,
+            610.3910246912321,
+            87.37458259794175,
+            24.219621141183893
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Type 64;",
+      "bboxes": []
+    }
+  ]
+}

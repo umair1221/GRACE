@@ -1,0 +1,37 @@
+{
+  "task": "Task42_Excel",
+  "task_query": "Decrease Decimal Places  ( Sales)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.2800438426227141,
+  "Acc@0.3": 0.5,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click on the second cell of Ammount column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4777425920135331,
+      "ious_per_gt": [
+        0.4777425920135331
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Decrease Decimal icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.08234509323189508,
+      "ious_per_gt": [
+        0.08234509323189508
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

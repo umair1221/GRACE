@@ -1,0 +1,141 @@
+{
+  "task_name": "Task-33",
+  "task_query": "Normalize beep.wav peak to −3 dB",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-05T19:30:38Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click beep.wav clip on timeline;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            15.07548169352915,
+            718.5302132230719,
+            198.7821805943019,
+            144.47010939367294
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Open Clip menu from the tab;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            70.1628228598899,
+            24.992739805745106,
+            26.52355092442434,
+            16.32218518426114
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Choose Audio Options from the list;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            100.85851515816927,
+            210.21969962541934,
+            84.92432951371072,
+            19.749844072955995
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click Audio Gain…;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            470.6933556497412,
+            206.167615953889,
+            77.12314110489308,
+            23.354190616270444
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Select Normalize Max Peak;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            818.2551792180514,
+            520.4000615035368,
+            14.363522962149773,
+            14.812383054716975
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "6.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 6,
+      "instruction": "Type -3 against the active dB value;",
+      "bboxes": [
+        {
+          "id": 3,
+          "label": "object",
+          "bbox": [
+            961.6700512172982,
+            518.5071128427057,
+            26.168543396666678,
+            16.787367462012526
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "7.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 7,
+      "instruction": "Click OK",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1027.1913791060147,
+            465.65938559384193,
+            78.20938252890573,
+            21.724828480251574
+          ]
+        }
+      ]
+    }
+  ]
+}

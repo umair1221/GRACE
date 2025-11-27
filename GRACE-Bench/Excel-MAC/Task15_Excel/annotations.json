@@ -1,0 +1,46 @@
+{
+  "task_name": "Task15_Excel",
+  "task_query": "Insert Image (Students)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T16:52:35Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click Insert tab.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            101.2168003070456,
+            151.82520046056837,
+            108.18583864738493,
+            38.5068239253404
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Choose Pictures ico.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            519.75,
+            206.71875,
+            103.359375,
+            73.828125
+          ]
+        }
+      ]
+    }
+  ]
+}

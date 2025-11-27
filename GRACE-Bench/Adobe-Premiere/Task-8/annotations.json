@@ -1,0 +1,103 @@
+{
+  "task_name": "Task-8",
+  "task_query": "Import beep.wav into Audio bin",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-05T13:12:29Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click Audio bin in Project panel;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            214.36593429352888,
+            719.246515511624,
+            199.47342513685538,
+            142.19887732528298
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Open File menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            3.6919005865009717,
+            25.747208737031748,
+            25.967112793142718,
+            15.175585398589895
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Choose Import…;",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            35.03973069267476,
+            553.9051370616131,
+            61.044972589136655,
+            18.403263795254475
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Select beep.wav;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            193.60273498863052,
+            199.2148064021667,
+            80.05599294972706,
+            109.92763211007298
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Click Open",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            747.5131559614398,
+            558.4947928251845,
+            72.2893667680371,
+            23.897311328276714
+          ]
+        }
+      ]
+    }
+  ]
+}

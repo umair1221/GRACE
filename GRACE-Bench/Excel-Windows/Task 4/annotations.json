@@ -1,0 +1,46 @@
+{
+  "task_name": "Task 4",
+  "task_query": "Toggle Headings",
+  "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+  "updated_at": "2025-09-28T13:51:21Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 1,
+      "instruction": "Open the View tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            746.8780416784564,
+            83.32483968046598,
+            48.192911178691475,
+            26.98803026006719
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 2,
+      "instruction": "Click the Headings checkbox to show or hide row numbers",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            993.5974871588005,
+            130.10698612175017,
+            20.27650658156813,
+            21.724828480251574
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "task_name": "Task-35",
+  "task_query": "Prototype: On click of Button/Primary instance navigate to Mobile/Details",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T21:16:36Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Select the Button Danger instance;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            530.3244241574373,
+            547.9513751312627,
+            38.01560786717471,
+            19.620958899186917
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click Prototype tab in right sidebar;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1749.3452070694277,
+            88.94827676054872,
+            57.57079547266653,
+            19.009224920220134
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click + Add interaction;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1888.7493975546026,
+            228.82479565483132,
+            18.40326379525436,
+            14.363522962149801
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click Action dropdown;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1641.5530186777628,
+            352.00584212191274,
+            20.24359017477991,
+            20.7373362766038
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Pick Navigate to;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1549.396392445364,
+            392.1082662771993,
+            92.36872979275063,
+            17.43506144682442
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "6.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 6,
+      "instruction": "Click on Destination dropdown;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1643.3402611212373,
+            384.2237039535571,
+            17.505543610119958,
+            21.545284443224716
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "7.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 7,
+      "instruction": "Pick Mobile/Details",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1549.5943758233461,
+            386.88901604880243,
+            81.27369069022598,
+            15.850055860749478
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "task_name": "Task30_Excel",
+  "task_query": "Watch Window (Invoice_Items)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:39:36Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select top header cell of Unit Price Column",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            378.9732200541507,
+            423.69041623294714,
+            107.31571523142458,
+            43.548406180867914
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click Formulas from the Tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            590.961273238051,
+            170.69883966103913,
+            126.37988545222095,
+            36.43384085109071
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "View .png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click Watch Window icon",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            2028.0371923725534,
+            227.03036078695604,
+            75.1447967553745,
+            75.14479675537464
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "task": "Task33_Excel",
+  "task_query": "Add Note (Budget)",
+  "exists": true,
+  "task_completed@0.25": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.3373077354106461,
+  "Acc@0.2": 0.5,
+  "Acc@0.5": 0.25,
+  "Acc@0.8": 0.25,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the top header cell of category column",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Select Review from Tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7893300133438537,
+      "ious_per_gt": [
+        0.7893300133438537
+      ],
+      "step_success@0.250": true
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Select Notes icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.40793302680974414,
+      "ious_per_gt": [
+        0.40793302680974414
+      ],
+      "step_success@0.250": true
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Select new note",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1519679014889868,
+      "ious_per_gt": [
+        0.1519679014889868
+      ],
+      "step_success@0.250": false
+    }
+  ]
+}

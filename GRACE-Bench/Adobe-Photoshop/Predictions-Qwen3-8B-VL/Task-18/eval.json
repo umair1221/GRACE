@@ -1,0 +1,70 @@
+{
+  "task": "Task-18",
+  "task_query": "Place the logo as an embedded object",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.4381342441059063,
+  "Acc@0.3": 0.8,
+  "Acc@0.5": 0.2,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.23394942163813578,
+      "ious_per_gt": [
+        0.23394942163813578
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Place Embedded\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4001723937377665,
+      "ious_per_gt": [
+        0.4001723937377665
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Select logo.png;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6442051288011604,
+      "ious_per_gt": [
+        0.6442051288011604
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Choose Place;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4962642448947257,
+      "ious_per_gt": [
+        0.4962642448947257
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Commit (checkmark)",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4160800314577435,
+      "ious_per_gt": [
+        0.4160800314577435
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

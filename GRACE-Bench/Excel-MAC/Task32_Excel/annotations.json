@@ -1,0 +1,65 @@
+{
+  "task_name": "Task32_Excel",
+  "task_query": "Translator(Invoice-Header)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:46:04Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select cell in first row of first column.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            59.617392271237755,
+            484.40498204520634,
+            170.32820597884913,
+            30.05791870214989
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Select Review from the tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            853.6999170681959,
+            156.5659222466796,
+            113.68681349386202,
+            38.5068239253404
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Select Translator",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            588.0768667549411,
+            216.56854317002083,
+            75.14479675537461,
+            71.38755691760585
+          ]
+        }
+      ]
+    }
+  ]
+}

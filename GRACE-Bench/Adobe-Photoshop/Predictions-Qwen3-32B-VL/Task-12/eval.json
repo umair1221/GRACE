@@ -1,0 +1,70 @@
+{
+  "task": "Task-12",
+  "task_query": "Unlock background to a layer named Portrait",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.4643210490182136,
+  "Acc@0.3": 0.6,
+  "Acc@0.5": 0.6,
+  "Acc@0.8": 0.2,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8749691253731412,
+      "ious_per_gt": [
+        0.8749691253731412
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose New;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Layer from Background\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5995860668073577,
+      "ious_per_gt": [
+        0.5995860668073577
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type Portrait in Name;",
+      "gt_count": 1,
+      "pred_count": 2,
+      "best_iou": 0.21634138238691766,
+      "ious_per_gt": [
+        0.21634138238691766
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6307086705236513,
+      "ious_per_gt": [
+        0.6307086705236513
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

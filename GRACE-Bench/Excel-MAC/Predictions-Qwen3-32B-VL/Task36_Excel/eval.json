@@ -1,0 +1,37 @@
+{
+  "task": "Task36_Excel",
+  "task_query": "Select GPT Add-ins ( Survey_Long)",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.5640145326444821,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click Add-ins icon from the tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4799961765432667,
+      "ious_per_gt": [
+        0.4799961765432667
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Add button on Gpt for Excel",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6480328887456974,
+      "ious_per_gt": [
+        0.6480328887456974
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "task": "Task23_Excel",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.43902271346039595,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.6666666666666666,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click on Page Layout from tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5918701004465388,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5918701004465388
+      ]
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Margins icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Select Narrow from the click margins icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7251980399346493,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.7251980399346493
+      ]
+    }
+  ]
+}

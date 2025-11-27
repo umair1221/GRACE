@@ -1,0 +1,68 @@
+{
+  "task": "Task-28",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.038275678371186436,
+  "Acc@0.2": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Window menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1913783918559322,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.1913783918559322
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Essential Graphics;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Edit panel in Essential Graphics tab;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Horizontal Center;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Vertical Center",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

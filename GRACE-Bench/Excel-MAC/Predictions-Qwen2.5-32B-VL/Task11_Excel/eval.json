@@ -1,0 +1,80 @@
+{
+  "task": "Task11_Excel",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 6,
+  "num_gt_boxes": 6,
+  "mIoU": 0.38398304163430463,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click Insert tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6755369701577647,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.6755369701577647
+      ]
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click on Pivotchart icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.39645593065285334,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.39645593065285334
+      ]
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3)Click Ok.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.43070292310413893,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.43070292310413893
+      ]
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Select the Category check box",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.062200675355687414,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.062200675355687414
+      ]
+    },
+    {
+      "image": "Step_5.png",
+      "instruction": "5) Click on Jan check box",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "Step_6.png",
+      "instruction": "5) Click on Feb check box",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7390017505353834,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.7390017505353834
+      ]
+    }
+  ]
+}

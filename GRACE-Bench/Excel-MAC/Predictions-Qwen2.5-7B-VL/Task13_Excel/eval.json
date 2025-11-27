@@ -1,0 +1,59 @@
+{
+  "task": "Task13_Excel",
+  "task_query": "Insert Today\u2019s Date (Expenses)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.12120544062432656,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click the first cell in date column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2430989884095292,
+      "ious_per_gt": [
+        0.2430989884095292
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Select Formulas tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1721922327802043,
+      "ious_per_gt": [
+        0.1721922327802043
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Date & Time icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0037248353054087366,
+      "ious_per_gt": [
+        0.0037248353054087366
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Choose TODAY option.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.06580570600216398,
+      "ious_per_gt": [
+        0.06580570600216398
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

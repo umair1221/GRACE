@@ -1,0 +1,1485 @@
+{
+  "overall": {
+    "num_tasks": 24,
+    "overall_num_gt_boxes": 103,
+    "task_completion_rate@0.30": 0.041666666666666664,
+    "overall_mIoU": 0.08743706367041633,
+    "Acc@0.2": 0.17475728155339806,
+    "Acc@0.5": 0.019417475728155338,
+    "Acc@0.8": 0.0
+  },
+  "per_task": [
+    {
+      "task": "Task-1",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.07046158374896644,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.24289402381734063,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.24289402381734063
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Open\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.038952311178525115,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.038952311178525115
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Select landscape.jpg;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Choose Open",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-2",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0843750774091579,
+      "Acc@0.2": 0.25,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.3375003096366316,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.3375003096366316
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Save As\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type landscape_work.psd;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Choose Save",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-4",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.03241539519334487,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Layer menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.12966158077337947,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.12966158077337947
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Duplicate Layer\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type Bg copy in Name;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-6",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.1286349084002925,
+      "Acc@0.2": 0.2,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Filter menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.46493750932837197,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.46493750932837197
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Blur;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.17823703267309057,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.17823703267309057
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Gaussian Blur\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type 2 in Radius;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-7",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.041531232304858424,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Layer menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1661249292194337,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.1661249292194337
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose New Adjustment Layer;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Black & White\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-8",
+      "exists": true,
+      "task_completed@0.30": true,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.5322166063962344,
+      "Acc@0.2": 1.0,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Image menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4908544686346567,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.4908544686346567
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Auto Tone;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.573578744157812,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.573578744157812
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-11",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.08830060457798404,
+      "Acc@0.2": 0.25,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.32145704665730684,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.32145704665730684
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Open\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0317453716546293,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0317453716546293
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Select portrait.jpg;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Choose Open",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-12",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.14006200806044147,
+      "Acc@0.2": 0.4,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Layer menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2852599958833347,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.2852599958833347
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose New;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4150500444188726,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.4150500444188726
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Layer from Background\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Portrait in Name;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-14",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.024109551118626758,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Layer menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.14465730671176055,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.14465730671176055
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose New Fill Layer;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Solid Color\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Ok;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type #FFD700 in Hex;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-15",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.20204238122245827,
+      "Acc@0.2": 0.5,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Select menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.40408476244491653,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.40408476244491653
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Deselect;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-16",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.019076067135446288,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Portrait layer in Layers panel;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open Layer menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.09538033567723143,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.09538033567723143
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Choose Layer Style;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Pick Drop Shadow\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-17",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.06383412663160389,
+      "Acc@0.2": 0.25,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.25533650652641554,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.25533650652641554
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Save As\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type portrait_masked.psd;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Choose Save",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-18",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.12831683165210964,
+      "Acc@0.2": 0.2,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.21889294243005422,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.21889294243005422
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Place Embedded\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Select logo.png;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Choose Place;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.42269121583049396,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.42269121583049396
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Commit (checkmark)",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-19",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "In Layers panel, click Opacity field;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type 70;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click canvas to focus",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-22",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.029675122406086534,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Edit menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.11870048962434614,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.11870048962434614
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Define Pattern\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type Demo texture;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-24",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.14401624591481393,
+      "Acc@0.2": 0.4,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Edit menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.3184215513567122,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.3184215513567122
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Fill\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4016596782173576,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.4016596782173576
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Open Contents dropdown;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Pick 50% Gray;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-25",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.09273490274194984,
+      "Acc@0.2": 0.2,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Layer menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.15843634921704683,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.15843634921704683
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose New;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.30523816449270236,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.30523816449270236
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Layer\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Texture in Name;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-26",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 7,
+      "num_gt_boxes": 7,
+      "mIoU": 0.18437404165437016,
+      "Acc@0.2": 0.42857142857142855,
+      "Acc@0.5": 0.14285714285714285,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Edit menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.26898627939190434,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.26898627939190434
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Fill\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.32609419948855456,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.32609419948855456
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Open Contents dropdown;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Pick Pattern;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.695537812700132,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.695537812700132
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Custom Pattern Dropdown;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "6.png",
+          "instruction": "Pick Demo texture in Pattern;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "7.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-27",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Horizontal Type Tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click near canvas center;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type LAUNCH in provided tentative text;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Commit (checkmark)",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-28",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.05622205157200367,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click the text layer in Layers panel;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Center Align",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.11244410314400734,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.11244410314400734
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-29",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 8,
+      "num_gt_boxes": 7,
+      "mIoU": 0.013453555751233592,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Layer menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.10762844600986873,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.10762844600986873
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Layer Style;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Stroke\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type 5 in Size;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Color swatch;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "6.png",
+          "instruction": "Type #FF0000 in Hex;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "7.png",
+          "instruction": "Click OK;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "8.png",
+          "instruction": "Click OK",
+          "gt_count": 0,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        }
+      ]
+    },
+    {
+      "task": "Task-30",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Save As\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type P/title.psd;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Save",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        },
+        {
+          "image": "5.png",
+          "instruction": "",
+          "gt_count": 0,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        }
+      ]
+    },
+    {
+      "task": "Task-32",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0503494340449503,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2013977361798012,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.2013977361798012
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Open\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Select landscape.jpg;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Choose Open",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-33",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.15483526211523865,
+      "Acc@0.2": 0.4,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Image menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.44977777438986055,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.44977777438986055
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Adjustments;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.32439853618633274,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.32439853618633274
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Hue/Saturation\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type -20 in Saturation;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    }
+  ]
+}

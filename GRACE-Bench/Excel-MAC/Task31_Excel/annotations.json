@@ -1,0 +1,65 @@
+{
+  "task_name": "Task31_Excel",
+  "task_query": "Protect Workbook (Timesheet)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:40:29Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click Review tab.",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            849.1555485659643,
+            154.589439213945,
+            115.92585725347044,
+            40.367039579333465
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click Protect Workbook icon.",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            1660.5933209712796,
+            211.33796585235842,
+            76.13194580548156,
+            76.98736092689154
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click Ok",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1838.0283499269854,
+            1201.0680653601542,
+            123.35519352706456,
+            41.674051867251364
+          ]
+        }
+      ]
+    }
+  ]
+}

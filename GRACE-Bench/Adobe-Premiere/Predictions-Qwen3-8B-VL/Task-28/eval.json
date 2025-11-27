@@ -1,0 +1,70 @@
+{
+  "task": "Task-28",
+  "task_query": "Center the text horizontally and vertically",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.22413701827988458,
+  "Acc@0.3": 0.4,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Window menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4507415805335676,
+      "ious_per_gt": [
+        0.4507415805335676
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Essential Graphics;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3973328186213488,
+      "ious_per_gt": [
+        0.3973328186213488
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Edit panel in Essential Graphics tab;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2726106922445064,
+      "ious_per_gt": [
+        0.2726106922445064
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Horizontal Center;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Vertical Center",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "task": "Task-3",
+  "task_query": "Switch workspace to Editing",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.6263001214618762,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.6666666666666666,
+  "Acc@0.8": 0.6666666666666666,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Window menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8437139000886119,
+      "ious_per_gt": [
+        0.8437139000886119
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open Workspaces drop-menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7968143468302561,
+      "ious_per_gt": [
+        0.7968143468302561
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Editing",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.23837211746676068,
+      "ious_per_gt": [
+        0.23837211746676068
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

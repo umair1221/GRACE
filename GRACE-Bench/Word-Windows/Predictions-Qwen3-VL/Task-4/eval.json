@@ -1,0 +1,48 @@
+{
+  "task": "Task-4",
+  "task_query": "Apply Subtitle style to the Project name",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.43788977732413975,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.6666666666666666,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click in the project name line",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Open the style drop-down menu",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7053486378177122,
+      "ious_per_gt": [
+        0.7053486378177122
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click Subtitle from the options",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6083206941547071,
+      "ious_per_gt": [
+        0.6083206941547071
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "task": "Task-8",
+  "task_query": "Insert a hyperlink in the body text",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.7215687488986117,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.8,
+  "Acc@0.8": 0.4,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Double-click on 'link' text in the main body",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.45571679500700746,
+      "ious_per_gt": [
+        0.45571679500700746
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click the Insert tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8936196628889085,
+      "ious_per_gt": [
+        0.8936196628889085
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Choose Link icon from the bar",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7336014046933323,
+      "ious_per_gt": [
+        0.7336014046933323
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Click the Address box",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6294325310156135,
+      "ious_per_gt": [
+        0.6294325310156135
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "6.png",
+      "instruction": "6) Click OK.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8954733508881967,
+      "ious_per_gt": [
+        0.8954733508881967
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

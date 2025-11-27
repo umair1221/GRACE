@@ -1,0 +1,48 @@
+{
+  "task": "Task-5",
+  "task_query": "Apply a built-in table style to the \u201cDecisions\u201d table",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.6052785572838051,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.6666666666666666,
+  "Acc@0.8": 0.3333333333333333,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click  the cell of Owner column of Decisions table",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2996059628865358,
+      "ious_per_gt": [
+        0.2996059628865358
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click the Table Design tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6748893866249084,
+      "ious_per_gt": [
+        0.6748893866249084
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click on red table format from Table Style region",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.841340322339971,
+      "ious_per_gt": [
+        0.841340322339971
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

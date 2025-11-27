@@ -1,0 +1,70 @@
+{
+  "task": "Task-28",
+  "task_query": "Export Button/Primary as PNG 2\u00d7 to Exports/button_primary.png",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.269539772139034,
+  "Acc@0.3": 0.4,
+  "Acc@0.5": 0.4,
+  "Acc@0.8": 0.2,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select the Button component;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7627485711517183,
+      "ious_per_gt": [
+        0.7627485711517183
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "In right sidebar click Export +;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Export Button Danger;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type button_primary.png;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Save",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5849502895434516,
+      "ious_per_gt": [
+        0.5849502895434516
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

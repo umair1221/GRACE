@@ -1,0 +1,37 @@
+{
+  "task": "Task26_Excel",
+  "task_query": "Analyse (Expenses)",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.5140705701512395,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click on Home tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.38389260767242367,
+      "ious_per_gt": [
+        0.38389260767242367
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Analyse Data icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6442485326300552,
+      "ious_per_gt": [
+        0.6442485326300552
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-27",
+  "task_query": "Place a Button/Primary instance on Mobile/Home using Assets",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T21:04:46Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click Assets tab in left sidebar;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            54.131729606757446,
+            145.18333227512827,
+            41.40209187623944,
+            19.058105784300693
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Type Button/Primary in search field;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            38.210407466104314,
+            188.11807629075807,
+            100.54793741372437,
+            23.65833821499396
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click the first left component;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            16.151511493109997,
+            219.13845821379078,
+            97.7617281611321,
+            98.74922036477989
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click Insert Instance",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            258.5690598821316,
+            497.95517793783466,
+            286.76773593932074,
+            23.89731132827677
+          ]
+        }
+      ]
+    }
+  ]
+}

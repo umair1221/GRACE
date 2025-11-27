@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-2",
+  "task_query": "Save project as Working/PremiereCrashCourse_v1.prproj",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-04T19:13:42Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open File menu;",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            1.8195008017524716,
+            22.867784331526565,
+            28.20512841758122,
+            18.70122645078755
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose Save As…;",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            34.06516672998591,
+            294.1459318518395,
+            259.5227444297521,
+            22.85105925796563
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Type PremiereCrashCourse_v1.prproj in File Name;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            133.32636874983447,
+            463.2585788481223,
+            199.0828942799112,
+            23.260544348855603
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click Save",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            748.4524880970711,
+            532.8263810002574,
+            85.99498392534281,
+            23.606466175584274
+          ]
+        }
+      ]
+    }
+  ]
+}

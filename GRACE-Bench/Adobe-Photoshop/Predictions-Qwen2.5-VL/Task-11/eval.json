@@ -1,0 +1,57 @@
+{
+  "task": "Task-11",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.08830060457798404,
+  "Acc@0.2": 0.25,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.32145704665730684,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.32145704665730684
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Open\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0317453716546293,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0317453716546293
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Select portrait.jpg;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Choose Open",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

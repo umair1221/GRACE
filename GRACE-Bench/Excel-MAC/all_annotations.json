@@ -1,0 +1,3765 @@
+{
+  "exported_at": "2025-10-12T18:21:03Z",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "tasks": [
+    {
+      "task_name": "Task1_Excel",
+      "task_query": "Add a Row between 4 and 5 row (Sales)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:06:48Z",
+      "images": [
+        {
+          "file_name": "Step_1 .png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "",
+          "bboxes": []
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "",
+          "bboxes": []
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "",
+          "bboxes": []
+        },
+        {
+          "file_name": "1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click the 5th row number.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1.3088433419775931,
+                425.3557789583736,
+                40.367039579333465,
+                32.08662120408559
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Home tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                10.540982548852273,
+                148.69474145884877,
+                98.50230441350357,
+                40.91634183330149
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Insert drop down icon on the home tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2111.4715453510075,
+                210.97021105550442,
+                23.795852305868266,
+                40.0772249361998
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click Insert Sheet Rows.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1996.3125,
+                327.796875,
+                413.4375,
+                50.203125
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "View.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 5,
+          "instruction": "",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task2_Excel",
+      "task_query": "Add a Column between 2 and 3 column (Inventory)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:16:12Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click the 3rd Column in 1st row",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                254.39544753086417,
+                305.8010962215471,
+                108.78951461226856,
+                32.96651957947529
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Open Home tab menu.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                10.65457146620975,
+                153.15450103044716,
+                96.68380033202352,
+                33.33924149380121
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Insert drop down icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2112.095217957626,
+                209.8294948906416,
+                22.582959205221414,
+                39.52017860913767
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click Insert Sheet Columns.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2005.171875,
+                375.046875,
+                392.765625,
+                47.25
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task3_Excel",
+      "task_query": "Freeze Top Row (HR_Employees)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:20:21Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click first cell of sheet.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                43.29237403755026,
+                306.32088516223126,
+                107.70754201603695,
+                31.31033198140608
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click View tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                974.53125,
+                144.703125,
+                88.59375,
+                47.25
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Freeze Panes icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2129.203125,
+                209.671875,
+                100.40625,
+                64.96875
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Select Freeze Top Row.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2135.109375,
+                336.65625,
+                383.90625,
+                47.25
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task4_Excel",
+      "task_query": "Sort by Date in Resolvedon column (A to Z) (Tickets)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:20:19Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click a Resolvedon column.",
+          "bboxes": []
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Select Sort A to Z icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1295.6953790350492,
+                217.39637093649694,
+                45.952051976565144,
+                46.65900662235853
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task5_Excel",
+      "task_query": "Sort Data Z→A (Students)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:23:30Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on 'Name' header column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                149.08617840247953,
+                305.22100425309935,
+                111.68645900423402,
+                31.672279419111135
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Data tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                735.328125,
+                150.609375,
+                82.6875,
+                44.296875
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Sort Z→A .",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1296.421875,
+                280.546875,
+                47.25,
+                47.25
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task6_Excel",
+      "task_query": "Add Filters (CRM Pipeline)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:23:31Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on 1st cell of the 9th column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1105.153339706902,
+                448.3077084077198,
+                107.45705936018567,
+                33.06371057236487
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Data tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                732.375,
+                150.609375,
+                82.6875,
+                35.4375
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Filter icon",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task7_Excel",
+      "task_query": "Fit to one page (Budget)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:31:04Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click Page Layout tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                366.1875,
+                150.609375,
+                180.140625,
+                44.296875
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Width drop-down.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1464.75,
+                218.53125,
+                29.53125,
+                38.390625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click 1 page.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1320.046875,
+                324.84375,
+                256.921875,
+                47.25
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click Height drop-down.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1458.84375,
+                283.5,
+                38.390625,
+                38.390625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_5.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 5,
+          "instruction": "5) Click 1 page.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1323.0,
+                389.8125,
+                248.0625,
+                44.296875
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task8_Excel",
+      "task_query": "Insert Manual Page Break (Inventory)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:33:25Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click the firs below the 5th row position.",
+          "bboxes": []
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Page Layout tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                363.234375,
+                153.5625,
+                186.046875,
+                35.4375
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Breaks.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                735.328125,
+                206.71875,
+                100.40625,
+                82.6875
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click Insert Page Break.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                735.328125,
+                286.453125,
+                357.328125,
+                47.25
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task9_Excel",
+      "task_query": "Remove Duplicates (TimeSheet)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:33:26Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click first cell inside the EndTime column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                826.875,
+                504.984375,
+                156.515625,
+                50.203125
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Data tab.",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                741.234375,
+                144.703125,
+                82.6875,
+                44.296875
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Remove Duplicates.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1808.6067036825941,
+                279.6512345633001,
+                252.7597709044419,
+                46.680858590459934
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click OK.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1571.0625,
+                844.59375,
+                159.46875,
+                44.296875
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task10_Excel",
+      "task_query": "Create a PivotTable (Ammount)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:44:15Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select first cell of third column to access the data",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                368.0955773847765,
+                334.8026504526107,
+                108.16296502667558,
+                34.156725797897536
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Insert tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                132.890625,
+                150.609375,
+                106.3125,
+                38.390625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click PivotChart icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1509.046875,
+                206.71875,
+                115.171875,
+                109.265625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click OK.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1825.03125,
+                986.34375,
+                132.890625,
+                38.390625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_5.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 5,
+          "instruction": "5)Select Date check box",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                2451.09375,
+                584.71875,
+                26.578125,
+                29.53125
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task11_Excel",
+      "task_query": "Create a PivotChart (Budget)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:46:19Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click Insert tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                138.796875,
+                150.609375,
+                94.5,
+                35.4375
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click on Pivotchart icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1523.8125,
+                206.71875,
+                88.59375,
+                85.640625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3)Click Ok.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1819.125,
+                989.296875,
+                138.796875,
+                38.390625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Select the Category check box",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                2388.2784211798576,
+                585.1596494958416,
+                29.563557914992998,
+                28.278185831732344
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_5.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 5,
+          "instruction": "5) Click on Jan check box",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2387.4539958102396,
+                628.6781376749277,
+                28.981464313367724,
+                28.98146431336761
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_6.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 6,
+          "instruction": "5) Click on Feb check box",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2388.1976416673706,
+                672.5672667403973,
+                30.110612273628703,
+                26.34678573942506
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task12_Excel",
+      "task_query": "Goal Seek (Expenses)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:48:16Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click Data tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                737.6045384109691,
+                148.3595863072877,
+                88.74906085649889,
+                37.718350864012024
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click What-If Analysis.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2335.921875,
+                209.671875,
+                112.21875,
+                76.78125
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Goal Seek.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2347.734375,
+                339.609375,
+                333.703125,
+                38.390625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click OK.",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1635.1206517805722,
+                730.2461993097562,
+                121.10111873800042,
+                40.36703957933344
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task13_Excel",
+      "task_query": "Insert Today’s Date (Expenses)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T16:48:17Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click the first cell in date column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                50.43627995454683,
+                502.97283186092653,
+                216.70506970970786,
+                31.823821425901144
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Select Formulas tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                567.0,
+                171.28125,
+                153.5625,
+                38.390625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Date & Time icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                661.5,
+                233.296875,
+                97.453125,
+                73.828125
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Choose TODAY option.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                658.546875,
+                1092.65625,
+                363.234375,
+                50.203125
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task14_Excel",
+      "task_query": "Insert Check Box (HR_Employees)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:09:49Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the first right cell next to Salary header",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                915.6665657856362,
+                453.66146150337255,
+                107.45705936018567,
+                34.44136517954672
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Insert.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                147.65625,
+                147.65625,
+                112.21875,
+                41.34375
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Check Box icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                888.890625,
+                209.671875,
+                115.171875,
+                109.265625
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task15_Excel",
+      "task_query": "Insert Image (Students)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:09:47Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click Insert tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                101.2168003070456,
+                151.82520046056837,
+                108.18583864738493,
+                38.5068239253404
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Choose Pictures ico.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                519.75,
+                206.71875,
+                103.359375,
+                73.828125
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_5.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 5,
+          "instruction": "",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task16_Excel",
+      "task_query": "Insert PDF as Object (Students)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:09:56Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select Insert from the excel tab bar",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                461.63828215650625,
+                15.463472333065317,
+                126.49374120488068,
+                43.83446477396852
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click ok.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1947.86762282768,
+                1102.9092776503305,
+                124.20627562871823,
+                37.261882688615515
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Object.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                473.2561856177976,
+                1250.903280698821,
+                385.7432900109231,
+                42.70729282263801
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task17_Excel",
+      "task_query": "Insert Tick Mark (Ticketsl)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:00:35Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on the first cell of Checklist column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                996.6821875909951,
+                481.2872901864445,
+                109.6486655625423,
+                31.106004414905726
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Insert tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                128.070276338556,
+                154.37854475738817,
+                104.74729244688584,
+                35.295283324494136
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click on checkbox tick icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1092.668952869929,
+                208.63654233534214,
+                105.88584997348244,
+                100.19306234049947
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click on the added check box",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1041.0112749086982,
+                484.57505360419805,
+                20.280100487206482,
+                19.797240951796766
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task18_Excel",
+      "task_query": "Insert Cell style Good (Students)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:09:43Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on the header of Style column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                679.6284933558163,
+                316.5681787746585,
+                107.45705936018578,
+                28.930746750819196
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click on Home tab to op",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                0.0,
+                159.46875,
+                112.21875,
+                44.296875
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click on Cell styles icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1863.421875,
+                209.671875,
+                94.5,
+                76.78125
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click on Good design style.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2238.46875,
+                336.65625,
+                186.046875,
+                56.109375
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task19_Excel",
+      "task_query": "Freeze First Column (Expenses)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:10:51Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on header of first column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                43.569067202308425,
+                306.15889662218035,
+                215.29087775644518,
+                30.01651661027364
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Choose Freeze First Column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2129.203125,
+                389.8125,
+                389.8125,
+                44.296875
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Open Freeze Panes",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2129.203125,
+                206.71875,
+                103.359375,
+                76.78125
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Select View from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                962.71875,
+                150.609375,
+                106.3125,
+                41.34375
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task20_Excel",
+      "task_query": "Toggle Gridlines(Invoice_Items)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:10:49Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Open the View tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                983.390625,
+                153.5625,
+                73.828125,
+                47.25
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click the Gridlines checkbox to hide the Grid.",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1092.9598947057918,
+                267.1320614030949,
+                27.21775386304239,
+                27.99540397341508
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task21_Excel",
+      "task_query": "Toggle Headings (Expenses)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:11:20Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the View tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                992.747364806377,
+                152.56386802902918,
+                88.34898995857327,
+                38.34012771787138
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Select the Headings checkbox to show the row numbers",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1289.619705579008,
+                216.47064640843845,
+                31.05156890717967,
+                30.110612273628703
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task22_Excel",
+      "task_query": "Landscape Orientation (Expenses)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:11:57Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the Page Layout from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                372.09375,
+                150.609375,
+                183.09375,
+                38.390625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Orientation icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                431.15625,
+                212.625,
+                97.453125,
+                73.828125
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Select Landscape from the orientation icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                425.25,
+                378.0,
+                242.15625,
+                73.828125
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task23_Excel",
+      "task_query": "Narrow Margins (Invoice_Header)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:18:41Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on Page Layout from tab",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                371.84487839849464,
+                150.8573042231334,
+                184.1047520506678,
+                42.58205149471229
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Margins icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                321.890625,
+                203.765625,
+                94.5,
+                79.734375
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Select Narrow from the click margins icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                318.9375,
+                528.609375,
+                643.78125,
+                106.3125
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task24_Excel",
+      "task_query": "Highlight the Top 10% Amounts(Sales)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:18:39Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select Home tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                7.363378222652228,
+                150.609375,
+                101.68468655609371,
+                40.00708979256146
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Select first row  in Ammount Column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1105.359889852765,
+                480.8055045366041,
+                106.53806512105189,
+                29.550704194160346
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "2) Select Conditional Formating icon",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1644.936980032915,
+                219.98102296603415,
+                99.19113171709455,
+                63.372111930365946
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_5.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 5,
+          "instruction": "5) Click OK in the rule dialog",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1722.3716856825,
+                805.0144676873248,
+                118.35430730299436,
+                40.00708979256149
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Choose Top 10% from the menu",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2104.6580600863995,
+                392.6740509782169,
+                356.93778458802944,
+                50.09653117024976
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task25_Excel",
+      "task_query": "Pivot Chart based on region (Sales)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:22:39Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the top header cell of column \"UnitPrice\"",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                895.6500212744253,
+                407.2979468505882,
+                108.68049117512851,
+                41.40209187623947
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click \"Insert\" from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                129.81534512402789,
+                153.32744637724414,
+                105.88584997348241,
+                35.295283324494136
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click \"Recommended Charts\" icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1249.724610174266,
+                211.77356689200113,
+                154.8438236171355,
+                124.10277039902778
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Select 3D clustured column from the options",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1414.546875,
+                575.859375,
+                203.765625,
+                194.90625
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task26_Excel",
+      "task_query": "Analyse (Expenses)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:22:43Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on Home tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                27.627254253099395,
+                150.3797488526234,
+                101.53314454930366,
+                37.88550169750138
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Analyse Data icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2802.515625,
+                209.671875,
+                91.546875,
+                103.359375
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task27_Excel",
+      "task_query": "Maximum Number in the ammount (Expenses)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:35:50Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on the top header cell of Amount column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                514.2585359300655,
+                407.98459596937283,
+                136.62690319159026,
+                40.36703957933349
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click on Formulas tab",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                569.9041585664186,
+                151.76248203356658,
+                143.4582483511697,
+                40.98807095747705
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click an AutoSum Icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                151.81815802798192,
+                207.5389573489814,
+                92.30285868118517,
+                81.28162182373023
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Select Max from the options",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                152.7316335720043,
+                428.0441417020617,
+                304.4616681871929,
+                46.84025664418351
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task28_Excel",
+      "task_query": "Page Layout Preview (Invoice_Header )",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:35:53Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Go to View tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                997.5518630460456,
+                150.4735716914092,
+                90.9252040740032,
+                40.91634183330149
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Select Page Layout icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                780.6020358161434,
+                209.98789689159486,
+                72.45366078341908,
+                108.68049117512857
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click in Tick box against Accessories",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task29_Excel",
+      "task_query": "Clustered Bar Chart (HR_Employees)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:37:44Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the top header cell of salary column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                808.5807260385429,
+                449.4888170144827,
+                109.57797009796309,
+                30.399049769112366
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click \"Insert\" from Tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                152.54613964337204,
+                153.52890050782375,
+                101.3316198670961,
+                36.43384085109071
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click \"Recommended Charts\" icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1294.90643853801,
+                208.20203792737294,
+                99.19113171709455,
+                78.52631260936647
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Select clustered bar chart",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1295.7526546883423,
+                690.0820658618347,
+                549.7179944523898,
+                327.98300509344267
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task30_Excel",
+      "task_query": "Watch Window (Invoice_Items)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:39:36Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select top header cell of Unit Price Column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                378.9732200541507,
+                423.69041623294714,
+                107.31571523142458,
+                43.548406180867914
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Formulas from the Tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                590.961273238051,
+                170.69883966103913,
+                126.37988545222095,
+                36.43384085109071
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "View .png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Watch Window icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2028.0371923725534,
+                227.03036078695604,
+                75.1447967553745,
+                75.14479675537464
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task31_Excel",
+      "task_query": "Protect Workbook (Timesheet)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:43:53Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click Review tab.",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                849.1555485659643,
+                154.589439213945,
+                115.92585725347044,
+                40.367039579333465
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Protect Workbook icon.",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1660.5933209712796,
+                211.33796585235842,
+                76.13194580548156,
+                76.98736092689154
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Ok",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1838.0283499269854,
+                1201.0680653601542,
+                123.35519352706456,
+                41.674051867251364
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task32_Excel",
+      "task_query": "Translator(Invoice-Header)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:46:04Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select cell in first row of first column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                59.617392271237755,
+                484.40498204520634,
+                170.32820597884913,
+                30.05791870214989
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Select Review from the tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                853.6999170681959,
+                156.5659222466796,
+                113.68681349386202,
+                38.5068239253404
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Select Translator",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                588.0768667549411,
+                216.56854317002083,
+                75.14479675537461,
+                71.38755691760585
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task33_Excel",
+      "task_query": "Add Note (Budget)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:49:27Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the top header cell of category column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                66.96553085298892,
+                410.8064479850156,
+                105.38714295770042,
+                39.520178609137645
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Select Review from Tab",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                859.4759707174205,
+                152.64551828367271,
+                115.7229870032769,
+                41.32963821545604
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Select Notes icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1428.891432912661,
+                213.36956681738545,
+                97.29491590916268,
+                73.48871308032508
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Select new note",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1428.2377888882465,
+                290.01101425529555,
+                411.0192671013672,
+                48.95797364365313
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task34_Excel",
+      "task_query": "Check Accessibility (Budget)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:51:51Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select Review from the tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                857.9757745291232,
+                155.79576221335316,
+                116.13286771285163,
+                39.84951343088048
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Select check Accesibility icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                418.1689921489932,
+                210.8535100351755,
+                101.44547561975571,
+                80.15444987239957
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Select Check Accessibility from the options",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                420.6186484815004,
+                291.9802693566004,
+                391.2497682304628,
+                47.61240565767537
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task35_Excel",
+      "task_query": "Get Data (Power Query) (Invoice_Summary)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:51:53Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click the Data from tab.",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                839.0257253344946,
+                152.69925850224925,
+                88.44992355378429,
+                41.40209187623944
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Select get data (Power Query) icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                60.69609971990918,
+                212.07521946733806,
+                95.18340922347451,
+                77.6496233138871
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Select Get Data",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                166.28570866751895,
+                290.84362736966875,
+                562.3335623860534,
+                47.59170461173727
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Select Blank Query",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1963.828125,
+                803.25,
+                507.9375,
+                342.5625
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task36_Excel",
+      "task_query": "Select GPT Add-ins ( Survey_Long)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:53:42Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click Add-ins icon from the tab.",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                2749.1476325562307,
+                208.8941493808027,
+                84.6860970195803,
+                99.74140315639502
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Add button on Gpt for Excel",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2855.671875,
+                608.34375,
+                73.828125,
+                38.390625
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task37_Excel",
+      "task_query": "Find & Replace (Survey_Wide)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T17:55:51Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click Find & Select icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2228.3482525756544,
+                210.20495082532932,
+                100.19306234049918,
+                71.72912417558484
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Select Replace option",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2226.6503391390934,
+                338.2764250715694,
+                374.5854262502762,
+                48.95797364365313
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Type in the find search bar 'Ali'",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1154.671875,
+                593.578125,
+                962.71875,
+                47.25
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Type in the replace search bar by 'Ahmed'",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1154.671875,
+                649.6875,
+                968.625,
+                41.34375
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_5.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 5,
+          "instruction": "5) Click Replace all.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1134.0,
+                803.25,
+                165.375,
+                35.4375
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task38_Excel",
+      "task_query": "Text to Columns (Expenses)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:03:51Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the top header cell of description column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                532.7043343317058,
+                408.0943077591862,
+                133.52174630087222,
+                54.8577717360173
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Data tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                756.807551196997,
+                154.70882008183108,
+                83.83923604938491,
+                37.261882688615515
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Text to Columns icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1712.9349051835015,
+                217.83208553469117,
+                73.87676048540106,
+                72.32146026465566
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) click Next.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1746.567096505235,
+                1111.34248616226,
+                144.65373375409627,
+                38.57432900109234
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_5.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 5,
+          "instruction": "5) Tick in box beside Comma",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                972.7179954350147,
+                617.245200757427,
+                29.16965564007785,
+                27.287742372976027
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_6.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 6,
+          "instruction": "6) Click Next.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1745.795099158764,
+                1113.0416285558078,
+                142.837216973026,
+                38.296934985521375
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_7.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 7,
+          "instruction": "7) Select Finish.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1913.4379729974478,
+                1113.5105931526555,
+                142.83721697302622,
+                36.226830391709655
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task39_Excel",
+      "task_query": "Zoom (Budget)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:03:53Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select top header cell of Category column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                53.84595737534473,
+                407.99752917807547,
+                105.76041501067925,
+                40.43780573937738
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click View from the tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                981.3668837215575,
+                153.043667069084,
+                90.33183682088611,
+                38.579221975586734
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Zoom icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1183.2521985704857,
+                216.54066168244057,
+                203.5887988955576,
+                53.03573752741417
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Select 200%",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1198.314387453508,
+                281.84158805369555,
+                166.54932413850884,
+                43.28400514334123
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task40_Excel",
+      "task_query": "Format as Currency(HR_Employees)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:04:01Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the top header cell of salary column header.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                814.7911548965864,
+                407.51082143440385,
+                145.8482782003889,
+                43.28400514334123
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Open General drop-down menu",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1137.2943478954485,
+                219.4048860958953,
+                306.27197465448126,
+                45.54230106386339
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Currency.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1148.2146909637397,
+                431.26373034468344,
+                332.4587977662027,
+                70.59056664898827
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task41_Excel",
+      "task_query": "Increase Decimal Places ( Sales)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:10:09Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on the first cell of ammount column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1007.3663165914767,
+                480.2769873266145,
+                107.78230529764812,
+                34.2166048563962
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Increase Decimal icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1327.030186995352,
+                283.85490899502844,
+                47.9032467989548,
+                43.6261711919052
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task42_Excel",
+      "task_query": "Decrease Decimal Places  ( Sales)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:06:58Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on the second cell of Ammount column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1021.9571893125595,
+                511.2325694662175,
+                108.16406080637637,
+                30.39904976911231
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Decrease Decimal icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1395.0872839446497,
+                281.17852245079945,
+                45.337001434724925,
+                47.90324679895474
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task43_Excel",
+      "task_query": "Wrap Text (CRM_Pipeline)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:10:08Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the header cell of probability column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                786.2867536519173,
+                449.8746098186755,
+                109.49313554046796,
+                31.6503594921665
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2)Click Wrap Text icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                913.8573609593435,
+                211.19487270877343,
+                57.31281313446368,
+                34.21660485639623
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task44_Excel",
+      "task_query": "Center Align Header (Students)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:10:07Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on the first cell of the program column.",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                255.2703359121954,
+                481.9381073010366,
+                108.87101545216981,
+                30.32835430453298
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click on Center Text icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                818.7532225235955,
+                254.07493216322155,
+                43.548406180867914,
+                37.32720529788679
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task45_Excel",
+      "task_query": "Set Row Height (Students)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:12:06Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Click on the first row of StudentId column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                45.17669301846524,
+                541.3705434560009,
+                106.91958692576512,
+                32.71856211935983
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2)Click Format drop-down icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1938.0635899715965,
+                298.54183032314734,
+                26.77675605453669,
+                38.62876283277427
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Row Height.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1814.0780364706693,
+                392.3491310514443,
+                365.704677542823,
+                47.59170461173727
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Type 20.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1498.3998871491835,
+                554.6090969545243,
+                179.09509893364293,
+                46.339291332481025
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_5.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 5,
+          "instruction": "5) Click ok.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1560.7068784609312,
+                634.8843843826157,
+                122.96421287243106,
+                37.57239837768725
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task46_Excel",
+      "task_query": "Hide a Column (Students)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:12:07Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the top header cell of Email Column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                361.68675591082695,
+                407.13007968029746,
+                318.043342140203,
+                41.40209187623947
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Right-click in the Email Column.",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                361.1467250404446,
+                407.1332783324263,
+                318.21442516448496,
+                41.0599258276755
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Hide.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                681.5882472047571,
+                923.6273040600881,
+                349.8476763542234,
+                43.47219647005136
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task47_Excel",
+      "task_query": "Unhide Columns (Students)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:13:28Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Open drop-down menu for Format icon.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1937.27188926365,
+                298.45537163946307,
+                27.46022177874829,
+                38.56116249781695
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Hide & Unhide.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1812.3069256805998,
+                720.8201866175193,
+                364.33840851090736,
+                45.54230106386342
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Select Unhide Columns.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2177.798418278461,
+                941.6317774370905,
+                294.51942630143094,
+                35.75635207493406
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task48_Excel",
+      "task_query": "Table(Tickets)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:14:28Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the top header cell of TicketId column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                59.31267369956114,
+                423.40373581721116,
+                107.31571523142452,
+                43.548406180867914
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Insert tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                143.7442939255315,
+                169.8499654279295,
+                100.68235978994593,
+                37.63826534203588
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Click Table.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                312.97154113966087,
+                225.0324560739804,
+                73.56570044125192,
+                80.40902141253113
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click OK.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1588.9430405960804,
+                711.3213255844533,
+                122.73650136711171,
+                41.32963821545604
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task49_Excel",
+      "task_query": "Change Color(Invoice_Header)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:18:02Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the 5th cell in the value column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                228.74498953849917,
+                616.5733390410356,
+                215.4790690831553,
+                31.992525540730526
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Select yellow color from standard colors options",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                689.6617762016303,
+                757.5479683133156,
+                33.30282215720547,
+                33.30282215720547
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Open drop-down menu for fill color from Home tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                609.8842279880686,
+                298.4631821158772,
+                23.779383540320396,
+                46.273394997380365
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task50_Excel",
+      "task_query": "Highlight Top 10 Items (Sales)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+      "updated_at": "2025-10-12T18:21:03Z",
+      "images": [
+        {
+          "file_name": "Step_1.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 1,
+          "instruction": "1) Select the top header cell of ammount column.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1152.6147554729214,
+                407.9033521960042,
+                106.0714750548284,
+                41.05992582767544
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_2.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 2,
+          "instruction": "2) Click Home tab.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                12.891326778608834,
+                148.71282822028866,
+                92.67858266496202,
+                40.0772249361998
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_3.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 3,
+          "instruction": "3) Open drop-down menu for Click Conditional Formatting.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1457.1145613929373,
+                207.50479448879554,
+                313.3385589724485,
+                43.28400514334123
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_4.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 4,
+          "instruction": "4) Click Top/Bottom Rules.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1462.1156602075494,
+                305.44504154242367,
+                448.17764456029204,
+                46.57735336076934
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_5.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 5,
+          "instruction": "5) Choose Top 10 Items from the list.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1914.1517517529762,
+                311.808486581567,
+                360.92273593111736,
+                48.95797364365313
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "Step_6.png",
+          "width": 3024,
+          "height": 1964,
+          "step_index": 6,
+          "instruction": "6) Click OK.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1717.4701039914034,
+                807.1852079857243,
+                123.26531899516749,
+                38.579221975586734
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

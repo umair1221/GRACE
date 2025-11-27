@@ -1,0 +1,36 @@
+{
+  "task": "Task26_Excel",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.5926867960140165,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click on Home tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7011324487178141,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.7011324487178141
+      ]
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Analyse Data icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.48424114331021895,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.48424114331021895
+      ]
+    }
+  ]
+}

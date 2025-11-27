@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-17",
+  "task_query": "Save as Working/portrait_masked.psd",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T19:06:18Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open File menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            28.84055248120318,
+            4.128286252112577,
+            23.26923094450451,
+            15.175585398589899
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose Save As…;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            41.3424526313616,
+            247.8615483462319,
+            62.69202945773028,
+            16.322185184261144
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Type portrait_masked.psd;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            134.04333368593112,
+            359.33866162280526,
+            105.27809443848435,
+            22.851059257965574
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Choose Save",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            558.5796943937892,
+            514.6032895177926,
+            81.46810680094336,
+            23.354190616270444
+          ]
+        }
+      ]
+    }
+  ]
+}

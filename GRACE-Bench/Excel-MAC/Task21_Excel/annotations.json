@@ -1,0 +1,46 @@
+{
+  "task_name": "Task21_Excel",
+  "task_query": "Toggle Headings (Expenses)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:11:20Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select the View tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            992.747364806377,
+            152.56386802902918,
+            88.34898995857327,
+            38.34012771787138
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Select the Headings checkbox to show the row numbers",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1289.619705579008,
+            216.47064640843845,
+            31.05156890717967,
+            30.110612273628703
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "task": "Task9_Excel",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.3897977157985718,
+  "Acc@0.3": 0.75,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click first cell inside the EndTime column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.44657552437855336,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.44657552437855336
+      ]
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Data tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.393142089287214,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.393142089287214
+      ]
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Remove Duplicates.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4905650546395296,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4905650546395296
+      ]
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Click OK.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2289081948889905,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2289081948889905
+      ]
+    }
+  ]
+}

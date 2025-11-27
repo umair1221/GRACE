@@ -1,0 +1,92 @@
+{
+  "task": "Task-35",
+  "task_query": "Prototype: On click of Button/Primary instance navigate to Mobile/Details",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.06399267240691682,
+  "Acc@0.3": 0.14285714285714285,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select the Button Danger instance;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.43293768857980003,
+      "ious_per_gt": [
+        0.43293768857980003
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click Prototype tab in right sidebar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click + Add interaction;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Action dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.015011018268617738,
+      "ious_per_gt": [
+        0.015011018268617738
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "5.png",
+      "instruction": "Pick Navigate to;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "6.png",
+      "instruction": "Click on Destination dropdown;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "7.png",
+      "instruction": "Pick Mobile/Details",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

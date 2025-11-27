@@ -1,0 +1,103 @@
+{
+  "task_name": "Task-7",
+  "task_query": "Fit to One Page",
+  "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+  "updated_at": "2025-09-28T13:54:15Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 1,
+      "instruction": "1) Open Page Layout from tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            339.29253659939997,
+            86.56005009411274,
+            112.07900493192648,
+            24.483277776391716
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 2,
+      "instruction": "2) Open drop-down menu against Width",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1000.9726509294873,
+            135.0086299057471,
+            15.931540885517848,
+            13.541809752690142
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 2559,
+      "height": 1525,
+      "step_index": 3,
+      "instruction": "3) Select 1 Page option from menu",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            920.4486918206999,
+            204.3373974735705,
+            60.54252982301932,
+            28.955122958835318
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 4,
+      "instruction": "4) Open drop-down menu against Height",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1003.7429834969132,
+            173.31288878380633,
+            13.166562715304053,
+            15.141547122599576
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 2559,
+      "height": 1528,
+      "step_index": 5,
+      "instruction": "5) Select 1 Page option from menu",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            916.168046291267,
+            245.60820028896342,
+            64.17551670064927,
+            25.01757430703276
+          ]
+        }
+      ]
+    }
+  ]
+}

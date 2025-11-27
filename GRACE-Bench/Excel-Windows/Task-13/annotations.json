@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-13",
+  "task_query": "Filter Products to Category of Accessories",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Excel",
+  "updated_at": "2025-10-05T12:04:59Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 1,
+      "instruction": "1) Click the category header filter arrow",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            521.6404595355921,
+            356.69903873200116,
+            23.418309519027616,
+            22.610781604578392
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 2559,
+      "height": 1526,
+      "step_index": 2,
+      "instruction": "2) Click \"Select All\" to clear",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            214.43705792987413,
+            748.6586274292533,
+            14.933430766366456,
+            14.126218292508838
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 2559,
+      "height": 1527,
+      "step_index": 3,
+      "instruction": "3) Click in Tick box against Accessories",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            162.0328109016665,
+            777.7264815484922,
+            15.3065185546875,
+            14.369384765625
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 2559,
+      "height": 1526,
+      "step_index": 4,
+      "instruction": "4) Click OK",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            400.3576309769241,
+            1141.8894875608844,
+            42.18066180193864,
+            30.129044144242016
+          ]
+        }
+      ]
+    }
+  ]
+}

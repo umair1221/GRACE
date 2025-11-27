@@ -1,0 +1,48 @@
+{
+  "task": "Task-1",
+  "task_query": "Freeze Top Row",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.3327060253922917,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.0,
+  "Acc@0.7": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click on View from tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4992162648111196,
+      "ious_per_gt": [
+        0.4992162648111196
+      ],
+      "step_success@0.30": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Open Freeze Panes",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4989018113657556,
+      "ious_per_gt": [
+        0.4989018113657556
+      ],
+      "step_success@0.30": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3)  Choose Freeze Top Row",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.30": false
+    }
+  ]
+}

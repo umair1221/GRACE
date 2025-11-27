@@ -1,0 +1,37 @@
+{
+  "task": "Task-29",
+  "task_query": "Set the text size to 120",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.42104873639258034,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "In Essential Graphics panel click Font Size box;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4004611787000659,
+      "ious_per_gt": [
+        0.4004611787000659
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Type 120 in the selected box",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.44163629408509475,
+      "ious_per_gt": [
+        0.44163629408509475
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

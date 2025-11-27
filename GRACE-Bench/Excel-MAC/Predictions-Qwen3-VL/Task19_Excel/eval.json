@@ -1,0 +1,59 @@
+{
+  "task": "Task19_Excel",
+  "task_query": "Freeze First Column (Expenses)",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.7275285041487047,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 0.5,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click on header of first column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7538538500089592,
+      "ious_per_gt": [
+        0.7538538500089592
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Choose Freeze First Column",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7823493403640317,
+      "ious_per_gt": [
+        0.7823493403640317
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Open Freeze Panes",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6906448049305192,
+      "ious_per_gt": [
+        0.6906448049305192
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Select View from tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6832660212913091,
+      "ious_per_gt": [
+        0.6832660212913091
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "task": "Task-8",
+  "task_query": "Import beep.wav into Audio bin",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.6184060206133094,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.8,
+  "Acc@0.8": 0.2,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Audio bin in Project panel;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4838907996321035,
+      "ious_per_gt": [
+        0.4838907996321035
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5180170377801936,
+      "ious_per_gt": [
+        0.5180170377801936
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Choose Import\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7013659296213165,
+      "ious_per_gt": [
+        0.7013659296213165
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Select beep.wav;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8029831904407666,
+      "ious_per_gt": [
+        0.8029831904407666
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Open",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5857731455921668,
+      "ious_per_gt": [
+        0.5857731455921668
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

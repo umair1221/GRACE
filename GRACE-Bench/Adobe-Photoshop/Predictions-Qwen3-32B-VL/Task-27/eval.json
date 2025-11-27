@@ -1,0 +1,59 @@
+{
+  "task": "Task-27",
+  "task_query": "Add text LAUNCH using the Type tool",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.4591367648913704,
+  "Acc@0.3": 0.75,
+  "Acc@0.5": 0.25,
+  "Acc@0.8": 0.25,
+  "Acc@0.9": 0.25,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Horizontal Type Tool in toolbar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.41176586900183815,
+      "ious_per_gt": [
+        0.41176586900183815
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click near canvas center;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.07669820375702728,
+      "ious_per_gt": [
+        0.07669820375702728
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type LAUNCH in provided tentative text;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9402944356313593,
+      "ious_per_gt": [
+        0.9402944356313593
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Commit (checkmark)",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.40778855117525675,
+      "ious_per_gt": [
+        0.40778855117525675
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

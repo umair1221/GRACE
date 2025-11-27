@@ -1,0 +1,81 @@
+{
+  "task": "Task-14",
+  "task_query": "Add Solid Color fill for the background (#FFD700)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 6,
+  "num_gt_boxes": 6,
+  "mIoU": 0.5498054117828807,
+  "Acc@0.3": 0.8333333333333334,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.16666666666666666,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3876155275436706,
+      "ious_per_gt": [
+        0.3876155275436706
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose New Fill Layer;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.20263083667892323,
+      "ious_per_gt": [
+        0.20263083667892323
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Solid Color\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4932782390167076,
+      "ious_per_gt": [
+        0.4932782390167076
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Ok;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7832911550116805,
+      "ious_per_gt": [
+        0.7832911550116805
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Type #FFD700 in Hex;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7051532412836609,
+      "ious_per_gt": [
+        0.7051532412836609
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "6.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7268634711626412,
+      "ious_per_gt": [
+        0.7268634711626412
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

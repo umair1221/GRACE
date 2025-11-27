@@ -1,0 +1,92 @@
+{
+  "task_name": "Task-31",
+  "task_query": "Add a 2 px white stroke to avatar",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T21:11:57Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Select the avatar image;",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            741.0985810561127,
+            257.52763512652723,
+            75.85735564385368,
+            74.95963545871928
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click Stroke ▸ +;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1891.2688779829402,
+            748.1869028609602,
+            14.281912036228505,
+            13.465802777015483
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Type 2 in Stroke width;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1797.5951012000828,
+            832.2903448940633,
+            18.40326379525436,
+            19.749844072955966
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click Stroke color;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1715.669756436426,
+            781.8915111612388,
+            51.97665213900177,
+            18.520416279414462
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Type #FFFFFF;",
+      "bboxes": []
+    }
+  ]
+}

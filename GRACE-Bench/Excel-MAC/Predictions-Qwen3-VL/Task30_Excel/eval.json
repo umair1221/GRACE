@@ -1,0 +1,48 @@
+{
+  "task": "Task30_Excel",
+  "task_query": "Watch Window (Invoice_Items)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.41710381975284916,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.6666666666666666,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select top header cell of Unit Price Column",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.06404614168362927,
+      "ious_per_gt": [
+        0.06404614168362927
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Formulas from the Tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.648065395263236,
+      "ious_per_gt": [
+        0.648065395263236
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "View .png",
+      "instruction": "3) Click Watch Window icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5391999223116821,
+      "ious_per_gt": [
+        0.5391999223116821
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

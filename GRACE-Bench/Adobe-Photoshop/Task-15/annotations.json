@@ -1,0 +1,46 @@
+{
+  "task_name": "Task-15",
+  "task_query": "Deselect the current selection",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T14:35:15Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open Select menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            212.1769284685206,
+            0.38310744729800994,
+            37.63826534203585,
+            22.702445761862897
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose Deselect;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            227.0839237339927,
+            47.182536534450186,
+            52.68270906461001,
+            15.207379936176103
+          ]
+        }
+      ]
+    }
+  ]
+}

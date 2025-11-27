@@ -1,0 +1,46 @@
+{
+  "task_name": "Task43_Excel",
+  "task_query": "Wrap Text (CRM_Pipeline)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T18:06:35Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select the header cell of probability column.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            786.2867536519173,
+            449.8746098186755,
+            109.49313554046796,
+            31.6503594921665
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2)Click Wrap Text icon.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            913.8573609593435,
+            211.19487270877343,
+            57.31281313446368,
+            34.21660485639623
+          ]
+        }
+      ]
+    }
+  ]
+}

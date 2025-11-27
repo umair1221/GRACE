@@ -1,0 +1,44 @@
+{
+  "task": "Task-8",
+  "task_query": "Set Mobile/Home frame fill to #FFFFFF",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 3,
+  "num_gt_boxes": 1,
+  "mIoU": 0.3251004656256041,
+  "Acc@0.3": 0.3333333333333333,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.3333333333333333,
+  "Acc@0.9": 0.3333333333333333,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select Mobile/Home frame;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9753013968768122,
+      "ious_per_gt": [
+        0.9753013968768122
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "In right sidebar click Fill color;",
+      "gt_count": 0,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type #FFFFFF;",
+      "gt_count": 0,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [],
+      "step_success@0.300": true
+    }
+  ]
+}

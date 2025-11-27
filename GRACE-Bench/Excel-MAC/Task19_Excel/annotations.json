@@ -1,0 +1,84 @@
+{
+  "task_name": "Task19_Excel",
+  "task_query": "Freeze First Column (Expenses)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:10:51Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click on header of first column.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            43.569067202308425,
+            306.15889662218035,
+            215.29087775644518,
+            30.01651661027364
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_4.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 4,
+      "instruction": "4) Choose Freeze First Column",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            2129.203125,
+            389.8125,
+            389.8125,
+            44.296875
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Open Freeze Panes",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            2129.203125,
+            206.71875,
+            103.359375,
+            76.78125
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Select View from tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            962.71875,
+            150.609375,
+            106.3125,
+            41.34375
+          ]
+        }
+      ]
+    }
+  ]
+}

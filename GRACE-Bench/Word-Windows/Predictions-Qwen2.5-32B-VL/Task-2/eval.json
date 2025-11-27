@@ -1,0 +1,69 @@
+{
+  "task": "Task-2",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.34646605524869517,
+  "Acc@0.3": 0.6,
+  "Acc@0.5": 0.4,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click the screenshot image in main body text",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6676091167575563,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.6676091167575563
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Select the Picture Format tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.618564701223061,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.618564701223061
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click crop drop-down icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.09249929813355375,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.09249929813355375
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Click Crop to Shape option",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3536571601293049,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3536571601293049
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "5) Click oval shape icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

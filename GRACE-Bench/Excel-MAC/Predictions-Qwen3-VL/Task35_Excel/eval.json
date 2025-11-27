@@ -1,0 +1,59 @@
+{
+  "task": "Task35_Excel",
+  "task_query": "Get Data (Power Query) (Invoice_Summary)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.6251028191365717,
+  "Acc@0.3": 0.75,
+  "Acc@0.5": 0.75,
+  "Acc@0.8": 0.5,
+  "Acc@0.9": 0.5,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click the Data from tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6380470436031741,
+      "ious_per_gt": [
+        0.6380470436031741
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Select get data (Power Query) icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.003881075256502784,
+      "ious_per_gt": [
+        0.003881075256502784
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Select Get Data",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9108589825038279,
+      "ious_per_gt": [
+        0.9108589825038279
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Select Blank Query",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.947624175182782,
+      "ious_per_gt": [
+        0.947624175182782
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

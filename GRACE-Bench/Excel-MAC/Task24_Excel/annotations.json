@@ -1,0 +1,103 @@
+{
+  "task_name": "Task24_Excel",
+  "task_query": "Highlight the Top 10% Amounts(Sales)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:18:39Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select Home tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            7.363378222652228,
+            150.609375,
+            101.68468655609371,
+            40.00708979256146
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Select first row  in Ammount Column",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1105.359889852765,
+            480.8055045366041,
+            106.53806512105189,
+            29.550704194160346
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "2) Select Conditional Formating icon",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            1644.936980032915,
+            219.98102296603415,
+            99.19113171709455,
+            63.372111930365946
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_5.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 5,
+      "instruction": "5) Click OK in the rule dialog",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1722.3716856825,
+            805.0144676873248,
+            118.35430730299436,
+            40.00708979256149
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_4.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 4,
+      "instruction": "4) Choose Top 10% from the menu",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            2104.6580600863995,
+            392.6740509782169,
+            356.93778458802944,
+            50.09653117024976
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "task": "Task-7",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.05782482884324375,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Open Page Layout from tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.20640622174385953,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.20640622174385953
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Open drop-down menu against Width",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Select 1 Page option from menu",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.08271792247235919,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.08271792247235919
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Open drop-down menu against Height",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "5) Select 1 Page option from menu",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

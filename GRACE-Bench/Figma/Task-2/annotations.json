@@ -1,0 +1,46 @@
+{
+  "task_name": "Task-2",
+  "task_query": "Rename the file to FigmaCrashCourse",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T19:45:14Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click file title at top;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            73.33177367397688,
+            10.570618850981539,
+            47.79462265655347,
+            17.37986278420126
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Type FigmaCrashCourse;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            74.15642973113218,
+            11.020390063406593,
+            47.25150194454717,
+            15.750500648182394
+          ]
+        }
+      ]
+    }
+  ]
+}

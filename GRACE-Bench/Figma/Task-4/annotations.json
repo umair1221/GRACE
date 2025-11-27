@@ -1,0 +1,46 @@
+{
+  "task_name": "Task-4",
+  "task_query": "Add a new page named Components",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T19:47:08Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click plus icon in left sidebar;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            211.7389258140796,
+            185.20661856756502,
+            17.2811135638365,
+            19.25609797113208
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Type components;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            11.919552216701028,
+            253.3760414266188,
+            48.028029904688395,
+            21.99414453579189
+          ]
+        }
+      ]
+    }
+  ]
+}

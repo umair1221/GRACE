@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-9",
+  "task_query": "Create a sequence from clipA.jpg",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-05T13:17:55Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click Stills bin in Project panel;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            14.776888044319884,
+            718.8160802670176,
+            200.762877766412,
+            143.63522962149796
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click clipA.jpg;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            15.402052968974344,
+            719.8137351968311,
+            199.94676850719893,
+            141.18690184385878
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Right‑click clipA.jpg;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            14.68691684492903,
+            718.7262373998454,
+            199.94676850719895,
+            143.63522962149784
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Choose New Sequence From Clip",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            177.34896758931873,
+            546.763538114767,
+            153.31171884894442,
+            19.308780711454006
+          ]
+        }
+      ]
+    }
+  ]
+}

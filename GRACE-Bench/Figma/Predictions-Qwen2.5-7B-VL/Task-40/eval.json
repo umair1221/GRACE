@@ -1,0 +1,91 @@
+{
+  "task": "Task-40",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.02770554357591514,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select Web/Home frame;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "In right sidebar click Export +;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Format Dropdown;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick PDF;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Export Home;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "Type web_home.pdf;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.19393880503140598,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.19393880503140598
+      ]
+    },
+    {
+      "image": "7.png",
+      "instruction": "Click Save",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

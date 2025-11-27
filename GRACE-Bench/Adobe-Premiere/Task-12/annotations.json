@@ -1,0 +1,73 @@
+{
+  "task_name": "Task-12",
+  "task_query": "Append clipB.jpg via Automate to Sequence",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-05T13:37:28Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click clipB.jpg in Project panel;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            197.7530813171713,
+            724.3146602563148,
+            162.9362136018868,
+            118.4990644377358
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Open Project panel menu (≡);",
+      "bboxes": []
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Choose Automate to Sequence…;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            323.0925700802914,
+            579.3193265660736,
+            154.40787184311034,
+            20.64756425809037
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click OK",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1058.7604531737363,
+            305.68085881230644,
+            79.5978217482857,
+            21.867533447331255
+          ]
+        }
+      ]
+    }
+  ]
+}

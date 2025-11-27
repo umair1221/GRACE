@@ -1,0 +1,59 @@
+{
+  "task": "Task-4",
+  "task_query": "Create a bin named Stills",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.43020151545263824,
+  "Acc@0.3": 0.5,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.25,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5630347701345407,
+      "ious_per_gt": [
+        0.5630347701345407
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose New from the list;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.11874497221110544,
+      "ious_per_gt": [
+        0.11874497221110544
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Bin;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1945535468319908,
+      "ious_per_gt": [
+        0.1945535468319908
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type Stills in the editable box;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.844472772632916,
+      "ious_per_gt": [
+        0.844472772632916
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

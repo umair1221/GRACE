@@ -1,0 +1,70 @@
+{
+  "task": "Task-25",
+  "task_query": "Create a new layer named Texture",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.4103141226622288,
+  "Acc@0.3": 0.4,
+  "Acc@0.5": 0.4,
+  "Acc@0.8": 0.2,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7630621682724884,
+      "ious_per_gt": [
+        0.7630621682724884
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose New;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2012054258188173,
+      "ious_per_gt": [
+        0.2012054258188173
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Layer\u2026;",
+      "gt_count": 1,
+      "pred_count": 2,
+      "best_iou": 0.2036719999194223,
+      "ious_per_gt": [
+        0.2036719999194223
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type Texture in Name;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1896747848676409,
+      "ious_per_gt": [
+        0.1896747848676409
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6939562344327749,
+      "ious_per_gt": [
+        0.6939562344327749
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

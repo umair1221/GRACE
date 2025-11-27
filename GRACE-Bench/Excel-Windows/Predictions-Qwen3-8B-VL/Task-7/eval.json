@@ -1,0 +1,70 @@
+{
+  "task": "Task-7",
+  "task_query": "Fit to One Page",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.3402343933804034,
+  "Acc@0.3": 0.6,
+  "Acc@0.5": 0.4,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Open Page Layout from tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5704909377650588,
+      "ious_per_gt": [
+        0.5704909377650588
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Open drop-down menu against Width",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.045717714714746206,
+      "ious_per_gt": [
+        0.045717714714746206
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Select 1 Page option from menu",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5176181131684972,
+      "ious_per_gt": [
+        0.5176181131684972
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Open drop-down menu against Height",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.07911195626842815,
+      "ious_per_gt": [
+        0.07911195626842815
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "5.png",
+      "instruction": "5) Select 1 Page option from menu",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.48823324498528686,
+      "ious_per_gt": [
+        0.48823324498528686
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

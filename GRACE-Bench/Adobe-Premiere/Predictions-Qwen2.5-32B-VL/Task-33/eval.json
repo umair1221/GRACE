@@ -1,0 +1,91 @@
+{
+  "task": "Task-33",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.24366051222844579,
+  "Acc@0.3": 0.42857142857142855,
+  "Acc@0.5": 0.14285714285714285,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click beep.wav clip on timeline;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open Clip menu from the tab;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2425377431261018,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2425377431261018
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Choose Audio Options from the list;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5365951110939514,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5365951110939514
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Audio Gain\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.36680128206724727,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.36680128206724727
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Select Normalize Max Peak;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.02023702508185208,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.02023702508185208
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "Type -3 against the active dB value;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.30219228272210014,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.30219228272210014
+      ]
+    },
+    {
+      "image": "7.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.23726014150786767,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.23726014150786767
+      ]
+    }
+  ]
+}

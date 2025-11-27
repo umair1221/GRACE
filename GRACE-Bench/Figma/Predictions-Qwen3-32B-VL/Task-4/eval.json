@@ -1,0 +1,37 @@
+{
+  "task": "Task-4",
+  "task_query": "Add a new page named Components",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.3608631879779468,
+  "Acc@0.3": 0.5,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click plus icon in left sidebar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5194140035626982,
+      "ious_per_gt": [
+        0.5194140035626982
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Type components;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2023123723931955,
+      "ious_per_gt": [
+        0.2023123723931955
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

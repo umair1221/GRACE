@@ -1,0 +1,59 @@
+{
+  "task": "Task-12",
+  "task_query": "Insert an Automatic Table of Contents",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.5064296009735509,
+  "Acc@0.3": 0.5,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.25,
+  "Acc@0.9": 0.25,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click at the start of document body just before the first alphabet",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2705520073988005,
+      "ious_per_gt": [
+        0.2705520073988005
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click the References tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6660343229732849,
+      "ious_per_gt": [
+        0.6660343229732849
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Open Table of Contents drop-down menu",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1540500066170878,
+      "ious_per_gt": [
+        0.1540500066170878
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Select Automatic Table 2 from the list",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9350820669050304,
+      "ious_per_gt": [
+        0.9350820669050304
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

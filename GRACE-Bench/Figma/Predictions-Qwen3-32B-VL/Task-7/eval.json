@@ -1,0 +1,92 @@
+{
+  "task": "Task-7",
+  "task_query": "Add a 4\u2011column layout grid with 16 margin and 16 gutter",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.45819988583107973,
+  "Acc@0.3": 0.5714285714285714,
+  "Acc@0.5": 0.42857142857142855,
+  "Acc@0.8": 0.2857142857142857,
+  "Acc@0.9": 0.14285714285714285,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select Mobile/Home frame;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9810832907076286,
+      "ious_per_gt": [
+        0.9810832907076286
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "In right sidebar click Layout grid + icon;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.42275796712215447,
+      "ious_per_gt": [
+        0.42275796712215447
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Grid type dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8226996062872057,
+      "ious_per_gt": [
+        0.8226996062872057
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick Columns;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6682992936132234,
+      "ious_per_gt": [
+        0.6682992936132234
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Type 4 in Count;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.11283556571122191,
+      "ious_per_gt": [
+        0.11283556571122191
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "6.png",
+      "instruction": "Type 16 in Margin;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.11275066451475138,
+      "ious_per_gt": [
+        0.11275066451475138
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "7.png",
+      "instruction": "Type 16 in Gutter",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.08697281286137308,
+      "ious_per_gt": [
+        0.08697281286137308
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

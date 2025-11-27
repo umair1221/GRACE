@@ -1,0 +1,65 @@
+{
+  "task_name": "Task40_Excel",
+  "task_query": "Format as Currency(HR_Employees)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T18:02:22Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select the top header cell of salary column header.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            814.7911548965864,
+            407.51082143440385,
+            145.8482782003889,
+            43.28400514334123
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Open General drop-down menu",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1137.2943478954485,
+            219.4048860958953,
+            306.27197465448126,
+            45.54230106386339
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click Currency.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1148.2146909637397,
+            431.26373034468344,
+            332.4587977662027,
+            70.59056664898827
+          ]
+        }
+      ]
+    }
+  ]
+}

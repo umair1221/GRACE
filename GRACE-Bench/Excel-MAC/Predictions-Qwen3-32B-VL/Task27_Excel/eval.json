@@ -1,0 +1,59 @@
+{
+  "task": "Task27_Excel",
+  "task_query": "Maximum Number in the ammount (Expenses)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.4150200661509892,
+  "Acc@0.3": 0.75,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click on the top header cell of Amount column",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.07685574436202439,
+      "ious_per_gt": [
+        0.07685574436202439
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click on Formulas tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6941419977397129,
+      "ious_per_gt": [
+        0.6941419977397129
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click an AutoSum Icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3592123480964969,
+      "ious_per_gt": [
+        0.3592123480964969
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Select Max from the options",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5298701744057226,
+      "ious_per_gt": [
+        0.5298701744057226
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

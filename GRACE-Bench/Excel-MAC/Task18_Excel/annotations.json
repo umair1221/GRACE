@@ -1,0 +1,84 @@
+{
+  "task_name": "Task18_Excel",
+  "task_query": "",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:04:46Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click on the header of Style column",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            679.6284933558163,
+            316.5681787746585,
+            107.45705936018578,
+            28.930746750819196
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click on Home tab to op",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            0.0,
+            159.46875,
+            112.21875,
+            44.296875
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click on Cell styles icon.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1863.421875,
+            209.671875,
+            94.5,
+            76.78125
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_4.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 4,
+      "instruction": "4) Click on Good design style.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            2238.46875,
+            336.65625,
+            186.046875,
+            56.109375
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "task": "Task-10",
+  "task_query": "Insert a text title and set size to 32",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 4,
+  "mIoU": 0.14743030430218912,
+  "Acc@0.3": 0.2,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Text tool in toolbar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.46279951275544634,
+      "ious_per_gt": [
+        0.46279951275544634
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Type 32",
+      "gt_count": 0,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click in center of Mobile/Home frame;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type Shop the latest audio;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Font size box;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.27435200875549937,
+      "ious_per_gt": [
+        0.27435200875549937
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

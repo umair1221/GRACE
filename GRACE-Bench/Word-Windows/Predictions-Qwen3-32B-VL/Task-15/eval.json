@@ -1,0 +1,48 @@
+{
+  "task": "Task-15",
+  "task_query": "Switch the handbook to two columns",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.8147126927658294,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 1.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click the Layout tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8039412043187905,
+      "ious_per_gt": [
+        0.8039412043187905
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click Columns to open different options",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8022572191937544,
+      "ious_per_gt": [
+        0.8022572191937544
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Choose Two from the list",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8379396547849435,
+      "ious_per_gt": [
+        0.8379396547849435
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

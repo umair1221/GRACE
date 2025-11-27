@@ -1,0 +1,84 @@
+{
+  "task_name": "Task27_Excel",
+  "task_query": "Maximum Number in the ammount (Expenses)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:28:33Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click on the top header cell of Amount column",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            514.2585359300655,
+            407.98459596937283,
+            136.62690319159026,
+            40.36703957933349
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click on Formulas tab",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            569.9041585664186,
+            151.76248203356658,
+            143.4582483511697,
+            40.98807095747705
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click an AutoSum Icon",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            151.81815802798192,
+            207.5389573489814,
+            92.30285868118517,
+            81.28162182373023
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_4.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 4,
+      "instruction": "4) Select Max from the options",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            152.7316335720043,
+            428.0441417020617,
+            304.4616681871929,
+            46.84025664418351
+          ]
+        }
+      ]
+    }
+  ]
+}

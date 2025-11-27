@@ -1,0 +1,46 @@
+{
+  "task_name": "Task-16",
+  "task_query": "Show audio waveforms on timeline",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-05T13:51:16Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click Timeline Display Settings (wrench);",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            796.5831441352724,
+            679.4025157510774,
+            21.99414453579186,
+            20.198704165523168
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click Show Audio Waveform;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            812.6075389431946,
+            352.98876551674005,
+            129.80585016950317,
+            19.009224920220163
+          ]
+        }
+      ]
+    }
+  ]
+}

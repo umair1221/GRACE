@@ -1,0 +1,46 @@
+{
+  "task_name": "Task-28",
+  "task_query": "Center align the text via Paragraph panel",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T19:32:12Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click the text layer in Layers panel;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            135.43167948331507,
+            2.1888802478578935,
+            33.51597913790815,
+            20.372457907355916
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click Center Align",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            719.6487308648565,
+            33.998461499485174,
+            23.658338214993933,
+            22.343986091938746
+          ]
+        }
+      ]
+    }
+  ]
+}

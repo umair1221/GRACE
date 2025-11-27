@@ -1,0 +1,103 @@
+{
+  "task_name": "Task-7",
+  "task_query": "Import clipB.jpg into Stills bin",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-05T13:11:10Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click Stills bin in Project panel;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            15.271792587604917,
+            718.6778719902499,
+            202.04090486633964,
+            144.47010939367306
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Open File menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            2.9861096702742618,
+            25.727510317515613,
+            27.339660183637406,
+            15.098021295441551
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Choose Import…;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            34.15418040143167,
+            552.9982325678602,
+            75.87396346727863,
+            20.312714629035213
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Select clipB.jpg;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            297.2633997924419,
+            236.1874080705176,
+            91.7279828536989,
+            71.83110421999223
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Click Open",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            747.8448831699351,
+            559.2551861847954,
+            71.81761481074909,
+            22.891864720926264
+          ]
+        }
+      ]
+    }
+  ]
+}

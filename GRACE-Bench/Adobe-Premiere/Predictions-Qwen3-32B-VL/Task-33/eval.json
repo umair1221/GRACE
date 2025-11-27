@@ -1,0 +1,92 @@
+{
+  "task": "Task-33",
+  "task_query": "Normalize beep.wav peak to \u22123 dB",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.5394754961166465,
+  "Acc@0.3": 0.8571428571428571,
+  "Acc@0.5": 0.42857142857142855,
+  "Acc@0.8": 0.2857142857142857,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click beep.wav clip on timeline;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open Clip menu from the tab;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7347653988220136,
+      "ious_per_gt": [
+        0.7347653988220136
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Choose Audio Options from the list;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8563990785269592,
+      "ious_per_gt": [
+        0.8563990785269592
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Audio Gain\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.47265996536602745,
+      "ious_per_gt": [
+        0.47265996536602745
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Select Normalize Max Peak;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.487199228451054,
+      "ious_per_gt": [
+        0.487199228451054
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "6.png",
+      "instruction": "Type -3 against the active dB value;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.41686279359480694,
+      "ious_per_gt": [
+        0.41686279359480694
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "7.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8084420080556642,
+      "ious_per_gt": [
+        0.8084420080556642
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

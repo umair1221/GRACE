@@ -1,0 +1,48 @@
+{
+  "task": "Task-5",
+  "task_query": "Show rulers in the canvas",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.3217894837663826,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Main menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click View menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.49120558641128614,
+      "ious_per_gt": [
+        0.49120558641128614
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Rulers;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.47416286488786175,
+      "ious_per_gt": [
+        0.47416286488786175
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

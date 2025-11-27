@@ -1,0 +1,91 @@
+{
+  "task": "Task-40",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.21213653470258523,
+  "Acc@0.3": 0.2857142857142857,
+  "Acc@0.5": 0.14285714285714285,
+  "Acc@0.8": 0.14285714285714285,
+  "Acc@0.9": 0.14285714285714285,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select Web/Home frame;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9556571713650586,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.9556571713650586
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "In right sidebar click Export +;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.010400136770704994,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.010400136770704994
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Format Dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.02746539807157854,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.02746539807157854
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick PDF;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.001173041171046611,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.001173041171046611
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Export Home;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.07348439803084068,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.07348439803084068
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "Type web_home.pdf;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.06437896081188552,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.06437896081188552
+      ]
+    },
+    {
+      "image": "7.png",
+      "instruction": "Click Save",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.35239663669698174,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.35239663669698174
+      ]
+    }
+  ]
+}

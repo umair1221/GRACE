@@ -1,0 +1,80 @@
+{
+  "task": "Task-29",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 6,
+  "num_gt_boxes": 6,
+  "mIoU": 0.4513542409397697,
+  "Acc@0.3": 0.8333333333333334,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.16666666666666666,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Main menu (Figma);",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6704221060789752,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.6704221060789752
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3232199777001851,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3232199777001851
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Place image\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5826157190946561,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5826157190946561
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Select avatar1.png;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8191942924475102,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.8191942924475102
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Open;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3126733503172917,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3126733503172917
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "Click inside Mobile/Home below blue icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "task": "Task-32",
+  "task_query": "Reopen Images/landscape.jpg",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.5662971683156429,
+  "Acc@0.3": 0.75,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.25,
+  "Acc@0.9": 0.25,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4554036751629987,
+      "ious_per_gt": [
+        0.4554036751629987
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Open\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.14308484436556468,
+      "ious_per_gt": [
+        0.14308484436556468
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Select landscape.jpg;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9220847169220995,
+      "ious_per_gt": [
+        0.9220847169220995
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Choose Open",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.744615436811909,
+      "ious_per_gt": [
+        0.744615436811909
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

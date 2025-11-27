@@ -1,0 +1,1730 @@
+{
+  "overall": {
+    "num_tasks": 28,
+    "overall_num_gt_boxes": 113,
+    "task_completion_rate@0.30": 0.07142857142857142,
+    "overall_mIoU": 0.10425267916894919,
+    "Acc@0.3": 0.09734513274336283,
+    "Acc@0.5": 0.05309734513274336,
+    "Acc@0.8": 0.035398230088495575,
+    "Acc@0.9": 0.02654867256637168
+  },
+  "per_task": [
+    {
+      "task": "Task-1",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.09579520335940829,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu (Figma);",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.23592361229356246,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.23592361229356246
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click File;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.05146199778466244,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.05146199778466244
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click New design file",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-2",
+      "exists": true,
+      "task_completed@0.30": true,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.4911446016424942,
+      "Acc@0.3": 1.0,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click file title at top;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.560390734359002,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.560390734359002
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type FigmaCrashCourse;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4218984689259864,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.4218984689259864
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-3",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.10772920866992018,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Right-Click page 1 in left sidebar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Rename page;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.22524218591872325,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.22524218591872325
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type mobile;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.09794544009103728,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.09794544009103728
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-4",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.17322408828577326,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click plus icon in left sidebar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.34644817657154653,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.34644817657154653
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type components;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-5",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.07552217338272361,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.22656652014817086,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.22656652014817086
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click View menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Rulers;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-6",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Frame tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click iPhone 16;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click layer name in left panel;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Mobile/Home;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-7",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 7,
+      "num_gt_boxes": 7,
+      "mIoU": 0.1759755911425612,
+      "Acc@0.3": 0.14285714285714285,
+      "Acc@0.5": 0.14285714285714285,
+      "Acc@0.8": 0.14285714285714285,
+      "Acc@0.9": 0.14285714285714285,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select Mobile/Home frame;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9490053088099302,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.9490053088099302
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Layout grid + icon;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Grid type dropdown;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.16347674758716535,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.16347674758716535
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Pick Columns;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.06275139091449008,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.06275139091449008
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type 4 in Count;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "6.png",
+          "instruction": "Type 16 in Margin;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.05659569068634305,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.05659569068634305
+          ]
+        },
+        {
+          "image": "7.png",
+          "instruction": "Type 16 in Gutter",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-8",
+      "exists": true,
+      "task_completed@0.30": true,
+      "num_images": 3,
+      "num_gt_boxes": 1,
+      "mIoU": 0.3078778881850846,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.3333333333333333,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select Mobile/Home frame;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9236336645552538,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.9236336645552538
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Fill color;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type #FFFFFF;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        }
+      ]
+    },
+    {
+      "task": "Task-9",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.07272600551371591,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu (Figma);",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2015899419910592,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.2015899419910592
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Place image\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select hero.jpg;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click inside Mobile/Home frame",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.23476609109123628,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.23476609109123628
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-10",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 4,
+      "mIoU": 0.02554718576987276,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Text tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.04694404009851219,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.04694404009851219
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type 32",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click in center of Mobile/Home frame;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0807918887508516,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0807918887508516
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type Shop the latest audio;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Font size box;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-12",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.06534180684444812,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu (Figma);",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.20205738268416246,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.20205738268416246
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.18999345838252626,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.18999345838252626
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Place image\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select search.svg;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click near top on Mobile/Home",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-13",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.023126267429635534,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the search icon in the middle;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar select Horizontal Constraints",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Select Right;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0436669245882091,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0436669245882091
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select Constraints Vertical;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.07196441255996858,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.07196441255996858
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Select Bottom",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-14",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Frame tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Desktop with 1440 resolution;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click layer name in left panel;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Web/Home;",
+          "gt_count": 0,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        }
+      ]
+    },
+    {
+      "task": "Task-15",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.037334839672101085,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu (Figma);",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.21197841029931938,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.21197841029931938
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Place image\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select brandA.svg;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click inside Web/Home near top left",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.012030627733287108,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.012030627733287108
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-17",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.18373835916423392,
+      "Acc@0.3": 0.2,
+      "Acc@0.5": 0.2,
+      "Acc@0.8": 0.2,
+      "Acc@0.9": 0.2,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select Web/Home frame;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9186917958211696,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.9186917958211696
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Layout grid + button;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Grid type dropdown;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Pick Columns;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type 12 in Count;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-18",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 4,
+      "mIoU": 0.2126235704912584,
+      "Acc@0.3": 0.2,
+      "Acc@0.5": 0.2,
+      "Acc@0.8": 0.2,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Text tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type Welcome to BrandA;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type 48;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click inside Web/Home;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8984760329689082,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.8984760329689082
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Font size box;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.16464181948738396,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.16464181948738396
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-19",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.049588125146904326,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the headline in Web/Home;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Fill color;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.14876437544071297,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.14876437544071297
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type #3366CC;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-20",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.04967033975057543,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "With headline selected click Color style icon;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click + to Create style;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type Brand/Primary in name;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.07342021824775251,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.07342021824775251
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Create style",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1252611407545492,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.1252611407545492
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-21",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 2,
+      "mIoU": 0.012922142403405083,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Text tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click inside Mobile/Home;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.03876642721021525,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.03876642721021525
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type Buy now",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        }
+      ]
+    },
+    {
+      "task": "Task-27",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.03252135583813256,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Assets tab in left sidebar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type Button/Primary in search field;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.013241386232435754,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.013241386232435754
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click the first left component;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.11684403712009447,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.11684403712009447
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Insert Instance",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-28",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.09638104920448257,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the Button component;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2037990750982356,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.2037990750982356
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Export +;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Export Button Danger;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type button_primary.png;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Save",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2781061709241772,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.2781061709241772
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-29",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.02445288534079408,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu (Figma);",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1467173120447645,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.1467173120447645
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Place image\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select avatar1.png;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click inside Mobile/Home below blue icon",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-30",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 2,
+      "mIoU": 0.25925852193621296,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the avatar image;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5102527370903818,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.5102527370903818
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Corner radius field;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2675228287182572,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.2675228287182572
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type 64;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        }
+      ]
+    },
+    {
+      "task": "Task-31",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 4,
+      "mIoU": 0.10922532076900379,
+      "Acc@0.3": 0.2,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the avatar image;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.49883174201973945,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.49883174201973945
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Stroke \u25b8 +;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type 2 in Stroke width;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.023939883143556058,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.023939883143556058
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Stroke color;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.02335497868172337,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.02335497868172337
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type #FFFFFF;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        }
+      ]
+    },
+    {
+      "task": "Task-32",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.24070369215896117,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the Button Danger component;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.48140738431792235,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.48140738431792235
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Effects +;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-33",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 3,
+      "mIoU": 0.0,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Frame tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click iPhone 14 plus;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click layer name in left panel;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Mobile/Details;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": true,
+          "ious_per_gt": []
+        }
+      ]
+    },
+    {
+      "task": "Task-35",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 7,
+      "num_gt_boxes": 7,
+      "mIoU": 0.14820735413040922,
+      "Acc@0.3": 0.14285714285714285,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the Button Danger instance;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4689555520030878,
+          "step_success@0.30": true,
+          "ious_per_gt": [
+            0.4689555520030878
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Prototype tab in right sidebar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.27411024066380346,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.27411024066380346
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click + Add interaction;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Action dropdown;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Pick Navigate to;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0167309236938562,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0167309236938562
+          ]
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click on Destination dropdown;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.07377971760823736,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.07377971760823736
+          ]
+        },
+        {
+          "image": "7.png",
+          "instruction": "Pick Mobile/Details",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.20387504494387967,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.20387504494387967
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Task-40",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 7,
+      "num_gt_boxes": 7,
+      "mIoU": 0.02770554357591514,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select Web/Home frame;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Export +;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Format Dropdown;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "4.png",
+          "instruction": "Pick PDF;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Export Home;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        },
+        {
+          "image": "6.png",
+          "instruction": "Type web_home.pdf;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.19393880503140598,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.19393880503140598
+          ]
+        },
+        {
+          "image": "7.png",
+          "instruction": "Click Save",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "step_success@0.30": false,
+          "ious_per_gt": [
+            0.0
+          ]
+        }
+      ]
+    }
+  ]
+}

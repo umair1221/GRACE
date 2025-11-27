@@ -1,0 +1,65 @@
+{
+  "task_name": "Task16_Excel",
+  "task_query": "Insert PDF as Object (Students)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T16:56:06Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select Insert from the excel tab bar",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            461.63828215650625,
+            15.463472333065317,
+            126.49374120488068,
+            43.83446477396852
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click ok.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1947.86762282768,
+            1102.9092776503305,
+            124.20627562871823,
+            37.261882688615515
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click Object.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            473.2561856177976,
+            1250.903280698821,
+            385.7432900109231,
+            42.70729282263801
+          ]
+        }
+      ]
+    }
+  ]
+}

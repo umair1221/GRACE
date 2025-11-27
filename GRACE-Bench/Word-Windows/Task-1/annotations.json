@@ -1,0 +1,65 @@
+{
+  "task_name": "Task-1",
+  "task_query": "Set page margins to Narrow",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+  "updated_at": "2025-10-13T08:32:36Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 1,
+      "instruction": "1) Click the Layout tab to show page setup controls",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            419.38699542380994,
+            80.59511986116405,
+            80.82240362133626,
+            29.506591798265617
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 2,
+      "instruction": "2) Click \"Margins\" to open preset margin options",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            31.228273334287465,
+            129.86764086998568,
+            69.27634596114537,
+            89.80267069037362
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 2559,
+      "height": 1525,
+      "step_index": 3,
+      "instruction": "3) Select \"Narrow\" to apply the slim preset margins.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            36.70604396289623,
+            355.6982316488979,
+            406.8686940418854,
+            103.75734604506539
+          ]
+        }
+      ]
+    }
+  ]
+}

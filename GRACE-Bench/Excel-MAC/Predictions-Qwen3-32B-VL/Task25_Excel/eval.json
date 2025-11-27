@@ -1,0 +1,59 @@
+{
+  "task": "Task25_Excel",
+  "task_query": "Add 3D clustured columns chart for UnitPrice column",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.14402832470619395,
+  "Acc@0.3": 0.25,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the top header cell of column \"UnitPrice\"",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.006248380635326691,
+      "ious_per_gt": [
+        0.006248380635326691
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click \"Insert\" from tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click \"Recommended Charts\" icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.14986252698634725,
+      "ious_per_gt": [
+        0.14986252698634725
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Select 3D clustured column from the options",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4200023912031019,
+      "ious_per_gt": [
+        0.4200023912031019
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

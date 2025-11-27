@@ -1,0 +1,122 @@
+{
+  "task_name": "Task-15",
+  "task_query": "Sort only Customers by Country",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Excel",
+  "updated_at": "2025-10-05T12:08:58Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 1,
+      "instruction": "1) Select \"Customers\" Sheet",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            287.63888888888886,
+            1453.7037037037035,
+            120.08101851851859,
+            33.27546296296305
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 2,
+      "instruction": "2) Click header cell in country column",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            429.5700527680137,
+            324.138859715554,
+            122.09822066472344,
+            25.679387679485444
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 3,
+      "instruction": "3) Click \"Data\" from tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            582.0609448707324,
+            85.59706422182231,
+            54.07206915152028,
+            23.838224034541227
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 4,
+      "instruction": "4) Click sort icon of \"A to Z\"",
+      "bboxes": [
+        {
+          "id": 3,
+          "label": "object",
+          "bbox": [
+            1160.179457189421,
+            137.9340215759634,
+            26.875,
+            30.93749999999997
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 5,
+      "instruction": "5) Select continue with current selection option",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            985.8597485972982,
+            749.551821666381,
+            17.442602952103243,
+            17.442602952103357
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "6.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 6,
+      "instruction": "6) Click Sort",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1327.8488297325102,
+            800.675797325103,
+            117.21429183813439,
+            32.65255272633749
+          ]
+        }
+      ]
+    }
+  ]
+}

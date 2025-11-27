@@ -1,0 +1,37 @@
+{
+  "task": "Task43_Excel",
+  "task_query": "Wrap Text (CRM_Pipeline)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.4472768516666919,
+  "Acc@0.3": 0.5,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.5,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the header cell of probability column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8945537033333838,
+      "ious_per_gt": [
+        0.8945537033333838
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2)Click Wrap Text icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

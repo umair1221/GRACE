@@ -1,0 +1,70 @@
+{
+  "task": "Task-33",
+  "task_query": "Reduce saturation by 20 via Hue/Saturation",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.5592154662906476,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.6,
+  "Acc@0.8": 0.2,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Image menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.47839999639648806,
+      "ious_per_gt": [
+        0.47839999639648806
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Adjustments;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3254999686732924,
+      "ious_per_gt": [
+        0.3254999686732924
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Hue/Saturation\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7620645246249202,
+      "ious_per_gt": [
+        0.7620645246249202
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type -20 in Saturation;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5765682815473392,
+      "ious_per_gt": [
+        0.5765682815473392
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6535445602111976,
+      "ious_per_gt": [
+        0.6535445602111976
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

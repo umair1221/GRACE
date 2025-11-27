@@ -1,0 +1,59 @@
+{
+  "task": "Task-10",
+  "task_query": "AutoFit the catalog table to contents",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.6788762295009267,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.75,
+  "Acc@0.8": 0.5,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click inside the first entry of Price column in table",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7627265432199265,
+      "ious_per_gt": [
+        0.7627265432199265
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click the Table Layout tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7443324419274482,
+      "ious_per_gt": [
+        0.7443324419274482
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click AutoFit icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7589089863820638,
+      "ious_per_gt": [
+        0.7589089863820638
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Select AutoFit to Contents",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.44953694647426856,
+      "ious_per_gt": [
+        0.44953694647426856
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

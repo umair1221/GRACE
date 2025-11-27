@@ -1,0 +1,59 @@
+{
+  "task": "Task-7",
+  "task_query": "Add a Black & White adjustment layer",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.5032966695170377,
+  "Acc@0.3": 0.75,
+  "Acc@0.5": 0.25,
+  "Acc@0.8": 0.25,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.49839063727280897,
+      "ious_per_gt": [
+        0.49839063727280897
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose New Adjustment Layer;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.44601618239048785,
+      "ious_per_gt": [
+        0.44601618239048785
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Black & White\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2745722553663709,
+      "ious_per_gt": [
+        0.2745722553663709
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7942076030384827,
+      "ious_per_gt": [
+        0.7942076030384827
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

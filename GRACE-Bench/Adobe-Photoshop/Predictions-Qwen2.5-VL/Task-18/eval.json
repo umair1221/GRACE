@@ -1,0 +1,68 @@
+{
+  "task": "Task-18",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.12831683165210964,
+  "Acc@0.2": 0.2,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.21889294243005422,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.21889294243005422
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Place Embedded\u2026;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Select logo.png;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Choose Place;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.42269121583049396,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.42269121583049396
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Commit (checkmark)",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

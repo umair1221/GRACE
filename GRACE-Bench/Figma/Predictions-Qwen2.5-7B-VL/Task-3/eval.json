@@ -1,0 +1,47 @@
+{
+  "task": "Task-3",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.10772920866992018,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Right-Click page 1 in left sidebar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click Rename page;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.22524218591872325,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.22524218591872325
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type mobile;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.09794544009103728,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.09794544009103728
+      ]
+    }
+  ]
+}

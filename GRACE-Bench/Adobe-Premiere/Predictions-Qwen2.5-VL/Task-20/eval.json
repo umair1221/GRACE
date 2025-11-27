@@ -1,0 +1,68 @@
+{
+  "task": "Task-20",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.1705126830718151,
+  "Acc@0.2": 0.4,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Window menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1597566793018716,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.1597566793018716
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Effects;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.39272679059150073,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.39272679059150073
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click search box;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.01927818038355328,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.01927818038355328
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type Cross Dissolve",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2808017650821499,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2808017650821499
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Select Cross Dissolve from the list",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

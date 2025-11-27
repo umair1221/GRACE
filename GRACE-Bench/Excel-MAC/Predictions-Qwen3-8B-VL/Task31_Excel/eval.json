@@ -1,0 +1,48 @@
+{
+  "task": "Task31_Excel",
+  "task_query": "Protect Workbook (Timesheet)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.4639755460211911,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.6666666666666666,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click Review tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.501212060708405,
+      "ious_per_gt": [
+        0.501212060708405
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Protect Workbook icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2231765000740726,
+      "ious_per_gt": [
+        0.2231765000740726
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Ok",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6675380772810958,
+      "ious_per_gt": [
+        0.6675380772810958
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

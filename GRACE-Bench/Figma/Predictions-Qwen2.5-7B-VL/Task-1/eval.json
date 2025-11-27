@@ -1,0 +1,47 @@
+{
+  "task": "Task-1",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.09579520335940829,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Main menu (Figma);",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.23592361229356246,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.23592361229356246
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click File;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.05146199778466244,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.05146199778466244
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click New design file",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

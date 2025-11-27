@@ -1,0 +1,70 @@
+{
+  "task": "Task45_Excel",
+  "task_query": "Set Row Height (Students)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.2712626219617908,
+  "Acc@0.3": 0.4,
+  "Acc@0.5": 0.4,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click on the first row of StudentId column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.24311994040475787,
+      "ious_per_gt": [
+        0.24311994040475787
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2)Click Format drop-down icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Row Height.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5130488056884792,
+      "ious_per_gt": [
+        0.5130488056884792
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Type 20.",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_5.png",
+      "instruction": "5) Click ok.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.600144363715717,
+      "ious_per_gt": [
+        0.600144363715717
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

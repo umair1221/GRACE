@@ -1,0 +1,122 @@
+{
+  "task_name": "Task11_Excel",
+  "task_query": "Create a PivotChart (Budget)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T16:44:55Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click Insert tab.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            138.796875,
+            150.609375,
+            94.5,
+            35.4375
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click on Pivotchart icon.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1523.8125,
+            206.71875,
+            88.59375,
+            85.640625
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3)Click Ok.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1819.125,
+            989.296875,
+            138.796875,
+            38.390625
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_4.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 4,
+      "instruction": "4) Select the Category check box",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            2388.2784211798576,
+            585.1596494958416,
+            29.563557914992998,
+            28.278185831732344
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_5.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 5,
+      "instruction": "5) Click on Jan check box",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            2387.4539958102396,
+            628.6781376749277,
+            28.981464313367724,
+            28.98146431336761
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_6.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 6,
+      "instruction": "5) Click on Feb check box",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            2388.1976416673706,
+            672.5672667403973,
+            30.110612273628703,
+            26.34678573942506
+          ]
+        }
+      ]
+    }
+  ]
+}

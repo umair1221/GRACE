@@ -1,0 +1,48 @@
+{
+  "task": "Task49_Excel",
+  "task_query": "Change Color(Invoice_Header)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.4263660874073869,
+  "Acc@0.3": 0.3333333333333333,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.3333333333333333,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the 5th cell in the value column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2172446093637674,
+      "ious_per_gt": [
+        0.2172446093637674
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Select yellow color from standard colors options",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7835351445613371,
+      "ious_per_gt": [
+        0.7835351445613371
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Open drop-down menu for fill color from Home tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.27831850829705634,
+      "ious_per_gt": [
+        0.27831850829705634
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

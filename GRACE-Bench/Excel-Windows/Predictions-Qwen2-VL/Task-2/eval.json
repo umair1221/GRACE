@@ -1,0 +1,72 @@
+{
+  "task": "Task-2",
+  "task_query": "Freeze First Column",
+  "exists": true,
+  "task_completed@0.25": false,
+  "num_images": 6,
+  "num_gt_boxes": 3,
+  "mIoU": 0.0,
+  "Acc@0.2": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Freeze-First-Column.png",
+      "instruction": "1) Click on View from tab",
+      "best_iou": 0.0,
+      "gt_count": 0,
+      "matched": 0,
+      "note": "no_prediction"
+    },
+    {
+      "image": "Home.png",
+      "instruction": "2) Open Freeze Panes",
+      "best_iou": 0.0,
+      "gt_count": 0,
+      "matched": 0,
+      "note": "no_prediction"
+    },
+    {
+      "image": "View-Tab.png",
+      "instruction": "3) Choose Freeze First Column",
+      "best_iou": 0.0,
+      "gt_count": 0,
+      "matched": 0,
+      "note": "no_prediction"
+    },
+    {
+      "image": "1.png",
+      "instruction": "1) Click on View from tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Open Freeze Panes",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Choose Freeze First Column",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    }
+  ]
+}

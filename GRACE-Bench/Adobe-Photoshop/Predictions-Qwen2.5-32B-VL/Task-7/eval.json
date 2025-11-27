@@ -1,0 +1,58 @@
+{
+  "task": "Task-7",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.3787945709559478,
+  "Acc@0.3": 0.75,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1661249292194337,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.1661249292194337
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose New Adjustment Layer;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4655824401404853,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4655824401404853
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Black & White\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.48459160951293845,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.48459160951293845
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3988793049509339,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3988793049509339
+      ]
+    }
+  ]
+}

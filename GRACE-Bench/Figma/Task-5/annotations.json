@@ -1,0 +1,65 @@
+{
+  "task_name": "Task-5",
+  "task_query": "Show rulers in the canvas",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T19:47:59Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click Main menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            16.10240752593342,
+            49.5013462747611,
+            29.87163916034591,
+            23.897311328276736
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click View menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            36.78553395054665,
+            183.1585425942947,
+            36.932208416427684,
+            17.922983496207536
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click Rulers;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            241.04975298008608,
+            231.3367485604129,
+            44.886009256718154,
+            17.954403702687245
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "task": "Task15_Excel",
+  "task_query": "Insert Image (Students)",
+  "exists": true,
+  "task_completed@0.25": true,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.6005223880740493,
+  "Acc@0.2": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click Insert tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5701058517801553,
+      "ious_per_gt": [
+        0.5701058517801553
+      ],
+      "step_success@0.250": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Choose Pictures ico.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6309389243679434,
+      "ious_per_gt": [
+        0.6309389243679434
+      ],
+      "step_success@0.250": true
+    }
+  ]
+}

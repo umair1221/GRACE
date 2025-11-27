@@ -1,0 +1,69 @@
+{
+  "task": "Task-12",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.3097305936630298,
+  "Acc@0.3": 0.4,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2852599958833347,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2852599958833347
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose New;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4150500444188726,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4150500444188726
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Layer from Background\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.19540410922536705,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.19540410922536705
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type Portrait in Name;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1782140222183569,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.1782140222183569
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.47472479656921795,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.47472479656921795
+      ]
+    }
+  ]
+}

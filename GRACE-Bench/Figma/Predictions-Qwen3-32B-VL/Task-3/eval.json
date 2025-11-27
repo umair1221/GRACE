@@ -1,0 +1,48 @@
+{
+  "task": "Task-3",
+  "task_query": "Rename Page 1 to Mobile",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.4177709171760862,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.3333333333333333,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Right-Click page 1 in left sidebar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1143456343442873,
+      "ious_per_gt": [
+        0.1143456343442873
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click Rename page;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8272429190419971,
+      "ious_per_gt": [
+        0.8272429190419971
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type mobile;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3117241981419743,
+      "ious_per_gt": [
+        0.3117241981419743
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

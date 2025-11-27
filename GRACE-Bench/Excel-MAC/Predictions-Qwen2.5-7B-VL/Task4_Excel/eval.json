@@ -1,0 +1,32 @@
+{
+  "task": "Task4_Excel",
+  "task_query": "Sort by Date in Resolvedon column (A to Z) (Tickets)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 2,
+  "num_gt_boxes": 1,
+  "mIoU": 0.0,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click a Resolvedon column.",
+      "gt_count": 0,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Select Sort A to Z icon",
+      "best_iou": 0.0,
+      "gt_count": 1,
+      "matched": 0,
+      "note": "no_prediction"
+    }
+  ]
+}

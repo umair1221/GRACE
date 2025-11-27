@@ -1,0 +1,103 @@
+{
+  "task_name": "Task45_Excel",
+  "task_query": "Set Row Height (Students)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T18:10:05Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click on the first row of StudentId column.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            45.17669301846524,
+            541.3705434560009,
+            106.91958692576512,
+            32.71856211935983
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2)Click Format drop-down icon.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1938.0635899715965,
+            298.54183032314734,
+            26.77675605453669,
+            38.62876283277427
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click Row Height.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1814.0780364706693,
+            392.3491310514443,
+            365.704677542823,
+            47.59170461173727
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_4.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 4,
+      "instruction": "4) Type 20.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1498.3998871491835,
+            554.6090969545243,
+            179.09509893364293,
+            46.339291332481025
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_5.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 5,
+      "instruction": "5) Click ok.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1560.7068784609312,
+            634.8843843826157,
+            122.96421287243106,
+            37.57239837768725
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "task_name": "Task5_Excel",
+  "task_query": "Sort Data from Z→A (Students)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T16:20:18Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click on 'Name' header column.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            149.08617840247953,
+            305.22100425309935,
+            111.68645900423402,
+            31.672279419111135
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click Data tab.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            735.328125,
+            150.609375,
+            82.6875,
+            44.296875
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click Sort Z→A .",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1296.421875,
+            280.546875,
+            47.25,
+            47.25
+          ]
+        }
+      ]
+    }
+  ]
+}

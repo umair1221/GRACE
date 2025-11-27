@@ -1,0 +1,70 @@
+{
+  "task": "Task7_Excel",
+  "task_query": "Fit to one page (Budget)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.2680732784399966,
+  "Acc@0.3": 0.4,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click Page Layout tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.22256568551997472,
+      "ious_per_gt": [
+        0.22256568551997472
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Width drop-down.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3405004939084623,
+      "ious_per_gt": [
+        0.3405004939084623
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click 1 page.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.17372954574195223,
+      "ious_per_gt": [
+        0.17372954574195223
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Click Height drop-down.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.39061870199901955,
+      "ious_per_gt": [
+        0.39061870199901955
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_5.png",
+      "instruction": "5) Click 1 page.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.21295196503057426,
+      "ious_per_gt": [
+        0.21295196503057426
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "task": "Task-3",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.2740204025389244,
+  "Acc@0.3": 0.3333333333333333,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Window menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5629143076379735,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5629143076379735
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open Workspaces drop-menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.24490923084214813,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.24490923084214813
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Editing",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.014237669136651586,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.014237669136651586
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "task": "Task-30",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.18290424187754092,
+  "Acc@0.3": 0.3333333333333333,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "In Essential Graphics panel click Fill color;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.08382229854349323,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.08382229854349323
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Type #FFF000 hex code in the color code box",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.14000851850115795,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.14000851850115795
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3248819085879716,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3248819085879716
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "task": "Task-3",
+  "task_query": "Add a caption under the report screenshot",
+  "exists": true,
+  "task_completed@0.25": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.15296331902959195,
+  "Acc@0.2": 0.25,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click the screenshot image to select it",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click the References tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.45626999583266,
+      "ious_per_gt": [
+        0.45626999583266
+      ],
+      "step_success@0.250": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click Insert Caption icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Select OK button",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.15558328028570786,
+      "ious_per_gt": [
+        0.15558328028570786
+      ],
+      "step_success@0.250": false
+    }
+  ]
+}

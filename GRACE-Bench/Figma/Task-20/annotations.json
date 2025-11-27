@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-20",
+  "task_query": "Create color style Brand/Primary from headline fill",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T21:01:48Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "With headline selected click Color style icon;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1863.7567045119943,
+            784.450653983801,
+            14.812383054716975,
+            16.293621360188695
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click + to Create style;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1620.5611822780984,
+            600.7121172236662,
+            19.749844072955966,
+            13.914662869582571
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Type Brand/Primary in name;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1249.9366366039278,
+            766.0747315610854,
+            93.19951418027927,
+            24.49474411148367
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click Create style",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1343.853600280341,
+            942.2037144697604,
+            78.20938252890573,
+            22.267949192257902
+          ]
+        }
+      ]
+    }
+  ]
+}

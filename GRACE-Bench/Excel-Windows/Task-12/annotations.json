@@ -1,0 +1,73 @@
+{
+  "task_name": "Task-12",
+  "task_query": "Rename Products table to “MyTable”",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Excel",
+  "updated_at": "2025-10-05T12:04:08Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 1,
+      "instruction": "1) Click the first cell of \"product_id\" column to access the table",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            39.65783250457248,
+            383.32258534093484,
+            158.72768686414042,
+            25.582484329751594
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 2,
+      "instruction": "2) Open \"Table Design\" from the tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1107.9980498518707,
+            83.01465334933697,
+            115.70259958228553,
+            27.908164723365346
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 2559,
+      "height": 1525,
+      "step_index": 3,
+      "instruction": "3) Click into the \"Table Name\" box",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            33.19690393518519,
+            166.56790724180038,
+            137.39402075036236,
+            25.107536786868252
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 4,
+      "instruction": "4) Type \"MyTable\"",
+      "bboxes": []
+    }
+  ]
+}

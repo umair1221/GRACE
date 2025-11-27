@@ -1,0 +1,48 @@
+{
+  "task": "Task-1",
+  "task_query": "Set page margins to Narrow",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.6699369086926618,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click the Layout tab to show page setup controls",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7048399578113388,
+      "ious_per_gt": [
+        0.7048399578113388
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click \"Margins\" to open preset margin options",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7024110641658692,
+      "ious_per_gt": [
+        0.7024110641658692
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Select \"Narrow\" to apply the slim preset margins.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.602559704100777,
+      "ious_per_gt": [
+        0.602559704100777
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

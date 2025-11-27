@@ -1,0 +1,35 @@
+{
+  "task": "Task-8",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.5322166063962344,
+  "Acc@0.2": 1.0,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Image menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4908544686346567,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4908544686346567
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Auto Tone;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.573578744157812,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.573578744157812
+      ]
+    }
+  ]
+}

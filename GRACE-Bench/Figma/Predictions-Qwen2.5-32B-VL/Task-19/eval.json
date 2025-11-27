@@ -1,0 +1,47 @@
+{
+  "task": "Task-19",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.24228013672574197,
+  "Acc@0.3": 0.3333333333333333,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select the headline in Web/Home;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6411244393560739,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.6411244393560739
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "In right sidebar click Fill color;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.007460731061546684,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.007460731061546684
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type #3366CC;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.07825523975960536,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.07825523975960536
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "task": "Task-35",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.21480590778073086,
+  "Acc@0.3": 0.42857142857142855,
+  "Acc@0.5": 0.14285714285714285,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select the Button Danger instance;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5091480661125719,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5091480661125719
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click Prototype tab in right sidebar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click + Add interaction;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.05724232087394071,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.05724232087394071
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Action dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.11260731875213022,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.11260731875213022
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Pick Navigate to;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3183837622823028,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3183837622823028
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "Click on Destination dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.12874845607025664,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.12874845607025664
+      ]
+    },
+    {
+      "image": "7.png",
+      "instruction": "Pick Mobile/Details",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.37751143037391366,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.37751143037391366
+      ]
+    }
+  ]
+}

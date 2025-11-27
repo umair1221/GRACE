@@ -1,0 +1,68 @@
+{
+  "task": "Task-31",
+  "task_query": "Add a 2 px white stroke to avatar",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 4,
+  "mIoU": 0.25026030835912494,
+  "Acc@0.3": 0.4,
+  "Acc@0.5": 0.2,
+  "Acc@0.8": 0.2,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select the avatar image;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8885232810609032,
+      "ious_per_gt": [
+        0.8885232810609032
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click Stroke \u25b8 +;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.008695400369674164,
+      "ious_per_gt": [
+        0.008695400369674164
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type 2 in Stroke width;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Stroke color;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.35408286036504744,
+      "ious_per_gt": [
+        0.35408286036504744
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Type #FFFFFF;",
+      "gt_count": 0,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [],
+      "step_success@0.300": true
+    }
+  ]
+}

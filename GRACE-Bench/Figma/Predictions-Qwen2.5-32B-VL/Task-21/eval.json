@@ -1,0 +1,45 @@
+{
+  "task": "Task-21",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 2,
+  "mIoU": 0.39224439130705196,
+  "Acc@0.3": 0.3333333333333333,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.3333333333333333,
+  "Acc@0.9": 0.3333333333333333,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Text tool in toolbar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.22338314884389068,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.22338314884389068
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click inside Mobile/Home;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9533500250772653,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.9533500250772653
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type Buy now",
+      "gt_count": 0,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": true,
+      "ious_per_gt": []
+    }
+  ]
+}

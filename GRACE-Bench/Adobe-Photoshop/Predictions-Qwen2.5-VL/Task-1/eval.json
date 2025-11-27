@@ -1,0 +1,57 @@
+{
+  "task": "Task-1",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.07046158374896644,
+  "Acc@0.2": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.24289402381734063,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.24289402381734063
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Open\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.038952311178525115,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.038952311178525115
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Select landscape.jpg;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Choose Open",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

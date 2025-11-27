@@ -1,0 +1,70 @@
+{
+  "task": "Task-20",
+  "task_query": "Open the Effects panel and select Cross Dissolve using search bar",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.729859793627403,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 0.4,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Window menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8331126027143246,
+      "ious_per_gt": [
+        0.8331126027143246
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Effects;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6182285481164412,
+      "ious_per_gt": [
+        0.6182285481164412
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click search box;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8671349747579264,
+      "ious_per_gt": [
+        0.8671349747579264
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type Cross Dissolve",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6006238798462354,
+      "ious_per_gt": [
+        0.6006238798462354
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Select Cross Dissolve from the list",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7301989627020876,
+      "ious_per_gt": [
+        0.7301989627020876
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

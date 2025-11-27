@@ -1,0 +1,59 @@
+{
+  "task": "Task-26",
+  "task_query": "Rename Adjustment Layer to Adj_1",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.20472340342391987,
+  "Acc@0.3": 0.5,
+  "Acc@0.5": 0.25,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click the Adjustment Layer in Project panel;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "Right\u2011click the item in adjustment layer;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5185750625206246,
+      "ious_per_gt": [
+        0.5185750625206246
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Choose Rename;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.30031855117505485,
+      "ious_per_gt": [
+        0.30031855117505485
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type Adj_1 in s",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

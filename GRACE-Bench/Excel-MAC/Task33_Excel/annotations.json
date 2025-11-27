@@ -1,0 +1,84 @@
+{
+  "task_name": "Task33_Excel",
+  "task_query": "Add Note (Budget)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:49:27Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select the top header cell of category column",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            66.96553085298892,
+            410.8064479850156,
+            105.38714295770042,
+            39.520178609137645
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Select Review from Tab",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            859.4759707174205,
+            152.64551828367271,
+            115.7229870032769,
+            41.32963821545604
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Select Notes icon",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1428.891432912661,
+            213.36956681738545,
+            97.29491590916268,
+            73.48871308032508
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_4.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 4,
+      "instruction": "4) Select new note",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1428.2377888882465,
+            290.01101425529555,
+            411.0192671013672,
+            48.95797364365313
+          ]
+        }
+      ]
+    }
+  ]
+}

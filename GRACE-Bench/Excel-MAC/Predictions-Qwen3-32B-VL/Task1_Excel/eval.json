@@ -1,0 +1,59 @@
+{
+  "task": "Task1_Excel",
+  "task_query": "Add a Row between 4 and 5 row (Sales)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.40277062030131255,
+  "Acc@0.3": 0.75,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click the 5th row number.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5570859684755771,
+      "ious_per_gt": [
+        0.5570859684755771
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click Home tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5969686927036225,
+      "ious_per_gt": [
+        0.5969686927036225
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click Insert drop down icon on the home tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Click Insert Sheet Rows.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4570278200260504,
+      "ious_per_gt": [
+        0.4570278200260504
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

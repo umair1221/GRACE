@@ -1,0 +1,65 @@
+{
+  "task_name": "Task-19",
+  "task_query": "Rename the latest marker to Intro",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-05T14:17:21Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "In Markers panel double click Name field;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            103.86498501895052,
+            684.7147509111167,
+            43.988289071583765,
+            16.607823424985668
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Type Intro;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            798.043887812471,
+            185.7182805811997,
+            86.8993139210063,
+            19.749844072955995
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click OK",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1106.8222018097433,
+            185.98330715258618,
+            78.20395132178555,
+            19.715281845828315
+          ]
+        }
+      ]
+    }
+  ]
+}

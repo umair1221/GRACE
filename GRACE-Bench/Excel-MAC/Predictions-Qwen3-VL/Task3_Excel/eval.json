@@ -1,0 +1,59 @@
+{
+  "task": "Task3_Excel",
+  "task_query": "Freeze Top Row (HR_Employees)",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.7968284695240919,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 1.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click first cell of sheet.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7910664264735432,
+      "ious_per_gt": [
+        0.7910664264735432
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click View tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7812718715005599,
+      "ious_per_gt": [
+        0.7812718715005599
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Freeze Panes icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.804898445926104,
+      "ious_per_gt": [
+        0.804898445926104
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Select Freeze Top Row.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8100771341961603,
+      "ious_per_gt": [
+        0.8100771341961603
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

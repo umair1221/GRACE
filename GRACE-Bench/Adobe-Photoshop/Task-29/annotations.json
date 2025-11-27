@@ -1,0 +1,149 @@
+{
+  "task_name": "Task-29",
+  "task_query": "Apply a red 4 px Stroke to the text layer",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T19:33:39Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open Layer menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            136.54761584654568,
+            4.055494954583969,
+            31.599750516729557,
+            17.281113563836477
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose Layer Style;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            147.84248855952472,
+            202.56674516147052,
+            76.8390137285704,
+            18.627639691774647
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Pick Stroke…;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            365.5673242847492,
+            248.43927754460097,
+            52.04834407298671,
+            19.51812902737001
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Type 5 in Size;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1389.6298524227948,
+            464.41764947320894,
+            41.34951779131734,
+            17.494026757865015
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Click Color swatch;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1240.728238742746,
+            607.3041969478021,
+            36.043465433144775,
+            23.20606678572335
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "6.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 6,
+      "instruction": "Type #FF0000 in Hex;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            943.7555987154319,
+            507.2626524714642,
+            78.8980606779711,
+            22.129943848699213
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "7.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 7,
+      "instruction": "Click OK;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1030.8429433817714,
+            180.4704288258442,
+            100.96614036196911,
+            22.70244576186292
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "8.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 8,
+      "instruction": "Click OK",
+      "bboxes": []
+    }
+  ]
+}

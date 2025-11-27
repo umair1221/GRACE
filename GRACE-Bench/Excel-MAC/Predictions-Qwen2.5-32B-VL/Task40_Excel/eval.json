@@ -1,0 +1,47 @@
+{
+  "task": "Task40_Excel",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.4563212913402817,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.3333333333333333,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the top header cell of salary column header.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Open General drop-down menu",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4699487161380221,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4699487161380221
+      ]
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Currency.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8990151578828232,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.8990151578828232
+      ]
+    }
+  ]
+}

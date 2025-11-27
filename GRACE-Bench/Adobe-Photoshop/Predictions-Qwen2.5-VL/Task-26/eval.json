@@ -1,0 +1,90 @@
+{
+  "task": "Task-26",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.18437404165437016,
+  "Acc@0.2": 0.42857142857142855,
+  "Acc@0.5": 0.14285714285714285,
+  "Acc@0.8": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Edit menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.26898627939190434,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.26898627939190434
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Fill\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.32609419948855456,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.32609419948855456
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Open Contents dropdown;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick Pattern;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.695537812700132,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.695537812700132
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Custom Pattern Dropdown;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "Pick Demo texture in Pattern;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "7.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

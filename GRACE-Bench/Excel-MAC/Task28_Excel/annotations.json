@@ -1,0 +1,46 @@
+{
+  "task_name": "Task28_Excel",
+  "task_query": "Page Layout Preview (Invoice_Header )",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:35:53Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Go to View tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            997.5518630460456,
+            150.4735716914092,
+            90.9252040740032,
+            40.91634183330149
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Select Page Layout icon",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            780.6020358161434,
+            209.98789689159486,
+            72.45366078341908,
+            108.68049117512857
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-26",
+  "task_query": "Rename Adjustment Layer to Adj_1",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-05T14:32:16Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click the Adjustment Layer in Project panel;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            188.7055346276118,
+            836.5402141873786,
+            171.823643434717,
+            124.91776376144651
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Right‑click the item in adjustment layer;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            199.03004902331037,
+            844.6185792437744,
+            152.3453597177642,
+            86.62775356500322
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Choose Rename;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            309.98030837968247,
+            365.8475957716663,
+            68.1073372855887,
+            19.117849062621417
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Type Adj_1 in s",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            193.64210227203193,
+            938.6537344750162,
+            127.92512638164669,
+            16.60782342498578
+          ]
+        }
+      ]
+    }
+  ]
+}

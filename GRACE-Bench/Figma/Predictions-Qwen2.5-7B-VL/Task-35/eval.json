@@ -1,0 +1,91 @@
+{
+  "task": "Task-35",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.14820735413040922,
+  "Acc@0.3": 0.14285714285714285,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select the Button Danger instance;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4689555520030878,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4689555520030878
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click Prototype tab in right sidebar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.27411024066380346,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.27411024066380346
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click + Add interaction;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Action dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Pick Navigate to;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0167309236938562,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0167309236938562
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "Click on Destination dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.07377971760823736,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.07377971760823736
+      ]
+    },
+    {
+      "image": "7.png",
+      "instruction": "Pick Mobile/Details",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.20387504494387967,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.20387504494387967
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "task": "Task-24",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.4373777403372242,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.4,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Edit menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3184215513567122,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3184215513567122
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Fill\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4016596782173576,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4016596782173576
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Open Contents dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5630881695686845,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5630881695686845
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick 50% Gray;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4026579727221488,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4026579727221488
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5010613298212178,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5010613298212178
+      ]
+    }
+  ]
+}

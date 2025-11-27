@@ -1,0 +1,37 @@
+{
+  "task": "Task44_Excel",
+  "task_query": "Center Align Header (Students)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.2601344300301319,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click on the first cell of the program column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2644437131646499,
+      "ious_per_gt": [
+        0.2644437131646499
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click on Center Text icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.25582514689561403,
+      "ious_per_gt": [
+        0.25582514689561403
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

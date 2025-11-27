@@ -1,0 +1,58 @@
+{
+  "task": "Task-27",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.40877715730799863,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.25,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Assets tab in left sidebar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.47544875273864773,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.47544875273864773
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Type Button/Primary in search field;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3485185202136298,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3485185202136298
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click the first left component;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3095123962011013,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3095123962011013
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Insert Instance",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5016289600786157,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5016289600786157
+      ]
+    }
+  ]
+}

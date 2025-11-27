@@ -1,0 +1,59 @@
+{
+  "task": "Task48_Excel",
+  "task_query": "Table(Tickets)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.5737066343710068,
+  "Acc@0.3": 0.75,
+  "Acc@0.5": 0.75,
+  "Acc@0.8": 0.25,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the top header cell of TicketId column",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Insert tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6541425184379884,
+      "ious_per_gt": [
+        0.6541425184379884
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Table.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.744035465040302,
+      "ious_per_gt": [
+        0.744035465040302
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Click OK.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8966485540057366,
+      "ious_per_gt": [
+        0.8966485540057366
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

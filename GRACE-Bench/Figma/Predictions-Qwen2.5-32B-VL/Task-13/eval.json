@@ -1,0 +1,69 @@
+{
+  "task": "Task-13",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.20553136874682681,
+  "Acc@0.3": 0.4,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select the search icon in the middle;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4337714402060964,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4337714402060964
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "In right sidebar select Horizontal Constraints",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1284380828397025,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.1284380828397025
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Select Right;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.04146224844335968,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.04146224844335968
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Select Constraints Vertical;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.31976667043350215,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.31976667043350215
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Select Bottom",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.10421840181147322,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.10421840181147322
+      ]
+    }
+  ]
+}

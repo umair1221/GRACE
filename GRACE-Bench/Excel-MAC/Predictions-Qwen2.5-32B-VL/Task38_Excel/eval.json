@@ -1,0 +1,91 @@
+{
+  "task": "Task38_Excel",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.5110079165561218,
+  "Acc@0.3": 0.8571428571428571,
+  "Acc@0.5": 0.5714285714285714,
+  "Acc@0.8": 0.14285714285714285,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the top header cell of description column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.645077131451138,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.645077131451138
+      ]
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Data tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7910120067706216,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.7910120067706216
+      ]
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Text to Columns icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) click Next.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.48602841106773964,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.48602841106773964
+      ]
+    },
+    {
+      "image": "Step_5.png",
+      "instruction": "5) Tick in box beside Comma",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.49750365717086886,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.49750365717086886
+      ]
+    },
+    {
+      "image": "Step_6.png",
+      "instruction": "6) Click Next.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5370891685737498,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5370891685737498
+      ]
+    },
+    {
+      "image": "Step_7.png",
+      "instruction": "7) Select Finish.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6203450408587349,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.6203450408587349
+      ]
+    }
+  ]
+}

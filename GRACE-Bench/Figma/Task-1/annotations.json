@@ -1,0 +1,65 @@
+{
+  "task_name": "Task-1",
+  "task_query": "Create a new design file",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T19:44:26Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click Main menu (Figma);",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            16.59399386182273,
+            50.42791786421105,
+            30.522486294568324,
+            23.789584906060604
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click File;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            36.32054261347507,
+            134.28333566447282,
+            33.67348414438993,
+            18.466104208213835
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click New design file",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            240.29520915265476,
+            134.37177993921543,
+            79.45856016652016,
+            20.31271462903524
+          ]
+        }
+      ]
+    }
+  ]
+}

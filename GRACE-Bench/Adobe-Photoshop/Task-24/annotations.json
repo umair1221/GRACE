@@ -1,0 +1,103 @@
+{
+  "task_name": "Task-24",
+  "task_query": "Fill the background with 50% Gray",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T19:28:16Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open Edit menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            58.64843649121336,
+            3.7845565367561753,
+            25.967112793142718,
+            15.209308921697877
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose Fill…;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            72.36756054134355,
+            318.9912430680799,
+            33.130363432383646,
+            15.207379936176096
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Open Contents dropdown;",
+      "bboxes": [
+        {
+          "id": 3,
+          "label": "object",
+          "bbox": [
+            850.1007595356915,
+            223.73327564205084,
+            143.1900791164727,
+            21.14464898870193
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Pick 50% Gray;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            851.0245313602638,
+            399.3617279857777,
+            62.13300945351955,
+            16.130685146586814
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Click OK",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1018.706736392094,
+            224.4175993275175,
+            41.47467255320748,
+            23.206066785723266
+          ]
+        }
+      ]
+    }
+  ]
+}

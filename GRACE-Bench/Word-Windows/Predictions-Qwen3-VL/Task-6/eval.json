@@ -1,0 +1,70 @@
+{
+  "task": "Task-6",
+  "task_query": "Insert today\u2019s date in following format: 1 January 2025",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.4656868736890701,
+  "Acc@0.3": 0.6,
+  "Acc@0.5": 0.6,
+  "Acc@0.8": 0.4,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click in the dash region of \"Date\"",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5234911880744273,
+      "ious_per_gt": [
+        0.5234911880744273
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click the Insert tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7718657837578521,
+      "ious_per_gt": [
+        0.7718657837578521
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Select Date & Time option",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.24169076751197002,
+      "ious_per_gt": [
+        0.24169076751197002
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Select the date in required format",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "5.png",
+      "instruction": "5) Click OK.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.791386629101101,
+      "ious_per_gt": [
+        0.791386629101101
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

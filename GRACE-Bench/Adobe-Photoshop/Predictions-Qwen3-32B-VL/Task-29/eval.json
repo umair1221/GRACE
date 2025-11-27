@@ -1,0 +1,101 @@
+{
+  "task": "Task-29",
+  "task_query": "Apply a red 4 px Stroke to the text layer",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 8,
+  "num_gt_boxes": 7,
+  "mIoU": 0.3865221973324891,
+  "Acc@0.3": 0.625,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5638404187794471,
+      "ious_per_gt": [
+        0.5638404187794471
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Layer Style;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.168940386382544,
+      "ious_per_gt": [
+        0.168940386382544
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Stroke\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.35392069982396857,
+      "ious_per_gt": [
+        0.35392069982396857
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type 5 in Size;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Color swatch;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5982266284588833,
+      "ious_per_gt": [
+        0.5982266284588833
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "6.png",
+      "instruction": "Type #FF0000 in Hex;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.744259000283084,
+      "ious_per_gt": [
+        0.744259000283084
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "7.png",
+      "instruction": "Click OK;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6629904449319858,
+      "ious_per_gt": [
+        0.6629904449319858
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "8.png",
+      "instruction": "Click OK",
+      "gt_count": 0,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [],
+      "step_success@0.300": true
+    }
+  ]
+}

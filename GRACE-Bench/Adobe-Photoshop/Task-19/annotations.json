@@ -1,0 +1,65 @@
+{
+  "task_name": "Task-19",
+  "task_query": "Set layer Opacity to 70 percent",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T19:09:39Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "In Layers panel, click Opacity field;",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            1816.785519384579,
+            782.6638479125066,
+            34.336678073577104,
+            14.409141691590435
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Type 70;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1816.7247239282847,
+            782.5617684567565,
+            30.657748279979614,
+            15.607580942535037
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click canvas to focus",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            616.5234878289913,
+            470.4731251775198,
+            338.31423647441386,
+            166.98843723416576
+          ]
+        }
+      ]
+    }
+  ]
+}

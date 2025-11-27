@@ -1,0 +1,48 @@
+{
+  "task": "Task-30",
+  "task_query": "Change text fill color to yellow",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.5293458779313917,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.6666666666666666,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "In Essential Graphics panel click Fill color;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4283345913849248,
+      "ious_per_gt": [
+        0.4283345913849248
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Type #FFF000 hex code in the color code box",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5639888502804985,
+      "ious_per_gt": [
+        0.5639888502804985
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5957141921287518,
+      "ious_per_gt": [
+        0.5957141921287518
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

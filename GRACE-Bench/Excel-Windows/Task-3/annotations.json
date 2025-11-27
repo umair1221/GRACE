@@ -1,0 +1,62 @@
+{
+  "task_name": "Task-3",
+  "task_query": "Toggle Gridlines",
+  "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+  "updated_at": "2025-09-28T13:49:51Z",
+  "images": [
+    {
+      "file_name": "Gridlines.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 1,
+      "instruction": "1) Open the View tab",
+      "bboxes": []
+    },
+    {
+      "file_name": "View-Tab.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 2,
+      "instruction": "2) Click the Gridlines checkbox to toggle it",
+      "bboxes": []
+    },
+    {
+      "file_name": "1.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 1,
+      "instruction": "1) Open the View tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            747.3635265139291,
+            84.08871986632825,
+            48.192911178691475,
+            26.02417203649337
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 2,
+      "instruction": "2) Click the Gridlines checkbox to toggle it",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            855.9476966923519,
+            171.55387018113353,
+            16.72811792979371,
+            17.524694974069604
+          ]
+        }
+      ]
+    }
+  ]
+}

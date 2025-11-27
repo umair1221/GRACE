@@ -1,0 +1,58 @@
+{
+  "task": "Task-10",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.20016221651862096,
+  "Acc@0.3": 0.25,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click inside the first entry of Price column in table",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3137171630575943,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3137171630575943
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click the Table Layout tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2138484365476371,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2138484365476371
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click AutoFit icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.18147386263306214,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.18147386263306214
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Select AutoFit to Contents",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.09160940383619025,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.09160940383619025
+      ]
+    }
+  ]
+}

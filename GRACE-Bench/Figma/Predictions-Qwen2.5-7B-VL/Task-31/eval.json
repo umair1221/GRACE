@@ -1,0 +1,67 @@
+{
+  "task": "Task-31",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 4,
+  "mIoU": 0.10922532076900379,
+  "Acc@0.3": 0.2,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select the avatar image;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.49883174201973945,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.49883174201973945
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click Stroke \u25b8 +;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type 2 in Stroke width;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.023939883143556058,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.023939883143556058
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Stroke color;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.02335497868172337,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.02335497868172337
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Type #FFFFFF;",
+      "gt_count": 0,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": true,
+      "ious_per_gt": []
+    }
+  ]
+}

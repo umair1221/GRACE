@@ -1,0 +1,80 @@
+{
+  "task": "Task-12",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 6,
+  "num_gt_boxes": 6,
+  "mIoU": 0.39778385004113503,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Main menu (Figma);",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.531209479029374,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.531209479029374
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3243910841137337,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3243910841137337
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Place image\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5486688515899588,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5486688515899588
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Select search.svg;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7024486359263782,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.7024486359263782
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Open;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2657862983205473,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2657862983205473
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "Click near top on Mobile/Home",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.01419875126681858,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.01419875126681858
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "task_name": "Task14_Excel",
+  "task_query": "Insert Check Box (HR_Employees)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T16:52:06Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select the first right cell next to Salary header",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            915.6665657856362,
+            453.66146150337255,
+            107.45705936018567,
+            34.44136517954672
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click Insert.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            147.65625,
+            147.65625,
+            112.21875,
+            41.34375
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click Check Box icon.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            888.890625,
+            209.671875,
+            115.171875,
+            109.265625
+          ]
+        }
+      ]
+    }
+  ]
+}

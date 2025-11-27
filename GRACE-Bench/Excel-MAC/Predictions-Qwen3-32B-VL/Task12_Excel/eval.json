@@ -1,0 +1,59 @@
+{
+  "task": "Task12_Excel",
+  "task_query": "Goal Seek (Expenses)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.23204452192258207,
+  "Acc@0.3": 0.25,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click Data tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.15473535996949653,
+      "ious_per_gt": [
+        0.15473535996949653
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click What-If Analysis.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.17176754575807765,
+      "ious_per_gt": [
+        0.17176754575807765
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Goal Seek.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3216149613250199,
+      "ious_per_gt": [
+        0.3216149613250199
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Click OK.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.28006022063773434,
+      "ious_per_gt": [
+        0.28006022063773434
+      ],
+      "step_success@0.300": false
+    }
+  ]
+}

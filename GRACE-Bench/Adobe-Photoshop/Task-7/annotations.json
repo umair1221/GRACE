@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-7",
+  "task_query": "Add a Black & White adjustment layer",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T14:28:17Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open Layer menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            135.0663003057386,
+            4.574770303048665,
+            33.46047962773531,
+            16.730239813867666
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose New Adjustment Layer;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            151.68823734588187,
+            270.02378049688747,
+            122.0899451782733,
+            17.05668351755287
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Pick Black & White…;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            370.43611473946385,
+            414.33489590477325,
+            88.38055222647802,
+            16.293621360188695
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click OK",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1095.181972309201,
+            298.9900805488416,
+            50.602556737625946,
+            24.578384701132677
+          ]
+        }
+      ]
+    }
+  ]
+}

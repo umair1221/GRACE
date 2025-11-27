@@ -1,0 +1,2740 @@
+{
+  "exported_at": "2025-11-24T19:37:50Z",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "tasks": [
+    {
+      "task_name": "Task-1",
+      "task_query": "Open Images/landscape.jpg",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:22:48Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                27.935507701770607,
+                4.119541830341871,
+                24.85423653057946,
+                15.580267675885633
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Open…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                40.84777983899183,
+                46.94143890349948,
+                49.70847306115892,
+                18.176978955199907
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Select landscape.jpg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                490.7698264115258,
+                296.60844889002624,
+                94.50300388909426,
+                73.86441683285534
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Choose Open",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                857.9718245967747,
+                532.811436319744,
+                71.81761481074886,
+                21.99414453579186
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-2",
+      "task_query": "Save a copy as Working/landscape_work.psd",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:23:55Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                29.970489617369203,
+                2.7806775196665594,
+                22.034949998752538,
+                16.73023981386767
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Save As…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                42.6773182551224,
+                247.30296683886928,
+                55.31407201332941,
+                18.135761315845684
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type landscape_work.psd;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                438.24716600895346,
+                461.54929841852254,
+                122.9427793541509,
+                23.206066785723237
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Choose Save",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                857.1478616176288,
+                615.3883337519029,
+                85.43288799858931,
+                25.689609677897465
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-4",
+      "task_query": "Duplicate Background layer as Bg copy",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:25:34Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Layer menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                135.63221771127698,
+                3.9972009335021856,
+                33.21564684997142,
+                17.056683517552887
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Duplicate Layer…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                150.4671209019608,
+                85.32402503757478,
+                97.85150017964554,
+                16.158963332418523
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type Bg copy in Name;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                771.0112819729256,
+                280.01724529108844,
+                109.80379123957493,
+                20.77369023451422
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1044.769993987748,
+                258.18550038482164,
+                50.72119046009152,
+                24.687305091194958
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-5",
+      "task_query": "Convert Bg copy to a Smart Object",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:25:34Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Layer menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                135.59065315960365,
+                3.072454996773652,
+                33.574734924025165,
+                18.26860576748428
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Smart Objects;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                147.20562946448348,
+                407.5925408745252,
+                82.14700769095128,
+                17.086577599717884
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Convert to Smart Object",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                369.44996748450563,
+                405.034795165098,
+                133.76030758502003,
+                17.954403702687273
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-6",
+      "task_query": "Apply Gaussian Blur 2 px to Smart Object",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:27:18Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Filter menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                256.44565833357984,
+                4.216318961100306,
+                30.07362620200115,
+                16.158963332418526
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Blur;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                268.75110746472444,
+                264.32674435345456,
+                41.968418655031485,
+                15.79987525836475
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Gaussian Blur…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                528.316077565312,
+                337.3175489673714,
+                86.8993139210063,
+                16.787367462012526
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type 2 in Radius;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1203.6622537231885,
+                631.1308787634122,
+                35.908807405374546,
+                20.198704165523168
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1376.9726556802661,
+                388.82919989485384,
+                59.2495322188679,
+                25.181051193018845
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-7",
+      "task_query": "Add a Black & White adjustment layer",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:28:17Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Layer menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                135.0663003057386,
+                4.574770303048665,
+                33.46047962773531,
+                16.730239813867666
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose New Adjustment Layer;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                151.68823734588187,
+                270.02378049688747,
+                122.0899451782733,
+                17.05668351755287
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Black & White…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                370.43611473946385,
+                414.33489590477325,
+                88.38055222647802,
+                16.293621360188695
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1095.181972309201,
+                298.9900805488416,
+                50.602556737625946,
+                24.578384701132677
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-8",
+      "task_query": "Auto tone the image",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:28:43Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Image menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                90.42758667469819,
+                4.821996655114409,
+                39.499688145911975,
+                16.29362136018868
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Auto Tone;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                106.0109713218064,
+                88.22576775290274,
+                78.79540977716049,
+                15.180767021287792
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-9",
+      "task_query": "Export as JPEG to Exports/landscape_bw.jpg",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:28:44Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                28.48175983104804,
+                2.7582078655104514,
+                23.66716851717865,
+                17.546349073080727
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Export;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                41.61264164732957,
+                314.7773942444105,
+                46.1652605205346,
+                20.095466344232705
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Export As…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                288.8376119393182,
+                333.99288494761026,
+                72.28936676803715,
+                18.520416279414462
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click the format dropdown;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1249.1828342443484,
+                235.3131080963088,
+                164.0224550258995,
+                28.24227702432708
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Pick JPG in Format;",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1254.2270388177158,
+                305.7744007703727,
+                36.86757705169907,
+                26.024172036493383
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Click Export;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1397.4441189029897,
+                799.03507735812,
+                56.48455404865422,
+                32.58724272037739
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "7.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 7,
+          "instruction": "Type landscape_bw.jpg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                582.785968928995,
+                540.4987721932331,
+                122.23474744413568,
+                27.601394584159607
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "8.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 8,
+          "instruction": "Click Save",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1003.2771195084644,
+                613.014889046934,
+                79.4931223936477,
+                24.687305091194958
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-10",
+      "task_query": "Close the active document",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:30:13Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                29.6363698787609,
+                3.460224834990747,
+                22.443004628359066,
+                17.056683517552887
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Close;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                41.11822928686823,
+                152.48203936853238,
+                43.612593174105044,
+                17.325550713000638
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-11",
+      "task_query": "Open Images/portrait.jpg",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:31:26Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                28.226224125905354,
+                4.153623259510215,
+                24.891332405998234,
+                15.914130554654609
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Open…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                42.407815580203255,
+                47.784138570788905,
+                47.579169812121215,
+                17.05668351755289
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Select portrait.jpg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                540.849171779765,
+                148.5729178731285,
+                73.86441683285534,
+                118.40031521737106
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Choose Open",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                556.8464688655916,
+                430.87390452024005,
+                68.97633042479879,
+                20.638587056239032
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-12",
+      "task_query": "Unlock background to a layer named Portrait",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:32:17Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Layer menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                135.62387162030845,
+                5.6573138711780215,
+                33.0524249981288,
+                14.281912036228494
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose New;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                145.7829567584243,
+                27.77571513041219,
+                39.64781197645911,
+                17.37986278420126
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Layer from Background…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                367.907441541838,
+                46.4325155103879,
+                139.23640071433965,
+                16.29362136018868
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type Portrait in Name;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                805.7262095453398,
+                299.1916135697878,
+                81.24367675465987,
+                21.545284443224716
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1096.5524861183537,
+                300.65468439131547,
+                48.8808640805662,
+                23.354190616270444
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-14",
+      "task_query": "Add Solid Color fill for the background (#FFD700)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T14:34:37Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Layer menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                137.36548494303125,
+                2.296608789093142,
+                30.01393556610003,
+                18.547937709387654
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose New Fill Layer;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                148.40924641087793,
+                251.16935879851522,
+                81.20287129169918,
+                16.322185184261144
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Solid Color…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                364.0220456585987,
+                249.44051210257933,
+                66.88015379251004,
+                16.607823424985696
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Ok;",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1097.3366238181977,
+                300.0379359023859,
+                48.745819765167425,
+                23.29988869278452
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Type #FFD700 in Hex;",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                945.4393232910127,
+                508.811111209108,
+                76.55239745510903,
+                20.57134909586631
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1031.4429560196659,
+                180.68386853986146,
+                97.21860744912556,
+                22.811069904264144
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-15",
+      "task_query": "Deselect the current selection",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:05:13Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Select menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                212.1769284685206,
+                0.38310744729800994,
+                37.63826534203585,
+                22.702445761862897
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Deselect;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                227.0839237339927,
+                47.182536534450186,
+                52.68270906461001,
+                15.207379936176103
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-16",
+      "task_query": "Add a Drop Shadow to the Portrait layer",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:05:18Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Portrait layer in Layers panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1669.4674693896975,
+                878.3092755963128,
+                71.81761481074909,
+                35.908807405374546
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open Layer menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                135.34975405477533,
+                2.9434724168076594,
+                34.21660485639623,
+                19.55234563222642
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Layer Style;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                148.85777825790848,
+                201.67999877663522,
+                71.56647310035677,
+                19.084392826761785
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Pick Drop Shadow…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                368.26062580931745,
+                401.4616794585034,
+                86.62775356500316,
+                20.910147412242168
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1585.4172513445187,
+                399.52594142730936,
+                112.1208078572256,
+                23.06030799900384
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-17",
+      "task_query": "Save as Working/portrait_masked.psd",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:06:18Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                28.84055248120318,
+                4.128286252112577,
+                23.26923094450451,
+                15.175585398589899
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Save As…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                41.3424526313616,
+                247.8615483462319,
+                62.69202945773028,
+                16.322185184261144
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type portrait_masked.psd;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                134.04333368593112,
+                359.33866162280526,
+                105.27809443848435,
+                22.851059257965574
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Choose Save",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                558.5796943937892,
+                514.6032895177926,
+                81.46810680094336,
+                23.354190616270444
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-18",
+      "task_query": "Place the logo as an embedded object",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:08:26Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                29.61129918382294,
+                4.2058661283481245,
+                21.886566497077435,
+                15.209308921697879
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Place Embedded…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                42.81990788524656,
+                383.2276639767171,
+                109.76669536415616,
+                16.730239813867684
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Select logo.png;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                301.87160351829795,
+                197.36324134981396,
+                93.03645555028845,
+                67.32901388507719
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Choose Place;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                558.1214208158726,
+                431.1232360023054,
+                68.22673407021159,
+                22.443004628359063
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Commit (checkmark)",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                977.376793947569,
+                34.96013784755542,
+                19.749844072955966,
+                20.198704165523154
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-19",
+      "task_query": "Set layer Opacity to 70 percent",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:09:39Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "In Layers panel, click Opacity field;",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1816.785519384579,
+                782.6638479125066,
+                34.336678073577104,
+                14.409141691590435
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Type 70;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1816.7247239282847,
+                782.5617684567565,
+                30.657748279979614,
+                15.607580942535037
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click canvas to focus",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                616.5234878289913,
+                470.4731251775198,
+                338.31423647441386,
+                166.98843723416576
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-20",
+      "task_query": "Export as PNG to Exports/portrait_banner.png",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:09:41Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                27.082623173737417,
+                2.9947701831719766,
+                25.596154038954964,
+                17.806020201012153
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Export;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                41.657188121674324,
+                315.3499774560386,
+                46.412133571446546,
+                18.76235186930819
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Export As PNG;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                289.08263633528566,
+                316.4300020166897,
+                114.34863470580422,
+                17.743753661245478
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type portrait_banner.png;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                133.17900467317187,
+                359.96695975517514,
+                137.40954013759122,
+                22.811069904264173
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Save",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                556.1462376238616,
+                429.4246160003634,
+                83.64058964896856,
+                23.299878545069816
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-21",
+      "task_query": "Open Images/texture.jpg",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:18:12Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                29.010265100212607,
+                4.7099229716864315,
+                22.443004628359063,
+                14.812383054716982
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Open…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                42.69780098217619,
+                46.531298950731845,
+                51.259732799153596,
+                18.400929722773093
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Select texture.jpg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                645.7566015686795,
+                154.0940702265562,
+                95.34244583036411,
+                111.0870699124427
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Choose Open",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                557.0799070365795,
+                431.9896499235635,
+                68.97633042479879,
+                20.638587056238975
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-22",
+      "task_query": "Define a pattern named Demo texture",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:20:12Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Edit menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                59.35126361427227,
+                4.162185161618323,
+                24.83277610678347,
+                14.715719174390204
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Define Pattern…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                73.44805579579898,
+                569.1177743212534,
+                88.52867605702517,
+                16.836742072194966
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type Demo texture;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                839.9056200754297,
+                333.27504583506504,
+                116.77095308135222,
+                20.095466344232705
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1136.255718624405,
+                314.01761978902414,
+                45.07901909652196,
+                26.069794176301855
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-23",
+      "task_query": "Create a new 1280 × 720 document",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:20:13Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                28.814274873974536,
+                3.3955821478680606,
+                23.667168517178656,
+                16.322185184261137
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose New…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                42.154627365084245,
+                28.118904346672046,
+                47.13030971955403,
+                15.710103239851342
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type 1280 in Width;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1019.371062683325,
+                217.09775447230723,
+                69.39779209731557,
+                30.361534042575613
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type 720 in Height;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1018.9443779397399,
+                278.2297194940218,
+                70.49706841841646,
+                31.066504726759774
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Create",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1135.011097998599,
+                693.5810719458744,
+                57.831493414429815,
+                29.638640374895203
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-24",
+      "task_query": "Fill the background with 50% Gray",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:28:16Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Edit menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                58.64843649121336,
+                3.7845565367561753,
+                25.967112793142718,
+                15.209308921697877
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Fill…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                72.36756054134355,
+                318.9912430680799,
+                33.130363432383646,
+                15.207379936176096
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Open Contents dropdown;",
+          "bboxes": [
+            {
+              "id": 3,
+              "label": "object",
+              "bbox": [
+                850.1007595356915,
+                223.73327564205084,
+                143.1900791164727,
+                21.14464898870193
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Pick 50% Gray;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                851.0245313602638,
+                399.3617279857777,
+                62.13300945351955,
+                16.130685146586814
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1018.706736392094,
+                224.4175993275175,
+                41.47467255320748,
+                23.206066785723266
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-25",
+      "task_query": "Create a new layer named Texture",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:28:56Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Layer menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                136.13762141743155,
+                3.148238716501638,
+                33.67348414438993,
+                17.37986278420126
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose New;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                148.1005470943142,
+                26.288113676288564,
+                43.73506689466245,
+                20.674758895658623
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Layer…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                365.47420473448904,
+                25.42928389913553,
+                52.91943094254157,
+                22.129943848699217
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type Texture in Name;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                802.9867238221105,
+                298.75318970286264,
+                71.5664731003568,
+                20.674758895658613
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1097.532656316304,
+                302.0300501507712,
+                46.12061599800768,
+                20.674758895658613
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-26",
+      "task_query": "Fill the Texture layer with Demo texture pattern",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:30:19Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Edit menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                58.52033060611024,
+                3.4779065780822886,
+                25.526673464295605,
+                17.379862784201258
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Fill…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                70.51251722328313,
+                316.48049002438296,
+                39.430563691656616,
+                19.715281845828315
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Open Contents dropdown;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                848.9365137500412,
+                223.93078954757019,
+                141.54258013181675,
+                22.26512496455544
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Pick Pattern;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                852.9340211589877,
+                331.59602281583136,
+                47.97385249151557,
+                15.77222547666264
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Custom Pattern Dropdown;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                883.8410709347974,
+                314.7555044524619,
+                11.35616034194959,
+                26.662289498490566
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Pick Demo texture in Pattern;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                755.7549606158794,
+                469.8596738748698,
+                27.699156312320838,
+                28.242277024327052
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "7.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 7,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1016.6112483738177,
+                223.59387453898478,
+                45.07901909652196,
+                24.440432040283014
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-27",
+      "task_query": "Add text LAUNCH using the Type tool",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:31:50Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Horizontal Type Tool in toolbar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                6.4723936963854385,
+                507.84725973566185,
+                24.193558989371073,
+                23.699812887547182
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click near canvas center;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                540.0,
+                376.875,
+                268.125,
+                127.5
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type LAUNCH in provided tentative text;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                523.125,
+                380.625,
+                371.25,
+                97.5
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Commit (checkmark)",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                935.3352340911835,
+                31.507154894885698,
+                27.831406205694293,
+                23.855491033452257
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-28",
+      "task_query": "Center align the text via Paragraph panel",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:32:12Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click the text layer in Layers panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                135.43167948331507,
+                2.1888802478578935,
+                33.51597913790815,
+                20.372457907355916
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click Center Align",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                719.6487308648565,
+                33.998461499485174,
+                23.658338214993933,
+                22.343986091938746
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-29",
+      "task_query": "Apply a red 4 px Stroke to the text layer",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:33:39Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Layer menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                136.54761584654568,
+                4.055494954583969,
+                31.599750516729557,
+                17.281113563836477
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Layer Style;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                147.84248855952472,
+                202.56674516147052,
+                76.8390137285704,
+                18.627639691774647
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Stroke…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                365.5673242847492,
+                248.43927754460097,
+                52.04834407298671,
+                19.51812902737001
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type 5 in Size;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1389.6298524227948,
+                464.41764947320894,
+                41.34951779131734,
+                17.494026757865015
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Color swatch;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1240.728238742746,
+                607.3041969478021,
+                36.043465433144775,
+                23.20606678572335
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Type #FF0000 in Hex;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                943.7555987154319,
+                507.2626524714642,
+                78.8980606779711,
+                22.129943848699213
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "7.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 7,
+          "instruction": "Click OK;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1030.8429433817714,
+                180.4704288258442,
+                100.96614036196911,
+                22.70244576186292
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "8.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 8,
+          "instruction": "Click OK",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-30",
+      "task_query": "Save document as Working/title.psd",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:34:41Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                28.49701946666858,
+                3.4242103897657064,
+                23.897311328276732,
+                16.836742072194973
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Save As…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                43.30685800771228,
+                247.34176344982188,
+                59.63872758363064,
+                19.084392826761814
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type P/title.psd;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                134.58893715115093,
+                360.89253036128554,
+                101.205113475252,
+                20.37245790735591
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Save",
+          "bboxes": []
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-32",
+      "task_query": "Reopen Images/landscape.jpg",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:36:17Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                26.814798678883307,
+                2.632739893853855,
+                26.287042461104406,
+                18.52041627941447
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Open…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                42.68757713917506,
+                47.00301870597363,
+                46.59975709013963,
+                16.72811792979371
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Select landscape.jpg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                186.23509241251986,
+                191.52347226253627,
+                93.97617679844825,
+                73.73515410339789
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Choose Open",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                557.7577314850196,
+                430.37016295418965,
+                69.97610703145995,
+                23.06030799900384
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-33",
+      "task_query": "Reduce saturation by 20 via Hue/Saturation",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+      "updated_at": "2025-11-24T19:37:50Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Image menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                90.23190831163976,
+                2.710807649433702,
+                39.036258054740046,
+                18.79523535968966
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Adjustments;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                104.86509480287488,
+                59.202260967664856,
+                72.23505469683649,
+                17.92298349620755
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Hue/Saturation…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                312.5094080234872,
+                163.52440845078152,
+                96.78411087952077,
+                17.325550713000638
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type -20 in Saturation;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                957.3570029408849,
+                354.94364758314373,
+                38.77338763012904,
+                20.37245790735591
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1098.8612486354182,
+                231.29472923838716,
+                62.16885542051182,
+                23.85549103345224
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

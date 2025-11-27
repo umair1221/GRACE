@@ -1,0 +1,1596 @@
+{
+  "overall": {
+    "num_tasks": 28,
+    "overall_num_gt_boxes": 104,
+    "task_completion_rate@0.300": 0.17857142857142858,
+    "overall_mIoU": 0.49325476229671905,
+    "Acc@0.3": 0.6730769230769231,
+    "Acc@0.5": 0.5576923076923077,
+    "Acc@0.8": 0.2403846153846154,
+    "Acc@0.9": 0.057692307692307696
+  },
+  "per_task": [
+    {
+      "task": "Task-1",
+      "task_query": "Create a new project named PremiereCrashCourse",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.3517481583270878,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Choose New Project\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type PremiereCrashCourse in Name;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.26495399461169034,
+          "ious_per_gt": [
+            0.26495399461169034
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.790290480369573,
+          "ious_per_gt": [
+            0.790290480369573
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-11",
+      "task_query": "Open Sequence Settings and confirm",
+      "exists": true,
+      "task_completed@0.30": true,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.6246783745619844,
+      "Acc@0.3": 1.0,
+      "Acc@0.5": 0.6666666666666666,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Sequence menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4489906632846786,
+          "ious_per_gt": [
+            0.4489906632846786
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Sequence Settings\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6540150581194066,
+          "ious_per_gt": [
+            0.6540150581194066
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7710294022818678,
+          "ious_per_gt": [
+            0.7710294022818678
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-12",
+      "task_query": "Append clipB.jpg via Automate to Sequence",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 3,
+      "mIoU": 0.47799540558762055,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.5,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click clipB.jpg in Project panel;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8867115941455704,
+          "ious_per_gt": [
+            0.8867115941455704
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open Project panel menu (\u2261);",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Choose Automate to Sequence\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2668351569999668,
+          "ious_per_gt": [
+            0.2668351569999668
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.758434871204945,
+          "ious_per_gt": [
+            0.758434871204945
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-13",
+      "task_query": "Open beep.wav in Source Monitor",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.4069396703691026,
+      "Acc@0.3": 0.6666666666666666,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Audio bin;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7065393392424241,
+          "ious_per_gt": [
+            0.7065393392424241
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Right\u2011click beep.wav",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.07722557361481125,
+          "ious_per_gt": [
+            0.07722557361481125
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Choose Open In Source Monitor",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.43705409825007263,
+          "ious_per_gt": [
+            0.43705409825007263
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-15",
+      "task_query": "Enable timeline snapping",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 1,
+      "mIoU": 0.0,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Snap (magnet) in Timeline;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Timeline to focus;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-16",
+      "task_query": "Show audio waveforms on timeline",
+      "exists": true,
+      "task_completed@0.30": true,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.5310428007545452,
+      "Acc@0.3": 1.0,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Timeline Display Settings (wrench);",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.48645338015719153,
+          "ious_per_gt": [
+            0.48645338015719153
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Show Audio Waveform;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.575632221351899,
+          "ious_per_gt": [
+            0.575632221351899
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-17",
+      "task_query": "Add a sequence marker at current time",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.5430589582078164,
+      "Acc@0.3": 0.6666666666666666,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.3333333333333333,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Markers menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4621172052113025,
+          "ious_per_gt": [
+            0.4621172052113025
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Add Marker;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2173326238875275,
+          "ious_per_gt": [
+            0.2173326238875275
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Program Monitor to confirm",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9497270455246192,
+          "ious_per_gt": [
+            0.9497270455246192
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-18",
+      "task_query": "Open the Markers panel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.42878633691324824,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Window menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7900369478257674,
+          "ious_per_gt": [
+            0.7900369478257674
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Markers;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.26345520905509817,
+          "ious_per_gt": [
+            0.26345520905509817
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Markers panel to focus",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2328668538588791,
+          "ious_per_gt": [
+            0.2328668538588791
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-19",
+      "task_query": "Rename the latest marker to Intro",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.3567202149244313,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "In Markers panel double click Name field;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type Intro;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2591079601158353,
+          "ious_per_gt": [
+            0.2591079601158353
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8110526846574586,
+          "ious_per_gt": [
+            0.8110526846574586
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-2",
+      "task_query": "Save project as Working/PremiereCrashCourse_v1.prproj",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.6237638062629489,
+      "Acc@0.3": 0.75,
+      "Acc@0.5": 0.75,
+      "Acc@0.8": 0.5,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.607447605624999,
+          "ious_per_gt": [
+            0.607447605624999
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Save As\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8972235473508053,
+          "ious_per_gt": [
+            0.8972235473508053
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type PremiereCrashCourse_v1.prproj in File Name;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.20292622662122722,
+          "ious_per_gt": [
+            0.20292622662122722
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Save",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7874578454547642,
+          "ious_per_gt": [
+            0.7874578454547642
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-20",
+      "task_query": "Open the Effects panel and select Cross Dissolve using search bar",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.3805523381062329,
+      "Acc@0.3": 0.6,
+      "Acc@0.5": 0.6,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Window menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.661606675691196,
+          "ious_per_gt": [
+            0.661606675691196
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Effects;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click search box;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Cross Dissolve",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6518703418502403,
+          "ious_per_gt": [
+            0.6518703418502403
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "Select Cross Dissolve from the list",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5892846729897283,
+          "ious_per_gt": [
+            0.5892846729897283
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-22",
+      "task_query": "Apply default transition to the selected audio clip",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.5125939960348269,
+      "Acc@0.3": 0.75,
+      "Acc@0.5": 0.75,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click beep.wav clip on timeline;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6892471202781512,
+          "ious_per_gt": [
+            0.6892471202781512
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open Sequence menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7313349741233052,
+          "ious_per_gt": [
+            0.7313349741233052
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Choose Apply Default Transitions to Selection;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.619094309137775,
+          "ious_per_gt": [
+            0.619094309137775
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click again audio timeline to confirm",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.010699580600076471,
+          "ious_per_gt": [
+            0.010699580600076471
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-23",
+      "task_query": "Create Black Video in Project panel",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.34547698719165143,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.25,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2355273729860288,
+          "ious_per_gt": [
+            0.2355273729860288
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose New;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1422667786918002,
+          "ious_per_gt": [
+            0.1422667786918002
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Black Video\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.3096616312783041,
+          "ious_per_gt": [
+            0.3096616312783041
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6944521658104726,
+          "ious_per_gt": [
+            0.6944521658104726
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-24",
+      "task_query": "Overwrite Black Video to the timeline end",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.5192069504740411,
+      "Acc@0.3": 0.75,
+      "Acc@0.5": 0.75,
+      "Acc@0.8": 0.25,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Black Video item in Project panel;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.894264573521706,
+          "ious_per_gt": [
+            0.894264573521706
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Right\u2011click Black Video;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6388323465074419,
+          "ious_per_gt": [
+            0.6388323465074419
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Choose Open In Source Monitor;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5437308818670166,
+          "ious_per_gt": [
+            0.5437308818670166
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Overwrite button in Source Monitor close to camera  icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-25",
+      "task_query": "Create an Adjustment Layer",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.5726142099989633,
+      "Acc@0.3": 0.75,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.5,
+      "Acc@0.9": 0.25,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4808936574856314,
+          "ious_per_gt": [
+            0.4808936574856314
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose New;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0984978207222532,
+          "ious_per_gt": [
+            0.0984978207222532
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Adjustment Layer\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8076440104904802,
+          "ious_per_gt": [
+            0.8076440104904802
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9034213512974884,
+          "ious_per_gt": [
+            0.9034213512974884
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-26",
+      "task_query": "Rename Adjustment Layer to Adj_1",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.4101047821162836,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.25,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click the Adjustment Layer in Project panel;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7915387110771576,
+          "ious_per_gt": [
+            0.7915387110771576
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Right\u2011click the item in adjustment layer;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.65984647512855,
+          "ious_per_gt": [
+            0.65984647512855
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Choose Rename;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1890339422594269,
+          "ious_per_gt": [
+            0.1890339422594269
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Adj_1 in s",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-27",
+      "task_query": "Add a new text layer via Graphics menu",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.5239029292972022,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.5,
+      "Acc@0.9": 0.25,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Graphics menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7623133421097606,
+          "ious_per_gt": [
+            0.7623133421097606
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose New Layer;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2179889862104078,
+          "ious_per_gt": [
+            0.2179889862104078
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Text;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.19040706689247686,
+          "ious_per_gt": [
+            0.19040706689247686
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Sample Title instead of the selected box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9249023219761635,
+          "ious_per_gt": [
+            0.9249023219761635
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-28",
+      "task_query": "Center the text horizontally and vertically",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.2929086696964975,
+      "Acc@0.3": 0.4,
+      "Acc@0.5": 0.2,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Window menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7061051038776326,
+          "ious_per_gt": [
+            0.7061051038776326
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose Essential Graphics;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4914541920351577,
+          "ious_per_gt": [
+            0.4914541920351577
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Edit panel in Essential Graphics tab;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2669840525696972,
+          "ious_per_gt": [
+            0.2669840525696972
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Horizontal Center;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Vertical Center",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-29",
+      "task_query": "Set the text size to 120",
+      "exists": true,
+      "task_completed@0.30": true,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.5021990131077174,
+      "Acc@0.3": 1.0,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "In Essential Graphics panel click Font Size box;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4959525118198177,
+          "ious_per_gt": [
+            0.4959525118198177
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type 120 in the selected box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.508445514395617,
+          "ious_per_gt": [
+            0.508445514395617
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-3",
+      "task_query": "Switch workspace to Editing",
+      "exists": true,
+      "task_completed@0.30": true,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.7017782243343244,
+      "Acc@0.3": 1.0,
+      "Acc@0.5": 1.0,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open Window menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8504496295868228,
+          "ious_per_gt": [
+            0.8504496295868228
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open Workspaces drop-menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6276698660405476,
+          "ious_per_gt": [
+            0.6276698660405476
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Editing",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6272151773756025,
+          "ious_per_gt": [
+            0.6272151773756025
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-30",
+      "task_query": "Change text fill color to yellow",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.6170922553631062,
+      "Acc@0.3": 0.6666666666666666,
+      "Acc@0.5": 0.6666666666666666,
+      "Acc@0.8": 0.6666666666666666,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "In Essential Graphics panel click Fill color;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.09978807742124896,
+          "ious_per_gt": [
+            0.09978807742124896
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type #FFF000 hex code in the color code box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8643295722015905,
+          "ious_per_gt": [
+            0.8643295722015905
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.887159116466479,
+          "ious_per_gt": [
+            0.887159116466479
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-33",
+      "task_query": "Normalize beep.wav peak to \u22123 dB",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 7,
+      "num_gt_boxes": 7,
+      "mIoU": 0.45096502583483095,
+      "Acc@0.3": 0.7142857142857143,
+      "Acc@0.5": 0.2857142857142857,
+      "Acc@0.8": 0.2857142857142857,
+      "Acc@0.9": 0.14285714285714285,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click beep.wav clip on timeline;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9196296164422025,
+          "ious_per_gt": [
+            0.9196296164422025
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open Clip menu from the tab;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Choose Audio Options from the list;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.192778653094749,
+          "ious_per_gt": [
+            0.192778653094749
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Audio Gain\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.3326732882685571,
+          "ious_per_gt": [
+            0.3326732882685571
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "Select Normalize Max Peak;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4899096842627361,
+          "ious_per_gt": [
+            0.4899096842627361
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "6.png",
+          "instruction": "Type -3 against the active dB value;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.42816295342472327,
+          "ious_per_gt": [
+            0.42816295342472327
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "7.png",
+          "instruction": "Click OK",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.793600985350849,
+          "ious_per_gt": [
+            0.793600985350849
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-4",
+      "task_query": "Create a bin named Stills",
+      "exists": true,
+      "task_completed@0.30": true,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.6873463134716444,
+      "Acc@0.3": 1.0,
+      "Acc@0.5": 1.0,
+      "Acc@0.8": 0.25,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6086286712035832,
+          "ious_per_gt": [
+            0.6086286712035832
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose New from the list;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7809042621716106,
+          "ious_per_gt": [
+            0.7809042621716106
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Bin;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.627512224133758,
+          "ious_per_gt": [
+            0.627512224133758
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Stills in the editable box;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7323400963776262,
+          "ious_per_gt": [
+            0.7323400963776262
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-5",
+      "task_query": "Create a bin named Audio",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.25784020926444917,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.25,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5468259528601387,
+          "ious_per_gt": [
+            0.5468259528601387
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Choose New;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Pick Bin;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.12257358782295462,
+          "ious_per_gt": [
+            0.12257358782295462
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Audio in the selected box;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.36196129637470353,
+          "ious_per_gt": [
+            0.36196129637470353
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-6",
+      "task_query": "Import clipA.jpg into Stills bin",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.6102697251440276,
+      "Acc@0.3": 0.8,
+      "Acc@0.5": 0.8,
+      "Acc@0.8": 0.4,
+      "Acc@0.9": 0.2,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Stills bin in Project panel;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9469579322094626,
+          "ious_per_gt": [
+            0.9469579322094626
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 2,
+          "best_iou": 0.5564243807538061,
+          "ious_per_gt": [
+            0.5564243807538061
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Choose Import\u2026;",
+          "gt_count": 1,
+          "pred_count": 2,
+          "best_iou": 0.17252679375655564,
+          "ious_per_gt": [
+            0.17252679375655564
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select clipA.jpg;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8125151602343921,
+          "ious_per_gt": [
+            0.8125151602343921
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5629243587659217,
+          "ious_per_gt": [
+            0.5629243587659217
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-7",
+      "task_query": "Import clipB.jpg into Stills bin",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.6201995107547079,
+      "Acc@0.3": 0.8,
+      "Acc@0.5": 0.8,
+      "Acc@0.8": 0.2,
+      "Acc@0.9": 0.2,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Stills bin in Project panel;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.904796880693134,
+          "ious_per_gt": [
+            0.904796880693134
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6388957828083606,
+          "ious_per_gt": [
+            0.6388957828083606
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Choose Import\u2026;",
+          "gt_count": 1,
+          "pred_count": 2,
+          "best_iou": 0.14937306540562287,
+          "ious_per_gt": [
+            0.14937306540562287
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select clipB.jpg;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7495961275893932,
+          "ious_per_gt": [
+            0.7495961275893932
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6583356972770286,
+          "ious_per_gt": [
+            0.6583356972770286
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-8",
+      "task_query": "Import beep.wav into Audio bin",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.5195327496800123,
+      "Acc@0.3": 0.8,
+      "Acc@0.5": 0.8,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Audio bin in Project panel;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6166472904045763,
+          "ious_per_gt": [
+            0.6166472904045763
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6648505656018415,
+          "ious_per_gt": [
+            0.6648505656018415
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Choose Import\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1364333406157157,
+          "ious_per_gt": [
+            0.1364333406157157
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select beep.wav;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6036112766473736,
+          "ious_per_gt": [
+            0.6036112766473736
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5761212751305539,
+          "ious_per_gt": [
+            0.5761212751305539
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-9",
+      "task_query": "Create a sequence from clipA.jpg",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.5355381413953069,
+      "Acc@0.3": 0.75,
+      "Acc@0.5": 0.75,
+      "Acc@0.8": 0.25,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Stills bin in Project panel;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click clipA.jpg;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7091780338506914,
+          "ious_per_gt": [
+            0.7091780338506914
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Right\u2011click clipA.jpg;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8379005130491293,
+          "ious_per_gt": [
+            0.8379005130491293
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "Choose New Sequence From Clip",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.595074018681407,
+          "ious_per_gt": [
+            0.595074018681407
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    }
+  ]
+}

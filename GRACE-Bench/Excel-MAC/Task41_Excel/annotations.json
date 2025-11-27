@@ -1,0 +1,46 @@
+{
+  "task_name": "Task41_Excel",
+  "task_query": "Increase Decimal Places ( Sales)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T18:04:34Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Click on the first cell of ammount column.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1007.3663165914767,
+            480.2769873266145,
+            107.78230529764812,
+            34.2166048563962
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click Increase Decimal icon.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1327.030186995352,
+            283.85490899502844,
+            47.9032467989548,
+            43.6261711919052
+          ]
+        }
+      ]
+    }
+  ]
+}

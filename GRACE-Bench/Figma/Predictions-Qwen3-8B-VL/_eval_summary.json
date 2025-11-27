@@ -1,0 +1,1758 @@
+{
+  "overall": {
+    "num_tasks": 28,
+    "overall_num_gt_boxes": 113,
+    "task_completion_rate@0.300": 0.03571428571428571,
+    "overall_mIoU": 0.1807312134026152,
+    "Acc@0.3": 0.25663716814159293,
+    "Acc@0.5": 0.1592920353982301,
+    "Acc@0.8": 0.061946902654867256,
+    "Acc@0.9": 0.017699115044247787
+  },
+  "per_task": [
+    {
+      "task": "Task-1",
+      "task_query": "Create a new design file",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.29262696881129957,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu (Figma);",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click File;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7126607268252566,
+          "ious_per_gt": [
+            0.7126607268252566
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click New design file",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.16522017960864213,
+          "ious_per_gt": [
+            0.16522017960864213
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-10",
+      "task_query": "Insert a text title and set size to 32",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 4,
+      "mIoU": 0.14743030430218912,
+      "Acc@0.3": 0.2,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Text tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.46279951275544634,
+          "ious_per_gt": [
+            0.46279951275544634
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type 32",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click in center of Mobile/Home frame;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type Shop the latest audio;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Font size box;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.27435200875549937,
+          "ious_per_gt": [
+            0.27435200875549937
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-12",
+      "task_query": "Place Icons/search.svg at the top of Mobile/Home",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.0,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu (Figma);",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Place image\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select search.svg;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click near top on Mobile/Home",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-13",
+      "task_query": "Set search icon constraints to Right and Top",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.08146678230334933,
+      "Acc@0.3": 0.2,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the search icon in the middle;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar select Horizontal Constraints",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Select Right;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.40733391151674664,
+          "ious_per_gt": [
+            0.40733391151674664
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select Constraints Vertical;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "Select Bottom",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-14",
+      "task_query": "Create a Desktop 1440 frame named Web/Home",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 3,
+      "mIoU": 0.07850949425204495,
+      "Acc@0.3": 0.25,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Frame tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Desktop with 1440 resolution;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.3140379770081798,
+          "ious_per_gt": [
+            0.3140379770081798
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click layer name in left panel;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Web/Home;",
+          "gt_count": 0,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-15",
+      "task_query": "Place Logos/brandA.svg at top left of Web/Home",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.045883972896953756,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu (Figma);",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Place image\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.27530383738172254,
+          "ious_per_gt": [
+            0.27530383738172254
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select brandA.svg;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click inside Web/Home near top left",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-17",
+      "task_query": "Add a 12\u2011column grid with 80 margin and 24 gutter to Web/Home",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.0,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select Web/Home frame;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Layout grid + button;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Grid type dropdown;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Pick Columns;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type 12 in Count;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-18",
+      "task_query": "Insert headline text and set size to 48",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 4,
+      "mIoU": 0.33921523043476876,
+      "Acc@0.3": 0.4,
+      "Acc@0.5": 0.4,
+      "Acc@0.8": 0.2,
+      "Acc@0.9": 0.2,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Text tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5717167295311718,
+          "ious_per_gt": [
+            0.5717167295311718
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type Welcome to BrandA;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type 48;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click inside Web/Home;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9570503927440646,
+          "ious_per_gt": [
+            0.9570503927440646
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Font size box;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.16730902989860763,
+          "ious_per_gt": [
+            0.16730902989860763
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-19",
+      "task_query": "Set headline fill color to #3366CC",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.3158384409648911,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the headline in Web/Home;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8087490821730817,
+          "ious_per_gt": [
+            0.8087490821730817
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Fill color;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.13876624072159158,
+          "ious_per_gt": [
+            0.13876624072159158
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type #3366CC;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-2",
+      "task_query": "Rename the file to FigmaCrashCourse",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.1885501169210999,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click file title at top;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.3771002338421998,
+          "ious_per_gt": [
+            0.3771002338421998
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type FigmaCrashCourse;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-20",
+      "task_query": "Create color style Brand/Primary from headline fill",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.3615082488492385,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "With headline selected click Color style icon;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click + to Create style;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2133943528218956,
+          "ious_per_gt": [
+            0.2133943528218956
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type Brand/Primary in name;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5348972337162698,
+          "ious_per_gt": [
+            0.5348972337162698
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Create style",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6977414088587884,
+          "ious_per_gt": [
+            0.6977414088587884
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-21",
+      "task_query": "Insert text Buy now inside Mobile/Home",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 2,
+      "mIoU": 0.14359089156049185,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Text tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.43077267468147556,
+          "ious_per_gt": [
+            0.43077267468147556
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click inside Mobile/Home;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type Buy now",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-27",
+      "task_query": "Place a Button/Primary instance on Mobile/Home using Assets",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.3071320938806169,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Assets tab in left sidebar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5460710241572566,
+          "ious_per_gt": [
+            0.5460710241572566
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type Button/Primary in search field;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click the first left component;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Insert Instance",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6824573513652109,
+          "ious_per_gt": [
+            0.6824573513652109
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-28",
+      "task_query": "Export Button/Primary as PNG 2\u00d7 to Exports/button_primary.png",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.269539772139034,
+      "Acc@0.3": 0.4,
+      "Acc@0.5": 0.4,
+      "Acc@0.8": 0.2,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the Button component;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7627485711517183,
+          "ious_per_gt": [
+            0.7627485711517183
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Export +;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Export Button Danger;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type button_primary.png;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Save",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5849502895434516,
+          "ious_per_gt": [
+            0.5849502895434516
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-29",
+      "task_query": "Place Avatars/avatar1.png on Mobile/Home",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.21811180274494868,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu (Figma);",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Place image\u2026;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select avatar1.png;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6756253996417138,
+          "ious_per_gt": [
+            0.6756253996417138
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6330454168279783,
+          "ious_per_gt": [
+            0.6330454168279783
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click inside Mobile/Home below blue icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-3",
+      "task_query": "Rename Page 1 to Mobile",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.23972608857734698,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Right-Click page 1 in left sidebar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1011368988493407,
+          "ious_per_gt": [
+            0.1011368988493407
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Rename page;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.3316268485436258,
+          "ious_per_gt": [
+            0.3316268485436258
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type mobile;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2864145183390745,
+          "ious_per_gt": [
+            0.2864145183390745
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-30",
+      "task_query": "Round avatar corners to 64",
+      "exists": true,
+      "task_completed@0.30": true,
+      "num_images": 3,
+      "num_gt_boxes": 2,
+      "mIoU": 0.5592546248418556,
+      "Acc@0.3": 0.6666666666666666,
+      "Acc@0.5": 0.6666666666666666,
+      "Acc@0.8": 0.6666666666666666,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the avatar image;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8856568429178611,
+          "ious_per_gt": [
+            0.8856568429178611
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Corner radius field;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7921070316077056,
+          "ious_per_gt": [
+            0.7921070316077056
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type 64;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-31",
+      "task_query": "Add a 2 px white stroke to avatar",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 4,
+      "mIoU": 0.25026030835912494,
+      "Acc@0.3": 0.4,
+      "Acc@0.5": 0.2,
+      "Acc@0.8": 0.2,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the avatar image;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8885232810609032,
+          "ious_per_gt": [
+            0.8885232810609032
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Stroke \u25b8 +;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.008695400369674164,
+          "ious_per_gt": [
+            0.008695400369674164
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type 2 in Stroke width;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Stroke color;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.35408286036504744,
+          "ious_per_gt": [
+            0.35408286036504744
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type #FFFFFF;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-32",
+      "task_query": "Add a drop shadow effect to Button/Primary",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.0,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the Button Danger component;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Effects +;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-33",
+      "task_query": "Create a Mobile/Details frame (iPhone 14)",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 3,
+      "mIoU": 0.072021521609375,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Frame tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click iPhone 14 plus;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0661553558556822,
+          "ious_per_gt": [
+            0.0661553558556822
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click layer name in left panel;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.22193073058181778,
+          "ious_per_gt": [
+            0.22193073058181778
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Mobile/Details;",
+          "gt_count": 0,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-35",
+      "task_query": "Prototype: On click of Button/Primary instance navigate to Mobile/Details",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 7,
+      "num_gt_boxes": 7,
+      "mIoU": 0.06399267240691682,
+      "Acc@0.3": 0.14285714285714285,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select the Button Danger instance;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.43293768857980003,
+          "ious_per_gt": [
+            0.43293768857980003
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click Prototype tab in right sidebar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click + Add interaction;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Click Action dropdown;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.015011018268617738,
+          "ious_per_gt": [
+            0.015011018268617738
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "Pick Navigate to;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click on Destination dropdown;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "7.png",
+          "instruction": "Pick Mobile/Details",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-4",
+      "task_query": "Add a new page named Components",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.23912772701954585,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click plus icon in left sidebar;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4782554540390917,
+          "ious_per_gt": [
+            0.4782554540390917
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Type components;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-40",
+      "task_query": "Export Web/Home frame as PDF to Exports/web_home.pdf",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 7,
+      "num_gt_boxes": 7,
+      "mIoU": 0.350053813887291,
+      "Acc@0.3": 0.42857142857142855,
+      "Acc@0.5": 0.42857142857142855,
+      "Acc@0.8": 0.14285714285714285,
+      "Acc@0.9": 0.14285714285714285,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select Web/Home frame;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9669157749004622,
+          "ious_per_gt": [
+            0.9669157749004622
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Export +;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.022554585422105613,
+          "ious_per_gt": [
+            0.022554585422105613
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Format Dropdown;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Pick PDF;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Export Home;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1630150824012039,
+          "ious_per_gt": [
+            0.1630150824012039
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "6.png",
+          "instruction": "Type web_home.pdf;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6045101579633356,
+          "ious_per_gt": [
+            0.6045101579633356
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "7.png",
+          "instruction": "Click Save",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6933810965239297,
+          "ious_per_gt": [
+            0.6933810965239297
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-5",
+      "task_query": "Show rulers in the canvas",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.3217894837663826,
+      "Acc@0.3": 0.6666666666666666,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click View menu;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.49120558641128614,
+          "ious_per_gt": [
+            0.49120558641128614
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Rulers;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.47416286488786175,
+          "ious_per_gt": [
+            0.47416286488786175
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-6",
+      "task_query": "Create an iPhone 14 frame and name it Mobile/Home",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.0,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Frame tool in toolbar;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click iPhone 16;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click layer name in left panel;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Type Mobile/Home;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-7",
+      "task_query": "Add a 4\u2011column layout grid with 16 margin and 16 gutter",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 7,
+      "num_gt_boxes": 7,
+      "mIoU": 0.06566901565563592,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select Mobile/Home frame;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Layout grid + icon;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Grid type dropdown;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Pick Columns;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "Type 4 in Count;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1559408647618662,
+          "ious_per_gt": [
+            0.1559408647618662
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "6.png",
+          "instruction": "Type 16 in Margin;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.12293726395483254,
+          "ious_per_gt": [
+            0.12293726395483254
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "7.png",
+          "instruction": "Type 16 in Gutter",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.18080498087275276,
+          "ious_per_gt": [
+            0.18080498087275276
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-8",
+      "task_query": "Set Mobile/Home frame fill to #FFFFFF",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 1,
+      "mIoU": 0.0,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Select Mobile/Home frame;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "In right sidebar click Fill color;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "Type #FFFFFF;",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-9",
+      "task_query": "Place Images/hero.jpg inside Mobile/Home",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.048426890248277094,
+      "Acc@0.3": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Click Main menu (Figma);",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "Open File menu;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "Click Place image\u2026;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.29056134148966256,
+          "ious_per_gt": [
+            0.29056134148966256
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "Select hero.jpg;",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "Click Open;",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "6.png",
+          "instruction": "Click inside Mobile/Home frame",
+          "gt_count": 1,
+          "pred_count": 0,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    }
+  ]
+}

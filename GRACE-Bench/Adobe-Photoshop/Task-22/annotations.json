@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-22",
+  "task_query": "Define a pattern named Demo texture",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T19:20:12Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open Edit menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            59.35126361427227,
+            4.162185161618323,
+            24.83277610678347,
+            14.715719174390204
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose Define Pattern…;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            73.44805579579898,
+            569.1177743212534,
+            88.52867605702517,
+            16.836742072194966
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Type Demo texture;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            839.9056200754297,
+            333.27504583506504,
+            116.77095308135222,
+            20.095466344232705
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click OK",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1136.255718624405,
+            314.01761978902414,
+            45.07901909652196,
+            26.069794176301855
+          ]
+        }
+      ]
+    }
+  ]
+}

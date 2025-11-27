@@ -1,0 +1,103 @@
+{
+  "task_name": "Task-28",
+  "task_query": "Center the text horizontally and vertically",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "updated_at": "2025-11-23T11:51:41Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open Window menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            324.8822770141769,
+            23.66714809936883,
+            50.855848487861635,
+            17.281113563836477
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose Essential Graphics;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            354.26666322670604,
+            346.06956878145303,
+            105.16791968849054,
+            20.73733627660374
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click Edit panel in Essential Graphics tab;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1638.4877187731138,
+            137.89922300233079,
+            29.676700335020314,
+            17.435061446824392
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click Horizontal Center;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1784.2044175397625,
+            347.6233670770455,
+            25.526673464295527,
+            22.811069904264116
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Click Vertical Center",
+      "bboxes": [
+        {
+          "id": 3,
+          "label": "object",
+          "bbox": [
+            1673.5550325541851,
+            346.31146115922826,
+            23.897311328276828,
+            22.811069904264116
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "task": "Task-16",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.3429670436875819,
+  "Acc@0.3": 0.4,
+  "Acc@0.5": 0.2,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Portrait layer in Layers panel;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2602433465798994,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2602433465798994
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.09538033567723143,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.09538033567723143
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Choose Layer Style;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2278115813884196,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2278115813884196
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick Drop Shadow\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7154690548984673,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.7154690548984673
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.41593089989389165,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.41593089989389165
+      ]
+    }
+  ]
+}

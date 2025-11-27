@@ -1,0 +1,70 @@
+{
+  "task": "Task-16",
+  "task_query": "Add a Drop Shadow to the Portrait layer",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.4550018207289682,
+  "Acc@0.3": 0.6,
+  "Acc@0.5": 0.6,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Portrait layer in Layers panel;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2521983015192537,
+      "ious_per_gt": [
+        0.2521983015192537
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6634960312410935,
+      "ious_per_gt": [
+        0.6634960312410935
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Choose Layer Style;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1588583754012259,
+      "ious_per_gt": [
+        0.1588583754012259
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick Drop Shadow\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5118220941870817,
+      "ious_per_gt": [
+        0.5118220941870817
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6886343012961863,
+      "ious_per_gt": [
+        0.6886343012961863
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

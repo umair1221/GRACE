@@ -1,0 +1,47 @@
+{
+  "task": "Task-13",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.31689411838664955,
+  "Acc@0.3": 0.3333333333333333,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Audio bin;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.09376996232068303,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.09376996232068303
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Right\u2011click beep.wav",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6376844978290707,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.6376844978290707
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Choose Open In Source Monitor",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.21922789501019488,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.21922789501019488
+      ]
+    }
+  ]
+}

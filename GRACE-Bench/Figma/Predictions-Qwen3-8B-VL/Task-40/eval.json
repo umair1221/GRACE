@@ -1,0 +1,92 @@
+{
+  "task": "Task-40",
+  "task_query": "Export Web/Home frame as PDF to Exports/web_home.pdf",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.350053813887291,
+  "Acc@0.3": 0.42857142857142855,
+  "Acc@0.5": 0.42857142857142855,
+  "Acc@0.8": 0.14285714285714285,
+  "Acc@0.9": 0.14285714285714285,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select Web/Home frame;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9669157749004622,
+      "ious_per_gt": [
+        0.9669157749004622
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "In right sidebar click Export +;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.022554585422105613,
+      "ious_per_gt": [
+        0.022554585422105613
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Format Dropdown;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick PDF;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Export Home;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1630150824012039,
+      "ious_per_gt": [
+        0.1630150824012039
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "6.png",
+      "instruction": "Type web_home.pdf;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6045101579633356,
+      "ious_per_gt": [
+        0.6045101579633356
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "7.png",
+      "instruction": "Click Save",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6933810965239297,
+      "ious_per_gt": [
+        0.6933810965239297
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

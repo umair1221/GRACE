@@ -1,0 +1,70 @@
+{
+  "task": "Task-7",
+  "task_query": "Import clipB.jpg into Stills bin",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.6201995107547079,
+  "Acc@0.3": 0.8,
+  "Acc@0.5": 0.8,
+  "Acc@0.8": 0.2,
+  "Acc@0.9": 0.2,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Stills bin in Project panel;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.904796880693134,
+      "ious_per_gt": [
+        0.904796880693134
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6388957828083606,
+      "ious_per_gt": [
+        0.6388957828083606
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Choose Import\u2026;",
+      "gt_count": 1,
+      "pred_count": 2,
+      "best_iou": 0.14937306540562287,
+      "ious_per_gt": [
+        0.14937306540562287
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Select clipB.jpg;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7495961275893932,
+      "ious_per_gt": [
+        0.7495961275893932
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Open",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6583356972770286,
+      "ious_per_gt": [
+        0.6583356972770286
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

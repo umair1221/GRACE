@@ -1,0 +1,58 @@
+{
+  "task": "Task1_Excel",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.4359283585026146,
+  "Acc@0.3": 0.75,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click the 5th row number.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.555453325973589,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.555453325973589
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click Home tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6444679544062629,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.6444679544062629
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click Insert drop down icon on the home tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.18678444754993767,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.18678444754993767
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Click Insert Sheet Rows.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3570077060806686,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3570077060806686
+      ]
+    }
+  ]
+}

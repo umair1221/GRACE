@@ -1,0 +1,59 @@
+{
+  "task": "Task-5",
+  "task_query": "Create a bin named Audio",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.5054784843305616,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5254864821762327,
+      "ious_per_gt": [
+        0.5254864821762327
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose New;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4783640251799661,
+      "ious_per_gt": [
+        0.4783640251799661
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Bin;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.639270522939559,
+      "ious_per_gt": [
+        0.639270522939559
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type Audio in the selected box;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3787929070264887,
+      "ious_per_gt": [
+        0.3787929070264887
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

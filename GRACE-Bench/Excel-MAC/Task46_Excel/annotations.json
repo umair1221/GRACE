@@ -1,0 +1,65 @@
+{
+  "task_name": "Task46_Excel",
+  "task_query": "Hide a Column (Students)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T18:12:04Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select the top header cell of Email Column.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            361.68675591082695,
+            407.13007968029746,
+            318.043342140203,
+            41.40209187623947
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Right-click in the Email Column.",
+      "bboxes": [
+        {
+          "id": 2,
+          "label": "object",
+          "bbox": [
+            361.1467250404446,
+            407.1332783324263,
+            318.21442516448496,
+            41.0599258276755
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click Hide.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            681.5882472047571,
+            923.6273040600881,
+            349.8476763542234,
+            43.47219647005136
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "task_name": "Task-6",
+  "task_query": "Narrow Margins",
+  "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+  "updated_at": "2025-09-28T13:53:29Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 1,
+      "instruction": "1) Open Page Layout from tab",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            337.4913400337615,
+            82.92683586295898,
+            114.3097035737755,
+            27.530085677453783
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 2560,
+      "height": 1528,
+      "step_index": 2,
+      "instruction": "2) Click Margins icon",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            257.73392786237866,
+            125.92556758971274,
+            42.21858334662221,
+            50.18435378938115
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 2559,
+      "height": 1526,
+      "step_index": 3,
+      "instruction": "3) Select Narrow",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            277.6259467439125,
+            542.797053845278,
+            53.42944063979087,
+            81.45799966394338
+          ]
+        }
+      ]
+    }
+  ]
+}

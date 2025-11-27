@@ -1,0 +1,69 @@
+{
+  "task": "Task37_Excel",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.5178469663230115,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.4,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click Find & Select icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3784737168171515,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3784737168171515
+      ]
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Select Replace option",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4400471615343688,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4400471615343688
+      ]
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Type in the find search bar 'Ali'",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6738997966014123,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.6738997966014123
+      ]
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Type in the replace search bar by 'Ahmed'",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5999262382574515,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5999262382574515
+      ]
+    },
+    {
+      "image": "Step_5.png",
+      "instruction": "5) Click Replace all.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4968879184046733,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4968879184046733
+      ]
+    }
+  ]
+}

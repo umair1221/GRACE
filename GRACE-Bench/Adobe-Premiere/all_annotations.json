@@ -1,0 +1,2278 @@
+{
+  "exported_at": "2025-11-05T14:57:21Z",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+  "tasks": [
+    {
+      "task_name": "Task-1",
+      "task_query": "Create a new project named PremiereCrashCourse",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-04T19:10:37Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Choose New Project…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1035.1611012663986,
+                495.01060360483694,
+                97.76172816113194,
+                33.57473492402511
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Type PremiereCrashCourse in Name;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                693.1575232619847,
+                199.17361021313422,
+                175.69955539256307,
+                19.222408171547215
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1143.5054378197406,
+                792.8505229212843,
+                69.61820035716983,
+                20.24359017477991
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-2",
+      "task_query": "Save project as Working/PremiereCrashCourse_v1.prproj",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-04T19:19:26Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1.8195008017524716,
+                22.867784331526565,
+                28.20512841758122,
+                18.70122645078755
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Save As…;",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                34.06516672998591,
+                294.1459318518395,
+                259.5227444297521,
+                22.85105925796563
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type PremiereCrashCourse_v1.prproj in File Name;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                133.32636874983447,
+                463.2585788481223,
+                199.0828942799112,
+                23.260544348855603
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Save",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                748.4524880970711,
+                532.8263810002574,
+                85.99498392534281,
+                23.606466175584274
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-3",
+      "task_query": "Switch workspace to Editing",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:08:27Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Window menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                324.5904938310931,
+                24.54471895071895,
+                50.16722445814844,
+                16.443701350170866
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open Workspaces drop-menu;",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                332.14775298649334,
+                43.63562327454389,
+                245.39181260647803,
+                27.64978170213837
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Editing",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                611.8720268642403,
+                155.61553232673256,
+                276.9915631232076,
+                20.243590174779882
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-4",
+      "task_query": "Create a bin named Stills",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:08:33Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                3.076519096291341,
+                24.190303025990865,
+                27.285395969181835,
+                17.168339036788566
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose New from the list;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                35.425091232338254,
+                43.745390926465454,
+                268.84475244311324,
+                22.10501297865597
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Bin;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                342.7364711410915,
+                133.6045086361935,
+                207.37336276603781,
+                19.749844072955966
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type Stills in the editable box;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                19.29008679800018,
+                834.9983388417038,
+                136.9023282329903,
+                19.749844072955966
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-5",
+      "task_query": "Create a bin named Audio",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:08:37Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                4.154143547542432,
+                24.76068073115586,
+                26.338071547330472,
+                16.322185184261137
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose New;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                35.74266304199741,
+                45.155722605264565,
+                48.38711797874215,
+                20.737336276603777
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Bin;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                341.6039058615378,
+                134.03523163531065,
+                46.00232430693268,
+                19.117849062621417
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type Audio in the selected box;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                220.44268769311634,
+                835.2517645685729,
+                69.36928703310986,
+                18.770512961900295
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-6",
+      "task_query": "Import clipA.jpg into Stills bin",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:10:08Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Stills bin in Project panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                15.036925167893894,
+                719.3547858776482,
+                196.41020950875694,
+                143.13294620071372
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                3.6609527492154057,
+                25.333434989263,
+                25.136165183762152,
+                15.710103239851346
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Import…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                33.66693650009703,
+                553.7826839269909,
+                78.10165610668955,
+                17.954403702687273
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Select clipA.jpg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                185.8166593487103,
+                232.88948753308802,
+                94.69907046612866,
+                76.62672877411939
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Open",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                748.8570980334451,
+                558.4465161567744,
+                71.0945012016233,
+                23.299878545069873
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-7",
+      "task_query": "Import clipB.jpg into Stills bin",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:11:10Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Stills bin in Project panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                15.271792587604917,
+                718.6778719902499,
+                202.04090486633964,
+                144.47010939367306
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2.9861096702742618,
+                25.727510317515613,
+                27.339660183637406,
+                15.098021295441551
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Import…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                34.15418040143167,
+                552.9982325678602,
+                75.87396346727863,
+                20.312714629035213
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Select clipB.jpg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                297.2633997924419,
+                236.1874080705176,
+                91.7279828536989,
+                71.83110421999223
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Open",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                747.8448831699351,
+                559.2551861847954,
+                71.81761481074909,
+                22.891864720926264
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-8",
+      "task_query": "Import beep.wav into Audio bin",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:12:29Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Audio bin in Project panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                214.36593429352888,
+                719.246515511624,
+                199.47342513685538,
+                142.19887732528298
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                3.6919005865009717,
+                25.747208737031748,
+                25.967112793142718,
+                15.175585398589895
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Import…;",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                35.03973069267476,
+                553.9051370616131,
+                61.044972589136655,
+                18.403263795254475
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Select beep.wav;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                193.60273498863052,
+                199.2148064021667,
+                80.05599294972706,
+                109.92763211007298
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Open",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                747.5131559614398,
+                558.4947928251845,
+                72.2893667680371,
+                23.897311328276714
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-9",
+      "task_query": "Create a sequence from clipA.jpg",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:32:42Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Stills bin in Project panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                14.776888044319884,
+                718.8160802670176,
+                200.762877766412,
+                143.63522962149796
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click clipA.jpg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                15.402052968974344,
+                719.8137351968311,
+                199.94676850719893,
+                141.18690184385878
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Right‑click clipA.jpg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                14.68691684492903,
+                718.7262373998454,
+                199.94676850719895,
+                143.63522962149784
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Choose New Sequence From Clip",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                177.34896758931873,
+                546.763538114767,
+                153.31171884894442,
+                19.308780711454006
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-10",
+      "task_query": "Rename sequence to Course_1080p",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:34:33Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click the sequence in Project panel;",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-11",
+      "task_query": "Open Sequence Settings and confirm",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:36:00Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Sequence menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                105.08126737645007,
+                25.56217408336865,
+                57.35354718786415,
+                15.533252363379876
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Sequence Settings…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                132.37950824390643,
+                44.599757101724826,
+                130.89209159351574,
+                22.81106990426415
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1025.4508248365814,
+                867.1974164826592,
+                120.29450480800438,
+                22.443004628359063
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-12",
+      "task_query": "Append clipB.jpg via Automate to Sequence",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:41:51Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click clipB.jpg in Project panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                197.7530813171713,
+                724.3146602563148,
+                162.9362136018868,
+                118.4990644377358
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open Project panel menu (≡);",
+          "bboxes": []
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Automate to Sequence…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                323.0925700802914,
+                579.3193265660736,
+                154.40787184311034,
+                20.64756425809037
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1058.7604531737363,
+                305.68085881230644,
+                79.5978217482857,
+                21.867533447331255
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-13",
+      "task_query": "Open beep.wav in Source Monitor",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:51:32Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Audio bin;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                218.7587884313986,
+                721.6449011697301,
+                191.89540996606223,
+                135.37826867468777
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Right‑click beep.wav",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                15.806466596984142,
+                718.3434055085563,
+                198.07286494442178,
+                138.07269052695085
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Open In Source Monitor",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                162.22626526858252,
+                871.6818792439475,
+                144.66760783440256,
+                21.231082378427686
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-15",
+      "task_query": "Enable timeline snapping",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:51:30Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Snap (magnet) in Timeline;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                697.4982462738326,
+                680.4869922128064,
+                17.922983496207507,
+                19.552345632226434
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click Timeline to focus;",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-16",
+      "task_query": "Show audio waveforms on timeline",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:51:37Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Timeline Display Settings (wrench);",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                796.5831441352724,
+                679.4025157510774,
+                21.99414453579186,
+                20.198704165523168
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click Show Audio Waveform;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                812.6075389431946,
+                352.98876551674005,
+                129.80585016950317,
+                19.009224920220163
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-17",
+      "task_query": "Add a sequence marker at current time",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T13:53:19Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Markers menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                169.92700269204582,
+                24.55796361458254,
+                49.423984792572355,
+                16.29362136018868
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Add Marker;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                198.80383400046185,
+                314.06592418796606,
+                88.8742983283019,
+                20.73733627660374
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Program Monitor to confirm",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1102.8791289552082,
+                127.92002195222277,
+                682.7229921279272,
+                383.9566915306445
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-18",
+      "task_query": "Open the Markers panel",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:14:38Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Window menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                324.7927557643116,
+                24.326862756140983,
+                50.5102262165849,
+                16.836742072194966
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Markers;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                354.29001726072534,
+                543.5187249361273,
+                70.11194645899371,
+                19.256097971132135
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Markers panel to focus",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                445.61262182509773,
+                631.0012437312315,
+                55.56124883824344,
+                19.715281845828258
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-19",
+      "task_query": "Rename the latest marker to Intro",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:21:00Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "In Markers panel double click Name field;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                103.86498501895052,
+                684.7147509111167,
+                43.988289071583765,
+                16.607823424985668
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Type Intro;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                798.043887812471,
+                185.7182805811997,
+                86.8993139210063,
+                19.749844072955995
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1106.8222018097433,
+                185.98330715258618,
+                78.20395132178555,
+                19.715281845828315
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-20",
+      "task_query": "Open the Effects panel",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:21:46Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Window menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                324.95118423964215,
+                23.67587222263537,
+                49.58692100617424,
+                17.922983496207557
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Effects;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                356.5922323143487,
+                326.0084820825157,
+                57.00523175603206,
+                16.158963332418523
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click search box;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                6.2125766205494015,
+                659.3878298712542,
+                208.92397035854256,
+                18.770512961900295
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type Cross Dissolve",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                32.955882218781774,
+                657.6567493259612,
+                143.92698868166667,
+                19.55234563222632
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Select Cross Dissolve from the list",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                49.874742938163486,
+                824.2856547451055,
+                102.6991891793711,
+                18.268605767484246
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-21",
+      "task_query": "Apply default transition at the V1 edit point",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:23:38Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click the edit point between clips on Timeline;",
+          "bboxes": []
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open Sequence menu;",
+          "bboxes": []
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Apply Default Transitions to Selection;",
+          "bboxes": []
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Timeline to confirm",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-22",
+      "task_query": "Apply default transition to the selected audio clip",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:26:20Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click beep.wav clip on timeline;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                879.436377167397,
+                843.5820931396369,
+                140.2238929179873,
+                25.181051193018902
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open Sequence menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                106.87015285141602,
+                24.468044330736355,
+                55.08737499688134,
+                17.546349073080727
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Apply Default Transitions to Selection;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                134.8321939643401,
+                412.4510761797916,
+                210.8295854788051,
+                20.7373362766038
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click again audio timeline to confirm",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                879.1387972850508,
+                844.7402307101644,
+                139.73014681616348,
+                23.206066785723237
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-23",
+      "task_query": "Create Black Video in Project panel",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:27:04Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2.6405747475207137,
+                25.195714060695614,
+                27.69915631232076,
+                16.29362136018868
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose New;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                34.61137983511799,
+                46.71106924650583,
+                47.39962577509435,
+                18.762351869308176
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Black Video…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                340.06806394894284,
+                340.0500589089402,
+                96.2171471682575,
+                20.674758895658613
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                953.3224151173717,
+                585.6032085825067,
+                79.51830344484097,
+                21.02963396888356
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-24",
+      "task_query": "Overwrite Black Video to the timeline end",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:30:18Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Black Video item in Project panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                24.837878394954032,
+                845.8851438135769,
+                154.54252987088054,
+                111.58661901220137
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Right‑click Black Video;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                25.090437580030127,
+                845.291567400826,
+                152.20437684323508,
+                86.9156361061905
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Open In Source Monitor;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                139.61363953621165,
+                872.6441794476649,
+                144.66760783440256,
+                18.76235186930819
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Overwrite button in Source Monitor close to camera  icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                630.8122231420102,
+                593.1928767287197,
+                24.887823167330225,
+                18.936387192533857
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-25",
+      "task_query": "Create an Adjustment Layer",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:30:59Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                4.692443342422114,
+                24.31339181554504,
+                23.667168517178652,
+                16.73023981386767
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose New;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                33.77727266607858,
+                47.266046325819595,
+                45.29406388632466,
+                17.546349073080727
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Adjustment Layer…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                339.9440638123513,
+                241.2182039034366,
+                120.92039532108032,
+                23.65833821499396
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                951.5857131803582,
+                582.546637567185,
+                82.44572408255476,
+                25.092176894690624
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-26",
+      "task_query": "Rename Adjustment Layer to Adj_1",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:32:16Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click the Adjustment Layer in Project panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                188.7055346276118,
+                836.5402141873786,
+                171.823643434717,
+                124.91776376144651
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Right‑click the item in adjustment layer;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                199.03004902331037,
+                844.6185792437744,
+                152.3453597177642,
+                86.62775356500322
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Rename;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                309.98030837968247,
+                365.8475957716663,
+                68.1073372855887,
+                19.117849062621417
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type Adj_1 in selected box",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                193.64210227203193,
+                938.6537344750162,
+                127.92512638164669,
+                16.60782342498578
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-27",
+      "task_query": "Add a new text layer via Graphics menu",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:35:16Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Graphics menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                225.5669907015868,
+                24.269725716327606,
+                52.682709064610094,
+                17.379862784201258
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose New Layer;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                255.1401986168802,
+                74.62024392314638,
+                66.91247171917487,
+                23.89731132827673
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Pick Text;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                547.1681712093806,
+                77.5138200001995,
+                45.622139808528345,
+                19.009224920220134
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type Sample Title instead of the selected box",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1443.7459597780278,
+                286.7082146814702,
+                244.13611264381484,
+                41.30399488837952
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-28",
+      "task_query": "Center the text horizontally and vertically",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:43:41Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Open Window menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                324.8822770141769,
+                23.66714809936883,
+                50.855848487861635,
+                17.281113563836477
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Choose Essential Graphics;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                354.26666322670604,
+                346.06956878145303,
+                105.16791968849054,
+                20.73733627660374
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Edit panel in Essential Graphics tab;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1638.4877187731138,
+                137.89922300233079,
+                29.676700335020314,
+                17.435061446824392
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Horizontal Center;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1784.2044175397625,
+                347.6233670770455,
+                25.526673464295527,
+                22.811069904264116
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Vertical Center",
+          "bboxes": [
+            {
+              "id": 3,
+              "label": "object",
+              "bbox": [
+                1673.5550325541851,
+                346.31146115922826,
+                23.897311328276828,
+                22.811069904264116
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-29",
+      "task_query": "Set the text size to 120",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:44:23Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "In Essential Graphics panel click Font Size box;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1720.046208767033,
+                606.9820162792098,
+                32.044122008371005,
+                20.095466344232705
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Type 120 in the selected box",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1710.2162894032301,
+                607.0622069662988,
+                35.459947312807344,
+                20.64756425809037
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-30",
+      "task_query": "Change text fill color to yellow",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:55:02Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "In Essential Graphics panel click Fill color;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1609.3815571232917,
+                768.4276694067662,
+                41.213517590259244,
+                22.03494999875261
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Type #FFF000 hex code in the color code box",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1043.5029907757028,
+                655.7673537288972,
+                64.88068610743812,
+                18.362458332293727
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1116.321527300525,
+                365.4933437319109,
+                93.95988317708816,
+                20.095466344232705
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-33",
+      "task_query": "Normalize beep.wav peak to −3 dB",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Premiere Pro/Adobe Premiere Pro/Final-task",
+      "updated_at": "2025-11-05T14:57:21Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click beep.wav clip on timeline;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                15.07548169352915,
+                718.5302132230719,
+                198.7821805943019,
+                144.47010939367294
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open Clip menu from the tab;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                70.1628228598899,
+                24.992739805745106,
+                26.52355092442434,
+                16.32218518426114
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Choose Audio Options from the list;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                100.85851515816927,
+                210.21969962541934,
+                84.92432951371072,
+                19.749844072955995
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Audio Gain…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                470.6933556497412,
+                206.167615953889,
+                77.12314110489308,
+                23.354190616270444
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Select Normalize Max Peak;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                818.2551792180514,
+                520.4000615035368,
+                14.363522962149773,
+                14.812383054716975
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Type -3 against the active dB value;",
+          "bboxes": [
+            {
+              "id": 3,
+              "label": "object",
+              "bbox": [
+                961.6700512172982,
+                518.5071128427057,
+                26.168543396666678,
+                16.787367462012526
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "7.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 7,
+          "instruction": "Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1027.1913791060147,
+                465.65938559384193,
+                78.20938252890573,
+                21.724828480251574
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "task": "Task38_Excel",
+  "task_query": "Text to Columns (Expenses)",
+  "exists": true,
+  "task_completed@0.25": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.00377355523166014,
+  "Acc@0.2": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the top header cell of description column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Data tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Text to Columns icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) click Next.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_5.png",
+      "instruction": "5) Tick in box beside Comma",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_6.png",
+      "instruction": "6) Click Next.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.02641488662162098,
+      "ious_per_gt": [
+        0.02641488662162098
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_7.png",
+      "instruction": "7) Select Finish.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    }
+  ]
+}

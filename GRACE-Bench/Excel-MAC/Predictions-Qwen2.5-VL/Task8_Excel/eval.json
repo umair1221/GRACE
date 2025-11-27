@@ -1,0 +1,57 @@
+{
+  "task": "Task8_Excel",
+  "task_query": "Insert Manual Page Break (Inventory)",
+  "exists": true,
+  "task_completed@0.25": true,
+  "num_images": 4,
+  "num_gt_boxes": 3,
+  "mIoU": 0.38543541174492546,
+  "Acc@0.2": 0.75,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click the firs below the 5th row position.",
+      "gt_count": 0,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [],
+      "step_success@0.250": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Page Layout tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5405703727699193,
+      "ious_per_gt": [
+        0.5405703727699193
+      ],
+      "step_success@0.250": true
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Breaks.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4856461102959702,
+      "ious_per_gt": [
+        0.4856461102959702
+      ],
+      "step_success@0.250": true
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Click Insert Page Break.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5155251639138123,
+      "ious_per_gt": [
+        0.5155251639138123
+      ],
+      "step_success@0.250": true
+    }
+  ]
+}

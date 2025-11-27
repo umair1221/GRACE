@@ -1,0 +1,36 @@
+{
+  "task": "Task15_Excel",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.6732713372184796,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 0.5,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click Insert tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5917098630055084,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5917098630055084
+      ]
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Choose Pictures ico.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7548328114314509,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.7548328114314509
+      ]
+    }
+  ]
+}

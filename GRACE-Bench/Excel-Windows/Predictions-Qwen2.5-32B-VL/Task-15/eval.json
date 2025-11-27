@@ -1,0 +1,80 @@
+{
+  "task": "Task-15",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 6,
+  "num_gt_boxes": 6,
+  "mIoU": 0.35386204393537524,
+  "Acc@0.3": 0.5,
+  "Acc@0.5": 0.16666666666666666,
+  "Acc@0.8": 0.16666666666666666,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Select \"Customers\" Sheet",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1575563873387368,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.1575563873387368
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click header cell in country column",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.29447119857022774,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.29447119857022774
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click \"Data\" from tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8212000566416291,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.8212000566416291
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Click sort icon of \"A to Z\"",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3547665605330907,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.3547665605330907
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "5) Select continue with current selection option",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.03602141763451325,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.03602141763451325
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "6) Click Sort",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.459156642894054,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.459156642894054
+      ]
+    }
+  ]
+}

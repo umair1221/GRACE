@@ -1,0 +1,48 @@
+{
+  "task": "Task16_Excel",
+  "task_query": "Insert PDF as Object (Students)",
+  "exists": true,
+  "task_completed@0.25": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.1797690786455298,
+  "Acc@0.2": 0.3333333333333333,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select Insert from the excel tab bar",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click ok.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5393072359365894,
+      "ious_per_gt": [
+        0.5393072359365894
+      ],
+      "step_success@0.250": true
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Object.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    }
+  ]
+}

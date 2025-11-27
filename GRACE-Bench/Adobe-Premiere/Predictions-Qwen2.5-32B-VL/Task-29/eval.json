@@ -1,0 +1,36 @@
+{
+  "task": "Task-29",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.22464948411118746,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "In Essential Graphics panel click Font Size box;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.17398108988459302,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.17398108988459302
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Type 120 in the selected box",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2753178783377819,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2753178783377819
+      ]
+    }
+  ]
+}

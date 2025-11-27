@@ -1,0 +1,2449 @@
+{
+  "exported_at": "2025-11-24T21:24:31Z",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "tasks": [
+    {
+      "task_name": "Task-1",
+      "task_query": "Create a new design file",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Main menu (Figma);",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                16.59399386182273,
+                50.42791786421105,
+                30.522486294568324,
+                23.789584906060604
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click File;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                36.32054261347507,
+                134.28333566447282,
+                33.67348414438993,
+                18.466104208213835
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click New design file",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                240.29520915265476,
+                134.37177993921543,
+                79.45856016652016,
+                20.31271462903524
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-2",
+      "task_query": "Rename the file to FigmaCrashCourse",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click file title at top;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                73.33177367397688,
+                10.570618850981539,
+                47.79462265655347,
+                17.37986278420126
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Type FigmaCrashCourse;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                74.15642973113218,
+                11.020390063406593,
+                47.25150194454717,
+                15.750500648182394
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-3",
+      "task_query": "Rename Page 1 to Mobile",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Right-Click page 1 in left sidebar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                13.214725788710592,
+                223.76027188087164,
+                43.94340306232705,
+                17.28111356383647
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click Rename page;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                136.5631327382323,
+                285.8675165970618,
+                82.94934510641511,
+                19.749844072955966
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type mobile;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                12.933435100727689,
+                220.2901573903015,
+                71.817614810749,
+                22.443004628359063
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-4",
+      "task_query": "Add a new page named Components",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click plus icon in left sidebar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                211.7389258140796,
+                185.20661856756502,
+                17.2811135638365,
+                19.25609797113208
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Type components;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                11.919552216701028,
+                253.3760414266188,
+                48.028029904688395,
+                21.99414453579189
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-5",
+      "task_query": "Show rulers in the canvas",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Main menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                16.10240752593342,
+                49.5013462747611,
+                29.87163916034591,
+                23.897311328276736
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click View menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                36.78553395054665,
+                183.1585425942947,
+                36.932208416427684,
+                17.922983496207536
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Rulers;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                241.04975298008608,
+                231.3367485604129,
+                44.886009256718154,
+                17.954403702687245
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-6",
+      "task_query": "Create an iPhone 14 frame and name it Mobile/Home",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Frame tool in toolbar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                797.8860924493403,
+                981.9815501595597,
+                22.811069904264173,
+                25.52667346429564
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "In right sidebar click iPhone 16;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1690.387610906452,
+                258.5293232112989,
+                60.723068085151226,
+                22.409703698091505
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click layer name in left panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                38.071084578463086,
+                336.46553645135924,
+                76.30621573642081,
+                17.138294443474194
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type Mobile/Home;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                33.12448840762796,
+                333.19220605315434,
+                100.54466073504861,
+                23.34072481349341
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-7",
+      "task_query": "Add a 4‑column layout grid with 16 margin and 16 gutter",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select Mobile/Home frame;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                778.40758312225,
+                115.20032365139096,
+                385.8307601447124,
+                838.0513518355225
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "In right sidebar click Layout grid + icon;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1890.0547294647984,
+                826.1460073314757,
+                15.951226430073348,
+                18.176978955199957
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Grid type dropdown;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1726.347255619191,
+                861.6131634847891,
+                120.26321925955267,
+                20.37245790735585
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Pick Columns;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1746.3113618040413,
+                887.1778641511025,
+                54.67932036727484,
+                17.95440370268716
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Type 4 in Count;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1529.810666616719,
+                820.2162491570806,
+                23.259113887572084,
+                20.810786109932906
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Type 16 in Margin;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1536.3059336132114,
+                947.3329070353175,
+                19.178567591506862,
+                21.218840739539473
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "7.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 7,
+          "instruction": "Type 16 in Gutter",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1536.8123350986496,
+                980.0746878894992,
+                23.20606678572335,
+                20.243590174779797
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-8",
+      "task_query": "Set Mobile/Home frame fill to #FFFFFF",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select Mobile/Home frame;",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                784.0010709831519,
+                118.37836788763617,
+                374.37217261831086,
+                833.5903750122668
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "In right sidebar click Fill color;",
+          "bboxes": []
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type #FFFFFF;",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-9",
+      "task_query": "Place Images/hero.jpg inside Mobile/Home",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Main menu (Figma);",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                14.816462797136955,
+                49.12436477207327,
+                30.88727489179768,
+                26.287042461104413
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                37.590186778381906,
+                135.49443991240744,
+                27.82932573916524,
+                17.056683517552898
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Place image…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                241.63323664487203,
+                199.2366360950118,
+                86.62775356500319,
+                20.31271462903524
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Select hero.jpg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                405.85358925201984,
+                189.0979145289516,
+                93.97617679844825,
+                77.54677526025802
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Open;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                750.0870668642983,
+                489.4843456495531,
+                80.92498608893709,
+                25.52667346429564
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Click inside Mobile/Home frame",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                774.5269997884413,
+                405.3121106484119,
+                391.69135628771846,
+                203.28285579489176
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-10",
+      "task_query": "Insert a text title and set size to 32",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Text tool in toolbar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                965.1454575025286,
+                982.6893728348499,
+                28.258570645687314,
+                25.629866399576827
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Type 32",
+          "bboxes": []
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click in center of Mobile/Home frame;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                770.625,
+                423.75,
+                399.375,
+                195.0
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type Shop the latest audio;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                861.7387676224853,
+                425.8268259188664,
+                133.82930469766734,
+                22.742234785224525
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Font size box;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1791.2520289933439,
+                691.7653751550134,
+                30.361534042575613,
+                26.024172036493383
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-12",
+      "task_query": "Place Icons/search.svg at the top of Mobile/Home",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Main menu (Figma);",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                17.23982354476459,
+                48.53319988126705,
+                29.42177227459112,
+                26.24104013679748
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                35.71524873350734,
+                135.414835451781,
+                34.173155199435726,
+                17.086577599717856
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Place image…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                241.1291334386404,
+                198.54707102128737,
+                88.0615922446998,
+                19.05810578430072
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Select search.svg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                181.77327519089363,
+                283.56535153306754,
+                103.91451894171803,
+                115.46057660190894
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Open;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                749.1140089531676,
+                489.4558015857296,
+                69.10140569356668,
+                22.742234785224525
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Click near top on Mobile/Home",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                775.511592840331,
+                89.76561840403802,
+                82.40987811556238,
+                27.469959371854117
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-13",
+      "task_query": "Set search icon constraints to Right and Top",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select the search icon in the middle;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                958.3033280958779,
+                451.6284335152138,
+                25.58502527632936,
+                22.891864720926264
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "In right sidebar select Horizontal Constraints",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1695.2534795915071,
+                326.29856644416355,
+                86.40556781918258,
+                23.699812887547182
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Select Right;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1715.803705432584,
+                353.9771500957576,
+                35.09269814616141,
+                16.730239813867627
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Select Constraints Vertical;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1696.743876778918,
+                357.9715234872517,
+                84.4305834118868,
+                23.699812887547182
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Select Bottom",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1715.5869603792344,
+                387.1231252820747,
+                44.437149164150924,
+                15.26124314728412
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-14",
+      "task_query": "Create a Desktop 1440 frame named Web/Home",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Frame tool in toolbar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                798.1044386568053,
+                983.5945614039762,
+                21.50758019544901,
+                21.507580195449123
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "In right sidebar click Desktop with 1440 resolution;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1692.450162013378,
+                359.5697632963159,
+                51.91690886068136,
+                19.715281845828315
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click layer name in left panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                38.96450335672486,
+                336.6658624606929,
+                65.71760615276102,
+                15.533252363379859
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type Web/Home;",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-15",
+      "task_query": "Place Logos/brandA.svg at top left of Web/Home",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Main menu (Figma);",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                15.885031585576192,
+                49.69718632546181,
+                30.95788058435849,
+                22.81106990426415
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                37.90117281611321,
+                135.05184498404407,
+                27.69915631232076,
+                16.836742072194966
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Place image…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                243.2952852323083,
+                200.7123301045757,
+                84.38569740263011,
+                17.954403702687245
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Select brandA.svg;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                182.13843196359866,
+                150.5491965324524,
+                101.5635731451761,
+                113.51222880931448
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Open;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                750.1023593134089,
+                490.1171527492801,
+                67.95200476195487,
+                23.132597365771858
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Click inside Web/Home near top left",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                825.8662318147669,
+                207.04566798715942,
+                125.50372242333162,
+                60.19056075404686
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-17",
+      "task_query": "Add a 12‑column grid with 80 margin and 24 gutter to Web/Home",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select Web/Home frame;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                816.382904637504,
+                213.6197635048069,
+                844.0867910669858,
+                601.7945204705557
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "In right sidebar click Layout grid + button;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1891.0794713298117,
+                910.171978641892,
+                15.20737993617604,
+                16.83674207219508
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Grid type dropdown;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1728.6949036337598,
+                899.9215431126153,
+                122.08994517827341,
+                22.891864720926264
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Pick Columns;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1747.372001197224,
+                925.7780994680085,
+                53.225829776616365,
+                16.836742072194966
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Type 12 in Count;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1531.052774009132,
+                820.8735028639514,
+                17.34944802432892,
+                18.07234169200933
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-18",
+      "task_query": "Insert headline text and set size to 48",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Text tool in toolbar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                967.3712510099224,
+                983.6234357270325,
+                23.897311328276714,
+                21.50758019544901
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Type Welcome to BrandA;",
+          "bboxes": []
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type 48;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1793.356258183629,
+                775.2963152152532,
+                25.301278368812973,
+                22.409703698091448
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click inside Web/Home;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                814.4754883546207,
+                290.7461495116454,
+                845.229151014275,
+                600.112697220135
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Font size box;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1793.7594168777186,
+                775.0613062439088,
+                26.88447524431126,
+                23.29987854506976
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-19",
+      "task_query": "Set headline fill color to #3366CC",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select the headline in Web/Home;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                983.9306104257003,
+                308.53815800148726,
+                256.8997829392474,
+                28.86514415047725
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "In right sidebar click Fill color;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1718.469886341846,
+                861.0890141700194,
+                46.412133571446475,
+                17.774859665660415
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type #3366CC;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1717.8231013255,
+                860.6571388750663,
+                45.70211851593103,
+                18.362458332293727
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-20",
+      "task_query": "Create color style Brand/Primary from headline fill",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "With headline selected click Color style icon;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1863.7567045119943,
+                784.450653983801,
+                14.812383054716975,
+                16.293621360188695
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click + to Create style;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1620.5611822780984,
+                600.7121172236662,
+                19.749844072955966,
+                13.914662869582571
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type Brand/Primary in name;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1249.9366366039278,
+                766.0747315610854,
+                93.19951418027927,
+                24.49474411148367
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Create style",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1343.853600280341,
+                942.2037144697604,
+                78.20938252890573,
+                22.267949192257902
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-21",
+      "task_query": "Insert text Buy now inside Mobile/Home",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Text tool in toolbar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                967.7547685000952,
+                984.1775774286045,
+                22.70244576186292,
+                20.910147412242168
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click inside Mobile/Home;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                570.6960546853957,
+                363.0335927891031,
+                230.6030799900384,
+                495.9050560287348
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type Buy now",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-27",
+      "task_query": "Place a Button/Primary instance on Mobile/Home using Assets",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Assets tab in left sidebar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                54.131729606757446,
+                145.18333227512827,
+                41.40209187623944,
+                19.058105784300693
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Type Button/Primary in search field;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                38.210407466104314,
+                188.11807629075807,
+                100.54793741372437,
+                23.65833821499396
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click the first left component;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                16.151511493109997,
+                219.13845821379078,
+                97.7617281611321,
+                98.74922036477989
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Insert Instance",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                258.5690598821316,
+                497.95517793783466,
+                286.76773593932074,
+                23.89731132827677
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-28",
+      "task_query": "Export Button/Primary as PNG 2× to Exports/button_primary.png",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select the Button component;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                664.2535994334096,
+                688.038662339775,
+                42.46216475685526,
+                23.206066785723237
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "In right sidebar click Export +;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1890.0250418004962,
+                951.842309778901,
+                16.730239813867684,
+                14.281912036228505
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Export Button Danger;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1696.7288921452007,
+                909.1722131575782,
+                205.2996291383772,
+                21.72482848025163
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type button_primary.png;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                138.03418076416818,
+                416.8474406787565,
+                115.04284172496858,
+                21.231082378427686
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Save",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                745.809717528073,
+                485.3878478284727,
+                80.83265556789615,
+                24.315514276521526
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-29",
+      "task_query": "Place Avatars/avatar1.png on Mobile/Home",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Main menu (Figma);",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                17.414707944749757,
+                51.86833876330934,
+                28.563824072456995,
+                21.14464898870193
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Open File menu;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                36.47205068677174,
+                136.02429245248484,
+                30.118512211257865,
+                16.293621360188695
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Place image…;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                242.3873186167348,
+                199.3795038155354,
+                85.4180756155346,
+                19.749844072955995
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Select avatar1.png;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                187.04154664484818,
+                153.92077662303922,
+                90.6902964908102,
+                110.40557833663854
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Open;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                749.9838127553936,
+                490.5544340331508,
+                69.00348646039913,
+                23.001162153466396
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Click inside Mobile/Home below blue icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                822.0752532395237,
+                378.13252799116066,
+                145.51849530405877,
+                51.68689723914656
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-30",
+      "task_query": "Round avatar corners to 64",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select the avatar image;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                740.379519363676,
+                258.43871406453695,
+                77.12314110489308,
+                73.86441683285534
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click Corner radius field;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1792.0922870606792,
+                610.3910246912321,
+                87.37458259794175,
+                24.219621141183893
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type 64;",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-31",
+      "task_query": "Add a 2 px white stroke to avatar",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select the avatar image;",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                741.0985810561127,
+                257.52763512652723,
+                75.85735564385368,
+                74.95963545871928
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click Stroke ▸ +;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1891.2688779829402,
+                748.1869028609602,
+                14.281912036228505,
+                13.465802777015483
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Type 2 in Stroke width;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1797.5951012000828,
+                832.2903448940633,
+                18.40326379525436,
+                19.749844072955966
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Stroke color;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1715.669756436426,
+                781.8915111612388,
+                51.97665213900177,
+                18.520416279414462
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Type #FFFFFF;",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-32",
+      "task_query": "Add a drop shadow effect to Button/Primary",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select the Button Danger component;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                567.8058806473192,
+                551.3052205462168,
+                44.886009256718125,
+                24.89133240599824
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click Effects +;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1891.1079838210937,
+                610.7009751544464,
+                13.734979685927101,
+                18.795235359689627
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-33",
+      "task_query": "Create a Mobile/Details frame (iPhone 14)",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Click Frame tool in toolbar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                798.0624981033848,
+                982.5215416637342,
+                22.712320683899407,
+                24.193558989371127
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "In right sidebar click iPhone 14 plus;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1692.0882637198533,
+                486.96104686983597,
+                81.25085851614085,
+                16.72811792979371
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click layer name in left panel;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                38.39823152549548,
+                336.14567769840886,
+                101.7116969757233,
+                17.28111356383647
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Type Mobile/Details;",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-35",
+      "task_query": "Prototype: On click of Button/Primary instance navigate to Mobile/Details",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:27Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select the Button Danger instance;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                530.3244241574373,
+                547.9513751312627,
+                38.01560786717471,
+                19.620958899186917
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "Click Prototype tab in right sidebar;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1749.3452070694277,
+                88.94827676054872,
+                57.57079547266653,
+                19.009224920220134
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click + Add interaction;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1888.7493975546026,
+                228.82479565483132,
+                18.40326379525436,
+                14.363522962149801
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Click Action dropdown;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1641.5530186777628,
+                352.00584212191274,
+                20.24359017477991,
+                20.7373362766038
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Pick Navigate to;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1549.396392445364,
+                392.1082662771993,
+                92.36872979275063,
+                17.43506144682442
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Click on Destination dropdown;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1643.3402611212373,
+                384.2237039535571,
+                17.505543610119958,
+                21.545284443224716
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "7.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 7,
+          "instruction": "Pick Mobile/Details",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1549.5943758233461,
+                386.88901604880243,
+                81.27369069022598,
+                15.850055860749478
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-40",
+      "task_query": "Export Web/Home frame as PDF to Exports/web_home.pdf",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+      "updated_at": "2025-11-24T21:24:31Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 1,
+          "instruction": "Select Web/Home frame;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                666.1160782801903,
+                213.2453216534799,
+                750.493747912408,
+                531.8184134390957
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 2,
+          "instruction": "In right sidebar click Export +;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1891.090821284326,
+                951.2687573639663,
+                14.31863695289303,
+                15.30612915654092
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 3,
+          "instruction": "Click Format Dropdown;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1778.6684706804838,
+                876.137226909657,
+                68.12151667811463,
+                22.594760482344896
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 4,
+          "instruction": "Pick PDF;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1796.6219431383854,
+                952.1097738002317,
+                29.62476610943395,
+                17.05668351755287
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 5,
+          "instruction": "Click Export Home;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1756.386530169207,
+                908.5492276186815,
+                84.72683107298121,
+                21.181707768245246
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 6,
+          "instruction": "Type web_home.pdf;",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                137.10714964248137,
+                416.9447336409203,
+                99.23358529066914,
+                19.715281845828258
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "7.png",
+          "width": 1920,
+          "height": 1080,
+          "step_index": 7,
+          "instruction": "Click Save",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                745.9627074962748,
+                485.93581571026385,
+                82.14700769095134,
+                23.65833821499399
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

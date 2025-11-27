@@ -1,0 +1,92 @@
+{
+  "task": "Task38_Excel",
+  "task_query": "Text to Columns (Expenses)",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.4467328839645434,
+  "Acc@0.3": 0.7142857142857143,
+  "Acc@0.5": 0.5714285714285714,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the top header cell of description column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1385902894940203,
+      "ious_per_gt": [
+        0.1385902894940203
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Data tab.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.29824633165664244,
+      "ious_per_gt": [
+        0.29824633165664244
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Text to Columns icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3811676270063586,
+      "ious_per_gt": [
+        0.3811676270063586
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) click Next.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.68205788117719,
+      "ious_per_gt": [
+        0.68205788117719
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_5.png",
+      "instruction": "5) Tick in box beside Comma",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5654244305700241,
+      "ious_per_gt": [
+        0.5654244305700241
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_6.png",
+      "instruction": "6) Click Next.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5585284472053079,
+      "ious_per_gt": [
+        0.5585284472053079
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "Step_7.png",
+      "instruction": "7) Select Finish.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5031151806422608,
+      "ious_per_gt": [
+        0.5031151806422608
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

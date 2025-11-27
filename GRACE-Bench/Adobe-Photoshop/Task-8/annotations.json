@@ -1,0 +1,46 @@
+{
+  "task_name": "Task-8",
+  "task_query": "Auto tone the image",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T14:28:43Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open Image menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            90.42758667469819,
+            4.821996655114409,
+            39.499688145911975,
+            16.29362136018868
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose Auto Tone;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            106.0109713218064,
+            88.22576775290274,
+            78.79540977716049,
+            15.180767021287792
+          ]
+        }
+      ]
+    }
+  ]
+}

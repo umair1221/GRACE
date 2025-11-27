@@ -1,0 +1,46 @@
+{
+  "task_name": "Task-32",
+  "task_query": "Add a drop shadow effect to Button/Primary",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T21:12:58Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Select the Button Danger component;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            567.8058806473192,
+            551.3052205462168,
+            44.886009256718125,
+            24.89133240599824
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click Effects +;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1891.1079838210937,
+            610.7009751544464,
+            13.734979685927101,
+            18.795235359689627
+          ]
+        }
+      ]
+    }
+  ]
+}

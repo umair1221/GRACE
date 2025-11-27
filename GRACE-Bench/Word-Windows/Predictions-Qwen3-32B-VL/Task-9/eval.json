@@ -1,0 +1,48 @@
+{
+  "task": "Task-9",
+  "task_query": "Insert a page break after the recipient address",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.5550972790147339,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.6666666666666666,
+  "Acc@0.8": 0.6666666666666666,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Click at the end of the address block",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.020273004331600012,
+      "ious_per_gt": [
+        0.020273004331600012
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click the Insert tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8324919820997032,
+      "ious_per_gt": [
+        0.8324919820997032
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Select Page Break from the bar",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8125268506128986,
+      "ious_per_gt": [
+        0.8125268506128986
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

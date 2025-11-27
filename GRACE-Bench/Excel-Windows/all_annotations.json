@@ -1,0 +1,1295 @@
+{
+  "exported_at": "2025-10-05T12:08:58Z",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Excel",
+  "tasks": [
+    {
+      "task_name": "Task 4",
+      "task_query": "Toggle Headings",
+      "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T12:05:08Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "Open the View tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                746.8780416784564,
+                83.32483968046598,
+                48.192911178691475,
+                26.98803026006719
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "Click the Headings checkbox to show or hide row numbers",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                993.5974871588005,
+                130.10698612175017,
+                20.27650658156813,
+                21.724828480251574
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-1",
+      "task_query": "Freeze Top Row",
+      "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T11:55:57Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click on View from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                742.1609368825275,
+                80.88230449127951,
+                54.963816055036546,
+                27.880196549656176
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Open Freeze Panes",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1569.4500138502267,
+                124.9361745411845,
+                56.58357530543867,
+                48.966555552783404
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1526,
+          "step_index": 3,
+          "instruction": "3)  Choose Freeze Top Row",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1587.5543965863708,
+                351.13762526445475,
+                51.666729547132945,
+                50.03514861406552
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-2",
+      "task_query": "Freeze First Column",
+      "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T11:56:07Z",
+      "images": [
+        {
+          "file_name": "Freeze-First-Column.png",
+          "width": 2559,
+          "height": 1526,
+          "step_index": 1,
+          "instruction": "1) Click on View from tab",
+          "bboxes": []
+        },
+        {
+          "file_name": "Home.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Open Freeze Panes",
+          "bboxes": []
+        },
+        {
+          "file_name": "View-Tab.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Choose Freeze First Column",
+          "bboxes": []
+        },
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click on View from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                742.5,
+                77.5,
+                57.5,
+                35.0
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Open Freeze Panes",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1570.0,
+                127.5,
+                57.5,
+                50.0
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1526,
+          "step_index": 3,
+          "instruction": "3) Choose Freeze First Column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1583.1670980484116,
+                435.43444856583653,
+                59.2466104046091,
+                57.83597682354713
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-3",
+      "task_query": "Toggle Gridlines",
+      "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T11:56:15Z",
+      "images": [
+        {
+          "file_name": "Gridlines.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Open the View tab",
+          "bboxes": []
+        },
+        {
+          "file_name": "View-Tab.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the Gridlines checkbox to toggle it",
+          "bboxes": []
+        },
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Open the View tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                747.3635265139291,
+                84.08871986632825,
+                48.192911178691475,
+                26.02417203649337
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the Gridlines checkbox to toggle it",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                855.9476966923519,
+                171.55387018113353,
+                16.72811792979371,
+                17.524694974069604
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-5",
+      "task_query": "Landscape Orientation",
+      "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T11:56:24Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Open Page Layout from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                337.5495519953565,
+                80.74808226014235,
+                113.88082792433784,
+                31.139288885561115
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click Orientation icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                341.8763954705256,
+                125.86504255242859,
+                51.469290614370095,
+                50.87081049094722
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1524,
+          "step_index": 3,
+          "instruction": "3) Select Landscape",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                340.6890341952002,
+                325.8051611327715,
+                50.67146517796181,
+                42.708806364282054
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-6",
+      "task_query": "Narrow Margins",
+      "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T11:57:51Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Open Page Layout from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                337.4913400337615,
+                82.92683586295898,
+                114.3097035737755,
+                27.530085677453783
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click Margins icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                257.73392786237866,
+                125.92556758971274,
+                42.21858334662221,
+                50.18435378938115
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1526,
+          "step_index": 3,
+          "instruction": "3) Select Narrow",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                277.6259467439125,
+                542.797053845278,
+                53.42944063979087,
+                81.45799966394338
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-7",
+      "task_query": "Fit to One Page",
+      "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T11:57:59Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Open Page Layout from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                339.29253659939997,
+                86.56005009411274,
+                112.07900493192648,
+                24.483277776391716
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Open drop-down menu against Width",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1000.9726509294873,
+                135.0086299057471,
+                15.931540885517848,
+                13.541809752690142
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1525,
+          "step_index": 3,
+          "instruction": "3) Select 1 Page option from menu",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                920.4486918206999,
+                204.3373974735705,
+                60.54252982301932,
+                28.955122958835318
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 4,
+          "instruction": "4) Open drop-down menu against Height",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1003.7429834969132,
+                173.31288878380633,
+                13.166562715304053,
+                15.141547122599576
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 2559,
+          "height": 1528,
+          "step_index": 5,
+          "instruction": "5) Select 1 Page option from menu",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                916.168046291267,
+                245.60820028896342,
+                64.17551670064927,
+                25.01757430703276
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-8",
+      "task_query": "Sort orders by newest Order Date in Sales sheet",
+      "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T11:58:12Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Navigate to Sales sheet",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                430.7070494094773,
+                1452.1441437385563,
+                59.37366657214784,
+                36.048297561661
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click \"order_date\" header",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                242.22550189320978,
+                327.83172571083924,
+                20.34832419637891,
+                20.9468043198018
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Open \"Data\" tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                586.8237118464896,
+                84.49299051990884,
+                46.34630075787004,
+                25.345633226960175
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 4,
+          "instruction": "4) Click Sort \"Highest to Lowest\" icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1156.5798402080238,
+                183.72059790317093,
+                31.06650472675983,
+                35.049389948139236
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 2560,
+          "height": 1600,
+          "step_index": 5,
+          "instruction": "5) Click Sort button",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1365.5910449149574,
+                838.3637102416538,
+                41.34951779131711,
+                24.385613056417924
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-9",
+      "task_query": "Highlight the Top 10% Amounts",
+      "dataset_root": "C:/Users/umair/Downloads/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T11:59:23Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click the Amount header",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                959.7997369636868,
+                327.3522921310585,
+                18.60544314891024,
+                20.931123542524006
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Open \"Conditional Formatting\" menu",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1313.752037526586,
+                129.70732076697095,
+                51.41542740326213,
+                42.725496011161425
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1525,
+          "step_index": 3,
+          "instruction": "3) Click Top/Bottom Rules icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1299.6319690881114,
+                310.4409600883077,
+                56.93301051780986,
+                47.29819335325743
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2559,
+          "height": 1524,
+          "step_index": 4,
+          "instruction": "4) Click Top 10%",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1637.5442934539033,
+                377.0936359582093,
+                105.9829888100769,
+                35.911591249695505
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 2560,
+          "height": 1600,
+          "step_index": 5,
+          "instruction": "5) Click OK in the rule dialog",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1291.717367411835,
+                817.0355615192334,
+                29.325526047722406,
+                22.742244690070493
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-10",
+      "task_query": "Pivot Chart based on region",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T12:01:34Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click header cell of column \"unit_price\"",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                805.2332974967695,
+                324.64958789522257,
+                115.3125,
+                25.625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1600,
+          "step_index": 2,
+          "instruction": "2) Click \"Insert\" from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                182.63937114197535,
+                82.22709833676268,
+                56.095411093964316,
+                26.791838134430748
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1600,
+          "step_index": 3,
+          "instruction": "3) Click \"Recommended Charts\" icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                844.8769867636411,
+                129.90713651215506,
+                118.02827997589918,
+                91.86437554774423
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1600,
+          "step_index": 4,
+          "instruction": "4) Select \"Sum of unit_price by region\" option",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                903.182603816388,
+                1054.018516360287,
+                109.42003240787051,
+                12.516682673963032
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 2560,
+          "height": 1600,
+          "step_index": 5,
+          "instruction": "5) Click ok to add the chart in new sheet",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1510.7323302469126,
+                1167.4493364197535,
+                106.09567901234573,
+                27.729552469135797
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-11",
+      "task_query": "Convert raw data of Products sheet into a structured Table",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T12:02:51Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Navigate to Products sheet",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                177.03125,
+                1458.0690586419755,
+                89.21682098765433,
+                30.14081790123464
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click top cell of \"product_name\" column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                150.96231370741887,
+                326.1526310180422,
+                205.24129473641594,
+                25.001064231348153
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Click \"Insert\" from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                183.1426826131687,
+                83.6988811728395,
+                56.26286008230451,
+                25.1173482510288
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 4,
+          "instruction": "4) Click \"Table\" icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                258.8396707938004,
+                126.59900536789355,
+                48.83928826588942,
+                73.25893239883403
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 5,
+          "instruction": "5) Click \"ok\" button",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1192.8314500221068,
+                811.659492653811,
+                107.11199750025503,
+                30.722045794646874
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 6,
+          "instruction": "6) Select \"Green\" style from table desing",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1794.931448616827,
+                142.0905581990169,
+                96.28316829561027,
+                73.95663651691817
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-12",
+      "task_query": "Rename Products table to “MyTable”",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T12:05:21Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click the first cell of \"product_id\" column to access the table",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                39.65783250457248,
+                383.32258534093484,
+                158.72768686414042,
+                25.582484329751594
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Open \"Table Design\" from the tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1107.9980498518707,
+                83.01465334933697,
+                115.70259958228553,
+                27.908164723365346
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1525,
+          "step_index": 3,
+          "instruction": "3) Click into the \"Table Name\" box",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                33.19690393518519,
+                166.56790724180038,
+                137.39402075036236,
+                25.107536786868252
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 4,
+          "instruction": "4) Type \"MyTable\"",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-13",
+      "task_query": "Filter Products to Category of Accessories",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T12:06:18Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click the category header filter arrow",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                521.6404595355921,
+                356.69903873200116,
+                23.418309519027616,
+                22.610781604578392
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2559,
+          "height": 1526,
+          "step_index": 2,
+          "instruction": "2) Click \"Select All\" to clear",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                214.43705792987413,
+                748.6586274292533,
+                14.933430766366456,
+                14.126218292508838
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1527,
+          "step_index": 3,
+          "instruction": "3) Click in Tick box against Accessories",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                162.0328109016665,
+                777.7264815484922,
+                15.3065185546875,
+                14.369384765625
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2559,
+          "height": 1526,
+          "step_index": 4,
+          "instruction": "4) Click OK",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                400.3576309769241,
+                1141.8894875608844,
+                42.18066180193864,
+                30.129044144242016
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-14",
+      "task_query": "Create product_id chart based on category count",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T12:06:16Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click header cell of \"category\" column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                410.0391160836763,
+                326.069387288523,
+                134.30804273119566,
+                25.582484329751594
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click \"Insert\" from Tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                181.87835791037952,
+                85.40688764574763,
+                57.9094418009831,
+                23.721940014860536
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Click \"Recommended Charts\" icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                835.4499957133058,
+                126.58061128257889,
+                129.77296596364886,
+                102.9811278292181
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 4,
+          "instruction": "4) Click ok button",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1510.2927008316187,
+                1165.5790787894375,
+                103.26020947645179,
+                30.001277077617715
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-15",
+      "task_query": "Sort only Customers by Country",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Excel",
+      "updated_at": "2025-10-05T12:08:58Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Select \"Customers\" Sheet",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                287.63888888888886,
+                1453.7037037037035,
+                120.08101851851859,
+                33.27546296296305
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click header cell in country column",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                429.5700527680137,
+                324.138859715554,
+                122.09822066472344,
+                25.679387679485444
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Click \"Data\" from tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                582.0609448707324,
+                85.59706422182231,
+                54.07206915152028,
+                23.838224034541227
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 4,
+          "instruction": "4) Click sort icon of \"A to Z\"",
+          "bboxes": [
+            {
+              "id": 3,
+              "label": "object",
+              "bbox": [
+                1160.179457189421,
+                137.9340215759634,
+                26.875,
+                30.93749999999997
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 5,
+          "instruction": "5) Select continue with current selection option",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                985.8597485972982,
+                749.551821666381,
+                17.442602952103243,
+                17.442602952103357
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 6,
+          "instruction": "6) Click Sort",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1327.8488297325102,
+                800.675797325103,
+                117.21429183813439,
+                32.65255272633749
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

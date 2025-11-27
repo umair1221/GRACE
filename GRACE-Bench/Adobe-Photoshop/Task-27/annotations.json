@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-27",
+  "task_query": "Add text LAUNCH using the Type tool",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T19:31:50Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click Horizontal Type Tool in toolbar;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            6.4723936963854385,
+            507.84725973566185,
+            24.193558989371073,
+            23.699812887547182
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Click near canvas center;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            540.0,
+            376.875,
+            268.125,
+            127.5
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Type LAUNCH in provided tentative text;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            523.125,
+            380.625,
+            371.25,
+            97.5
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Click Commit (checkmark)",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            935.3352340911835,
+            31.507154894885698,
+            27.831406205694293,
+            23.855491033452257
+          ]
+        }
+      ]
+    }
+  ]
+}

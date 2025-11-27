@@ -1,0 +1,59 @@
+{
+  "task": "Task-4",
+  "task_query": "Duplicate Background layer as Bg copy",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.6420746133790218,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.75,
+  "Acc@0.8": 0.5,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6600900783240168,
+      "ious_per_gt": [
+        0.6600900783240168
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Duplicate Layer\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7878832869309027,
+      "ious_per_gt": [
+        0.7878832869309027
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type Bg copy in Name;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3121277977266278,
+      "ious_per_gt": [
+        0.3121277977266278
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8081972905345401,
+      "ious_per_gt": [
+        0.8081972905345401
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

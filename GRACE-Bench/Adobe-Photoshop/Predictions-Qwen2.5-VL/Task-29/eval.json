@@ -1,0 +1,99 @@
+{
+  "task": "Task-29",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 8,
+  "num_gt_boxes": 7,
+  "mIoU": 0.013453555751233592,
+  "Acc@0.2": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Layer menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.10762844600986873,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.10762844600986873
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Layer Style;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Stroke\u2026;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type 5 in Size;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click Color swatch;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "Type #FF0000 in Hex;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "7.png",
+      "instruction": "Click OK;",
+      "gt_count": 1,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "8.png",
+      "instruction": "Click OK",
+      "gt_count": 0,
+      "pred_count": 0,
+      "best_iou": 0.0,
+      "step_success@0.30": true,
+      "ious_per_gt": []
+    }
+  ]
+}

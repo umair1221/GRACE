@@ -1,0 +1,1198 @@
+{
+  "exported_at": "2025-10-13T09:13:40Z",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+  "tasks": [
+    {
+      "task_name": "Task-1",
+      "task_query": "Set page margins to Narrow",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T08:32:36Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click the Layout tab to show page setup controls",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                419.38699542380994,
+                80.59511986116405,
+                80.82240362133626,
+                29.506591798265617
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click \"Margins\" to open preset margin options",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                31.228273334287465,
+                129.86764086998568,
+                69.27634596114537,
+                89.80267069037362
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1525,
+          "step_index": 3,
+          "instruction": "3) Select \"Narrow\" to apply the slim preset margins.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                36.70604396289623,
+                355.6982316488979,
+                406.8686940418854,
+                103.75734604506539
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-2",
+      "task_query": "Crop image to oval shape",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T09:13:40Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click the screenshot image in main body text",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                834.2458597504994,
+                923.695784780664,
+                650.4279148574201,
+                365.6251592393784
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Select the Picture Format tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1078.9684820923212,
+                78.76820355320605,
+                137.8317259710575,
+                32.771179601510156
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Click crop drop-down icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2223.983502438784,
+                128.6139533766684,
+                48.19291117869125,
+                92.88088336256891
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2559,
+          "height": 1525,
+          "step_index": 4,
+          "instruction": "4) Click Crop to Shape option",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2220.8880812441034,
+                287.9717896585878,
+                196.55027015686983,
+                35.64882350884409
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 2559,
+          "height": 1525,
+          "step_index": 5,
+          "instruction": "5) Click oval shape icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1759.8002698835107,
+                427.4835009788053,
+                31.794896643022867,
+                25.050524627836353
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-3",
+      "task_query": "Add a caption under the report screenshot",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T08:45:27Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click the screenshot image to select it",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                835.2246699776347,
+                995.457349373829,
+                647.2789900410044,
+                362.70948811306744
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the References tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                519.332330331428,
+                83.20158209503033,
+                99.5721305344864,
+                28.676773593932097
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Click Insert Caption icon",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1001.5989861699355,
+                127.5208273993786,
+                68.50562580772669,
+                101.16528462303818
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 4,
+          "instruction": "4) Select OK button",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1252.3648284203014,
+                882.1386969294774,
+                121.87628777421128,
+                34.2528129038634
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-4",
+      "task_query": "Apply Subtitle style to the Project name",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T08:51:44Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click in the project name line",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                980.248855207624,
+                472.1671958169057,
+                158.5984895153299,
+                21.905868717586998
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Open the style drop-down menu",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1727.6414486004921,
+                134.74254930016298,
+                37.43912108096697,
+                89.2166289588998
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1526,
+          "step_index": 3,
+          "instruction": "3) Click Subtitle from the options",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1582.0344456258078,
+                234.41917775979795,
+                126.60627513750705,
+                57.3311434584939
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-5",
+      "task_query": "Apply a built-in table style to the “Decisions” table",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T08:51:45Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click the header cell of Owner column in Decisions table",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1112.0452804520328,
+                940.5605450540545,
+                82.89180722734932,
+                37.59047071937937
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the Table Design tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1075.6309183371316,
+                81.37604765794913,
+                126.00400518545916,
+                33.311403669719084
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Click on red table format from Table Style region",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1253.0400574760517,
+                141.97806154909338,
+                98.77555349021054,
+                74.87824216193374
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-6",
+      "task_query": "Insert today’s date in following format: 1 January 2025",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T08:54:47Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click in the dash region of \"Date\"",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                886.3081313481546,
+                523.0134712636392,
+                168.7295011966205,
+                24.62147227761841
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the Insert tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                176.3802373844887,
+                78.98717478144633,
+                68.50562580772666,
+                36.64254403669099
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Select Date & Time option",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1875.1737412013845,
+                165.41610358410327,
+                135.61559596763118,
+                31.599750516729557
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1529,
+          "step_index": 4,
+          "instruction": "4) Select the date in required format",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                919.7061676211935,
+                708.1300331962474,
+                133.6406115603353,
+                21.06650034448637
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "5.png",
+          "width": 2560,
+          "height": 1529,
+          "step_index": 5,
+          "instruction": "5) Click OK.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1376.9145726794975,
+                978.340952644645,
+                121.07971072993541,
+                35.84596699241513
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-7",
+      "task_query": "Add a new comment on a selected action item",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T08:55:49Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click on ABC cell from owner column in Action Items table",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1117.0369084816016,
+                968.8946784223912,
+                50.82161542480185,
+                29.79198145591829
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the Review tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                748.8087089434666,
+                82.84810041553573,
+                67.02977382336564,
+                26.93160555403088
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Select New Comment icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                796.4737235910491,
+                128.51008353446278,
+                88.87429832830196,
+                99.40754850054506
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 4,
+          "instruction": "4) Click in \"Start a Conversation\" box",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1639.3137029065638,
+                1021.6171389215206,
+                419.2891896688552,
+                39.10469126445287
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 6,
+          "instruction": "6) Click on Post Comment icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1931.6548198567602,
+                1100.9763592609647,
+                57.93287594733761,
+                36.20804746708586
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-8",
+      "task_query": "Insert a hyperlink in the body text",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T08:58:25Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Double-click on 'link' text in the main body",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                945.1427377703986,
+                755.3232522802925,
+                43.07914208316777,
+                24.166347997874595
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the Insert tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                183.16162229523923,
+                80.23508071921361,
+                56.55697014358827,
+                31.863081771035638
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Choose Link icon from the bar",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                980.2441618023071,
+                129.71793524265976,
+                54.31207120062902,
+                91.2442796170566
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1529,
+          "step_index": 4,
+          "instruction": "4) Click the Address box",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                1031.3539204856163,
+                894.0860603115538,
+                574.44611226148,
+                29.400785273225324
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "6.png",
+          "width": 2560,
+          "height": 1529,
+          "step_index": 6,
+          "instruction": "6) Click OK.",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1515.9441423731723,
+                951.4049707230507,
+                123.469441862763,
+                37.439121080966856
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-9",
+      "task_query": "Insert a page break after the recipient address",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T08:59:58Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click at the end of the address block",
+          "bboxes": [
+            {
+              "id": 2,
+              "label": "object",
+              "bbox": [
+                835.5361944478464,
+                576.9623139475278,
+                214.94038385696376,
+                28.915746707214907
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the Insert tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                178.79398878109558,
+                80.47245294379952,
+                65.17448544075475,
+                31.863081771035624
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Select Page Break from the bar",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                164.9329876715899,
+                125.85416941120481,
+                53.58791025128721,
+                99.21005005981552
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-10",
+      "task_query": "AutoFit the catalog table to contents",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T09:00:45Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click inside the first entry of Price column in table",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1308.2704006976207,
+                617.3643194234852,
+                67.34696828877986,
+                36.208047467085976
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the Table Layout tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1227.0049952011466,
+                81.85751165929771,
+                115.50367142000414,
+                29.47335063820799
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Click AutoFit icon",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1168.1317189412355,
+                127.21220172567129,
+                70.0987798962783,
+                95.58924531310694
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2559,
+          "height": 1524,
+          "step_index": 4,
+          "instruction": "4) Select AutoFit to Contents",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1171.34918428389,
+                239.96325436794922,
+                250.06697100812312,
+                36.49302686960647
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-11",
+      "task_query": "Add a caption below the second product image",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T09:04:07Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click on the second product image to select it",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1469.3276406230623,
+                777.8941444000449,
+                230.66889805856658,
+                128.1493878103147
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the References tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                518.039269480554,
+                82.71096449436502,
+                100.65837195849895,
+                28.96643797366876
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Click Insert Caption",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1000.3709302748463,
+                125.69509443204619,
+                68.55317777389666,
+                102.82976666084515
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2560,
+          "height": 1529,
+          "step_index": 4,
+          "instruction": "5) Click OK",
+          "bboxes": []
+        }
+      ]
+    },
+    {
+      "task_name": "Task-12",
+      "task_query": "Insert an Automatic Table of Contents",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T09:10:22Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click at the start of document body just before the first alphabet",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                825.7895869162477,
+                486.34210274593215,
+                17.536232016148347,
+                26.97881848638201
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the References tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                521.9389903370853,
+                83.39471560866777,
+                95.75681974766542,
+                24.483277776391702
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Open Table of Contents drop-down menu",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                29.11809510251533,
+                124.36088687143359,
+                94.86508436376522,
+                102.10669385718239
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "4.png",
+          "width": 2559,
+          "height": 1524,
+          "step_index": 4,
+          "instruction": "4) Select Automatic Table 2 from the list",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                37.02616313344987,
+                483.4224892719574,
+                592.2329414707101,
+                194.69075044411136
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-13",
+      "task_query": "Insert a footnote in the Introduction",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T09:10:23Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click at the end of a sentence in the Introduction section",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1553.6422059446684,
+                724.042070235351,
+                162.10342851014389,
+                25.410807712400924
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click the References tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                517.8403298635383,
+                80.14411929383915,
+                102.16897169882589,
+                31.807321377936333
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Click Insert Footnote",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                300.6193530930872,
+                123.20567082603822,
+                86.82689782607218,
+                107.5379009772453
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-14",
+      "task_query": "Add a “CONFIDENTIAL” watermark in 45 degrees",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T09:10:53Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click the Design tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                333.765460571353,
+                77.24882458367716,
+                71.32550854446328,
+                35.66275427223165
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click Watermark to open different options",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                2248.1495806021076,
+                126.47046784912976,
+                90.520118667715,
+                96.31340626244861
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1527,
+          "step_index": 3,
+          "instruction": "3) Select CONFIDENTIAL type written in almost 45 degrees",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                1926.3441919440818,
+                285.11153357426093,
+                184.02500784295194,
+                255.32265486063983
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Task-15",
+      "task_query": "Switch the handbook to two columns",
+      "dataset_root": "D:/MBZUAI/Research Work/DOMINO/DOMINO-POC/Word/Final-Tasks",
+      "updated_at": "2025-10-13T09:12:34Z",
+      "images": [
+        {
+          "file_name": "1.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 1,
+          "instruction": "1) Click the Layout tab",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                425.28432173932373,
+                81.30381320568966,
+                70.09877989627842,
+                33.29692045073226
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "2.png",
+          "width": 2560,
+          "height": 1528,
+          "step_index": 2,
+          "instruction": "2) Click Columns to open different options",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                270.6918436112856,
+                127.58918264659764,
+                76.03689968088054,
+                95.58924531310694
+              ]
+            }
+          ]
+        },
+        {
+          "file_name": "3.png",
+          "width": 2559,
+          "height": 1528,
+          "step_index": 3,
+          "instruction": "3) Choose Two from the list",
+          "bboxes": [
+            {
+              "id": 1,
+              "label": "object",
+              "bbox": [
+                272.2303032408011,
+                318.9255673583033,
+                218.17685149482406,
+                54.14607993302201
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

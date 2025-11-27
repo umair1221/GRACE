@@ -1,0 +1,46 @@
+{
+  "task": "Task-30",
+  "task_query": "Round avatar corners to 64",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 3,
+  "num_gt_boxes": 2,
+  "mIoU": 0.5592546248418556,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.6666666666666666,
+  "Acc@0.8": 0.6666666666666666,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select the avatar image;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8856568429178611,
+      "ious_per_gt": [
+        0.8856568429178611
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click Corner radius field;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7921070316077056,
+      "ious_per_gt": [
+        0.7921070316077056
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type 64;",
+      "gt_count": 0,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [],
+      "step_success@0.300": true
+    }
+  ]
+}

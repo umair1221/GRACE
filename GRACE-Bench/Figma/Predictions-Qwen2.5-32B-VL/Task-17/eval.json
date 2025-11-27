@@ -1,0 +1,69 @@
+{
+  "task": "Task-17",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.04825298832126948,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select Web/Home frame;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "In right sidebar click Layout grid + button;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Grid type dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2123546569205071,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2123546569205071
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick Columns;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.005938880669513378,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.005938880669513378
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Type 12 in Count;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.022971404016326937,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.022971404016326937
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "task_name": "Task-28",
+  "task_query": "Export Button/Primary as PNG 2× to Exports/button_primary.png",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T21:06:20Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Select the Button component;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            664.2535994334096,
+            688.038662339775,
+            42.46216475685526,
+            23.206066785723237
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "In right sidebar click Export +;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1890.0250418004962,
+            951.842309778901,
+            16.730239813867684,
+            14.281912036228505
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click Export Button Danger;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1696.7288921452007,
+            909.1722131575782,
+            205.2996291383772,
+            21.72482848025163
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Type button_primary.png;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            138.03418076416818,
+            416.8474406787565,
+            115.04284172496858,
+            21.231082378427686
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Click Save",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            745.809717528073,
+            485.3878478284727,
+            80.83265556789615,
+            24.315514276521526
+          ]
+        }
+      ]
+    }
+  ]
+}

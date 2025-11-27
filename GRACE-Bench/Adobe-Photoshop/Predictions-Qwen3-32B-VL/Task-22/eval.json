@@ -1,0 +1,59 @@
+{
+  "task": "Task-22",
+  "task_query": "Define a pattern named Demo texture",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.5429002460439298,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.25,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Edit menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5295536222107254,
+      "ious_per_gt": [
+        0.5295536222107254
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Define Pattern\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.43797099074461787,
+      "ious_per_gt": [
+        0.43797099074461787
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type Demo texture;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.3991075176949855,
+      "ious_per_gt": [
+        0.3991075176949855
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8049688535253903,
+      "ious_per_gt": [
+        0.8049688535253903
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

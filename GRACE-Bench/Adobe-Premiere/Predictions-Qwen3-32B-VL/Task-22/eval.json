@@ -1,0 +1,59 @@
+{
+  "task": "Task-22",
+  "task_query": "Apply default transition to the selected audio clip",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.7728174614972795,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 0.5,
+  "Acc@0.9": 0.25,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click beep.wav clip on timeline;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7428615621686834,
+      "ious_per_gt": [
+        0.7428615621686834
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Open Sequence menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9029524880590489,
+      "ious_per_gt": [
+        0.9029524880590489
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Choose Apply Default Transitions to Selection;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6855081023987354,
+      "ious_per_gt": [
+        0.6855081023987354
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click again audio timeline to confirm",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.7599476933626504,
+      "ious_per_gt": [
+        0.7599476933626504
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

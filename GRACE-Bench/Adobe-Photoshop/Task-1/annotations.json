@@ -1,0 +1,84 @@
+{
+  "task_name": "Task-1",
+  "task_query": "Open Images/landscape.jpg",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Adobe Photoshop/Adobe Photoshop/Final-tasks",
+  "updated_at": "2025-11-24T14:22:46Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Open File menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            27.935507701770607,
+            4.119541830341871,
+            24.85423653057946,
+            15.580267675885633
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Choose Open…;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            40.84777983899183,
+            46.94143890349948,
+            49.70847306115892,
+            18.176978955199907
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Select landscape.jpg;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            490.7698264115258,
+            296.60844889002624,
+            94.50300388909426,
+            73.86441683285534
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Choose Open",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            857.9718245967747,
+            532.811436319744,
+            71.81761481074886,
+            21.99414453579186
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "task": "Task-2",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.1989982665736834,
+  "Acc@0.3": 0.25,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.17392103546170481,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.17392103546170481
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Save As\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1379751198305567,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.1379751198305567
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type PremiereCrashCourse_v1.prproj in File Name;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.13207895918453913,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.13207895918453913
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Save",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.35201795181793305,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.35201795181793305
+      ]
+    }
+  ]
+}

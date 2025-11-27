@@ -1,0 +1,80 @@
+{
+  "task": "Task-11",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 6,
+  "num_gt_boxes": 6,
+  "mIoU": 0.38882363926673813,
+  "Acc@0.3": 0.5,
+  "Acc@0.5": 0.5,
+  "Acc@0.8": 0.16666666666666666,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Navigate to Products sheet",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.2950861057489443,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.2950861057489443
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click top cell of \"product_name\" column",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Click \"Insert\" from tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8843666321201621,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.8843666321201621
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Click \"Table\" icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.637242797098537,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.637242797098537
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "5) Click \"ok\" button",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5162463006327853,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5162463006327853
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "6) Select \"Green\" style from table desing",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    }
+  ]
+}

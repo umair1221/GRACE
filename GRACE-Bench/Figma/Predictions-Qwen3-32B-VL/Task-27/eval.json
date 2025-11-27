@@ -1,0 +1,59 @@
+{
+  "task": "Task-27",
+  "task_query": "Place a Button/Primary instance on Mobile/Home using Assets",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.624330895659383,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 0.75,
+  "Acc@0.8": 0.25,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Click Assets tab in left sidebar;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5899387967054729,
+      "ious_per_gt": [
+        0.5899387967054729
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Type Button/Primary in search field;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.46199274608464164,
+      "ious_per_gt": [
+        0.46199274608464164
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click the first left component;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6257738517676174,
+      "ious_per_gt": [
+        0.6257738517676174
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Insert Instance",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8196181880798002,
+      "ious_per_gt": [
+        0.8196181880798002
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

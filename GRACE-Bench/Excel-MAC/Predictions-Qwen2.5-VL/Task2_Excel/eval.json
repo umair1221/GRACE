@@ -1,0 +1,59 @@
+{
+  "task": "Task2_Excel",
+  "task_query": "Add a Column between 2 and 3 column (Inventory)",
+  "exists": true,
+  "task_completed@0.25": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.05133217272157096,
+  "Acc@0.2": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Click the 3rd Column in 1st row",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Open Home tab menu.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Insert drop down icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.20532869088628383,
+      "ious_per_gt": [
+        0.20532869088628383
+      ],
+      "step_success@0.250": false
+    },
+    {
+      "image": "Step_4.png",
+      "instruction": "4) Click Insert Sheet Columns.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "ious_per_gt": [
+        0.0
+      ],
+      "step_success@0.250": false
+    }
+  ]
+}

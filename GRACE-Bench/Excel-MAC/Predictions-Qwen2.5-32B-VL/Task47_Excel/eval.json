@@ -1,0 +1,47 @@
+{
+  "task": "Task47_Excel",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.37175904799208564,
+  "Acc@0.3": 0.6666666666666666,
+  "Acc@0.5": 0.3333333333333333,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Open drop-down menu for Format icon.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.15317693656057893,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.15317693656057893
+      ]
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Click Hide & Unhide.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5333635636317604,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5333635636317604
+      ]
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Select Unhide Columns.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4287366437839177,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4287366437839177
+      ]
+    }
+  ]
+}

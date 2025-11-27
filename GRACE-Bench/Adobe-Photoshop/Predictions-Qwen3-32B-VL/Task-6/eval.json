@@ -1,0 +1,70 @@
+{
+  "task": "Task-6",
+  "task_query": "Apply Gaussian Blur 2 px to Smart Object",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.6060101632962234,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Filter menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6027162638309135,
+      "ious_per_gt": [
+        0.6027162638309135
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Blur;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5878983172657167,
+      "ious_per_gt": [
+        0.5878983172657167
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Pick Gaussian Blur\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6951990061353203,
+      "ious_per_gt": [
+        0.6951990061353203
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Type 2 in Radius;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5203277677853181,
+      "ious_per_gt": [
+        0.5203277677853181
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6239094614638488,
+      "ious_per_gt": [
+        0.6239094614638488
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

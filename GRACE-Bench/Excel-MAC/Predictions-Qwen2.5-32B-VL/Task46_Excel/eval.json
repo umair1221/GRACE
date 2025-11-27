@@ -1,0 +1,47 @@
+{
+  "task": "Task46_Excel",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 3,
+  "num_gt_boxes": 3,
+  "mIoU": 0.6847621402367601,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 0.3333333333333333,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "Step_1.png",
+      "instruction": "1) Select the top header cell of Email Column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6388836931643203,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.6388836931643203
+      ]
+    },
+    {
+      "image": "Step_2.png",
+      "instruction": "2) Right-click in the Email Column.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5833760478762473,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5833760478762473
+      ]
+    },
+    {
+      "image": "Step_3.png",
+      "instruction": "3) Click Hide.",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8320266796697128,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.8320266796697128
+      ]
+    }
+  ]
+}

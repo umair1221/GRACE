@@ -1,0 +1,122 @@
+{
+  "task_name": "Task-12",
+  "task_query": "Place Icons/search.svg at the top of Mobile/Home",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T20:40:52Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Click Main menu (Figma);",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            17.23982354476459,
+            48.53319988126705,
+            29.42177227459112,
+            26.24104013679748
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "Open File menu;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            35.71524873350734,
+            135.414835451781,
+            34.173155199435726,
+            17.086577599717856
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click Place image…;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            241.1291334386404,
+            198.54707102128737,
+            88.0615922446998,
+            19.05810578430072
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Select search.svg;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            181.77327519089363,
+            283.56535153306754,
+            103.91451894171803,
+            115.46057660190894
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Click Open;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            749.1140089531676,
+            489.4558015857296,
+            69.10140569356668,
+            22.742234785224525
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "6.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 6,
+      "instruction": "Click near top on Mobile/Home",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            775.511592840331,
+            89.76561840403802,
+            82.40987811556238,
+            27.469959371854117
+          ]
+        }
+      ]
+    }
+  ]
+}

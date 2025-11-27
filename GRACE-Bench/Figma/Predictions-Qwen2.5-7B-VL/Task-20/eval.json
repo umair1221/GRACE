@@ -1,0 +1,58 @@
+{
+  "task": "Task-20",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.04967033975057543,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "With headline selected click Color style icon;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click + to Create style;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type Brand/Primary in name;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.07342021824775251,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.07342021824775251
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Click Create style",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1252611407545492,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.1252611407545492
+      ]
+    }
+  ]
+}

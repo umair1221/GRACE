@@ -1,0 +1,141 @@
+{
+  "task_name": "Task38_Excel",
+  "task_query": "Text to Columns (Expenses)",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Ufaq's-Samples/Excel_Data_2/Excel_Data",
+  "updated_at": "2025-10-12T17:58:05Z",
+  "images": [
+    {
+      "file_name": "Step_1.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 1,
+      "instruction": "1) Select the top header cell of description column.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            532.7043343317058,
+            408.0943077591862,
+            133.52174630087222,
+            54.8577717360173
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_2.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 2,
+      "instruction": "2) Click Data tab.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            756.807551196997,
+            154.70882008183108,
+            83.83923604938491,
+            37.261882688615515
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_3.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 3,
+      "instruction": "3) Click Text to Columns icon",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1712.9349051835015,
+            217.83208553469117,
+            73.87676048540106,
+            72.32146026465566
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_4.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 4,
+      "instruction": "4) click Next.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1746.567096505235,
+            1111.34248616226,
+            144.65373375409627,
+            38.57432900109234
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_5.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 5,
+      "instruction": "5) Tick in box beside Comma",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            972.7179954350147,
+            617.245200757427,
+            29.16965564007785,
+            27.287742372976027
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_6.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 6,
+      "instruction": "6) Click Next.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1745.795099158764,
+            1113.0416285558078,
+            142.837216973026,
+            38.296934985521375
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "Step_7.png",
+      "width": 3024,
+      "height": 1964,
+      "step_index": 7,
+      "instruction": "7) Select Finish.",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1913.4379729974478,
+            1113.5105931526555,
+            142.83721697302622,
+            36.226830391709655
+          ]
+        }
+      ]
+    }
+  ]
+}

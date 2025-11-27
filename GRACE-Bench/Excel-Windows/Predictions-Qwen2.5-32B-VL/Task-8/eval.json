@@ -1,0 +1,69 @@
+{
+  "task": "Task-8",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.23973836828680675,
+  "Acc@0.3": 0.4,
+  "Acc@0.5": 0.2,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "1) Navigate to Sales sheet",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.17894495937256422,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.17894495937256422
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "2) Click \"order_date\" header",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "3) Open \"Data\" tab",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5956103834182981,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.5956103834182981
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "4) Click Sort \"Highest to Lowest\" icon",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "5) Click Sort button",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.4241364986431716,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.4241364986431716
+      ]
+    }
+  ]
+}

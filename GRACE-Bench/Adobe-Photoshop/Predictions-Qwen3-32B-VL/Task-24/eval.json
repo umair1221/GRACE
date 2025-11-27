@@ -1,0 +1,70 @@
+{
+  "task": "Task-24",
+  "task_query": "Fill the background with 50% Gray",
+  "exists": true,
+  "task_completed@0.30": true,
+  "num_images": 5,
+  "num_gt_boxes": 5,
+  "mIoU": 0.6720399716492721,
+  "Acc@0.3": 1.0,
+  "Acc@0.5": 1.0,
+  "Acc@0.8": 0.4,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open Edit menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.758021856019001,
+      "ious_per_gt": [
+        0.758021856019001
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Fill\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5141180211479339,
+      "ious_per_gt": [
+        0.5141180211479339
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "3.png",
+      "instruction": "Open Contents dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8648062772229187,
+      "ious_per_gt": [
+        0.8648062772229187
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick 50% Gray;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.5672010096492368,
+      "ious_per_gt": [
+        0.5672010096492368
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "5.png",
+      "instruction": "Click OK",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.6560526942072702,
+      "ious_per_gt": [
+        0.6560526942072702
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

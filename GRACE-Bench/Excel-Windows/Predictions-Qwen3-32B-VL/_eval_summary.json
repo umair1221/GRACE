@@ -1,0 +1,937 @@
+{
+  "overall": {
+    "num_tasks": 15,
+    "overall_num_gt_boxes": 59,
+    "task_completion_rate@0.300": 0.0,
+    "overall_mIoU": 0.36635957734371577,
+    "Acc@0.3": 0.4576271186440678,
+    "Acc@0.5": 0.423728813559322,
+    "Acc@0.8": 0.1694915254237288,
+    "Acc@0.9": 0.01694915254237288
+  },
+  "per_task": [
+    {
+      "task": "Task 4",
+      "task_query": "Toggle Headings",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 2,
+      "num_gt_boxes": 2,
+      "mIoU": 0.4867244039411304,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.5,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "Open the View tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8264826732781201,
+          "ious_per_gt": [
+            0.8264826732781201
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "Click the Headings checkbox to show or hide row numbers",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1469661346041408,
+          "ious_per_gt": [
+            0.1469661346041408
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-1",
+      "task_query": "Freeze Top Row",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.24250867209298513,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click on View from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6610149405535893,
+          "ious_per_gt": [
+            0.6610149405535893
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Open Freeze Panes",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3)  Choose Freeze Top Row",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.06651107572536603,
+          "ious_per_gt": [
+            0.06651107572536603
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-10",
+      "task_query": "Pivot Chart based on region",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.4270683911537865,
+      "Acc@0.3": 0.6,
+      "Acc@0.5": 0.6,
+      "Acc@0.8": 0.2,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click header cell of column \"unit_price\"",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click \"Insert\" from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.626564582685419,
+          "ious_per_gt": [
+            0.626564582685419
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click \"Recommended Charts\" icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7728483846170925,
+          "ious_per_gt": [
+            0.7728483846170925
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Select \"Sum of unit_price by region\" option",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.062036319419489346,
+          "ious_per_gt": [
+            0.062036319419489346
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "5) Click ok to add the chart in new sheet",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6738926690469315,
+          "ious_per_gt": [
+            0.6738926690469315
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-11",
+      "task_query": "Convert raw data of Products sheet into a structured Table",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.5422929012681826,
+      "Acc@0.3": 0.8333333333333334,
+      "Acc@0.5": 0.6666666666666666,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Navigate to Products sheet",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.31504275402379506,
+          "ious_per_gt": [
+            0.31504275402379506
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click top cell of \"product_name\" column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click \"Insert\" from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8584517734225183,
+          "ious_per_gt": [
+            0.8584517734225183
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Click \"Table\" icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7815520416866222,
+          "ious_per_gt": [
+            0.7815520416866222
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "5) Click \"ok\" button",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5495731631234079,
+          "ious_per_gt": [
+            0.5495731631234079
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "6.png",
+          "instruction": "6) Select \"Green\" style from table desing",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7491376753527527,
+          "ious_per_gt": [
+            0.7491376753527527
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-12",
+      "task_query": "Rename Products table to \u201cMyTable\u201d",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 3,
+      "mIoU": 0.49464722994709986,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.5,
+      "Acc@0.9": 0.25,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click the first cell of \"product_id\" column to access the table",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.299645333377677,
+          "ious_per_gt": [
+            0.299645333377677
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Open \"Table Design\" from the tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7631228528538985,
+          "ious_per_gt": [
+            0.7631228528538985
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click into the \"Table Name\" box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.9158207335568241,
+          "ious_per_gt": [
+            0.9158207335568241
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Type \"MyTable\"",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-13",
+      "task_query": "Filter Products to Category of Accessories",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.383989381289324,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click the category header filter arrow",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.23047172291686155,
+          "ious_per_gt": [
+            0.23047172291686155
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click \"Select All\" to clear",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.04908668363327307,
+          "ious_per_gt": [
+            0.04908668363327307
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click in Tick box against Accessories",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6609289188640124,
+          "ious_per_gt": [
+            0.6609289188640124
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Click OK",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5954701997431492,
+          "ious_per_gt": [
+            0.5954701997431492
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-14",
+      "task_query": "Create product_id chart based on category count",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.4337826241220353,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.25,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click header cell of \"category\" column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click \"Insert\" from Tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6944250043647622,
+          "ious_per_gt": [
+            0.6944250043647622
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click \"Recommended Charts\" icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7678422763779045,
+          "ious_per_gt": [
+            0.7678422763779045
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Click ok button",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2728632157454745,
+          "ious_per_gt": [
+            0.2728632157454745
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-15",
+      "task_query": "Sort only Customers by Country",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 6,
+      "mIoU": 0.26405629741575876,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.16666666666666666,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Select \"Customers\" Sheet",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1077589006288804,
+          "ious_per_gt": [
+            0.1077589006288804
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click header cell in country column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click \"Data\" from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6600526796567213,
+          "ious_per_gt": [
+            0.6600526796567213
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Click sort icon of \"A to Z\"",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "5) Select continue with current selection option",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.04499379806993121,
+          "ious_per_gt": [
+            0.04499379806993121
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "6.png",
+          "instruction": "6) Click Sort",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7715324061390195,
+          "ious_per_gt": [
+            0.7715324061390195
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-2",
+      "task_query": "Freeze First Column",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 6,
+      "num_gt_boxes": 3,
+      "mIoU": 0.2487982169384665,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Freeze-First-Column.png",
+          "instruction": "1) Click on View from tab",
+          "best_iou": 0.0,
+          "gt_count": 0,
+          "matched": 0,
+          "note": "no_prediction"
+        },
+        {
+          "image": "Home.png",
+          "instruction": "2) Open Freeze Panes",
+          "best_iou": 0.0,
+          "gt_count": 0,
+          "matched": 0,
+          "note": "no_prediction"
+        },
+        {
+          "image": "View-Tab.png",
+          "instruction": "3) Choose Freeze First Column",
+          "best_iou": 0.0,
+          "gt_count": 0,
+          "matched": 0,
+          "note": "no_prediction"
+        },
+        {
+          "image": "1.png",
+          "instruction": "1) Click on View from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6544798013992327,
+          "ious_per_gt": [
+            0.6544798013992327
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Open Freeze Panes",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Choose Freeze First Column",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.09191484941616679,
+          "ious_per_gt": [
+            0.09191484941616679
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-3",
+      "task_query": "Toggle Gridlines",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 4,
+      "num_gt_boxes": 2,
+      "mIoU": 0.40054089292751177,
+      "Acc@0.3": 0.5,
+      "Acc@0.5": 0.5,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "Gridlines.png",
+          "instruction": "1) Open the View tab",
+          "best_iou": 0.0,
+          "gt_count": 0,
+          "matched": 0,
+          "note": "no_prediction"
+        },
+        {
+          "image": "View-Tab.png",
+          "instruction": "2) Click the Gridlines checkbox to toggle it",
+          "best_iou": 0.0,
+          "gt_count": 0,
+          "matched": 0,
+          "note": "no_prediction"
+        },
+        {
+          "image": "1.png",
+          "instruction": "1) Open the View tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6975420530888273,
+          "ious_per_gt": [
+            0.6975420530888273
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click the Gridlines checkbox to toggle it",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1035397327661962,
+          "ious_per_gt": [
+            0.1035397327661962
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-5",
+      "task_query": "Landscape Orientation",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.40807235738999453,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Open Page Layout from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8479598276573006,
+          "ious_per_gt": [
+            0.8479598276573006
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click Orientation icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2071448551134169,
+          "ious_per_gt": [
+            0.2071448551134169
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Select Landscape",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.16911238939926615,
+          "ious_per_gt": [
+            0.16911238939926615
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-6",
+      "task_query": "Narrow Margins",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.4084634579364828,
+      "Acc@0.3": 0.3333333333333333,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.3333333333333333,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Open Page Layout from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8782142768572496,
+          "ious_per_gt": [
+            0.8782142768572496
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click Margins icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2450680039135171,
+          "ious_per_gt": [
+            0.2450680039135171
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Select Narrow",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.10210809303868168,
+          "ious_per_gt": [
+            0.10210809303868168
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-7",
+      "task_query": "Fit to One Page",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.3681939171952985,
+      "Acc@0.3": 0.6,
+      "Acc@0.5": 0.6,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Open Page Layout from tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5560408126950218,
+          "ious_per_gt": [
+            0.5560408126950218
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Open drop-down menu against Width",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.10422313803810983,
+          "ious_per_gt": [
+            0.10422313803810983
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Select 1 Page option from menu",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6064460689558884,
+          "ious_per_gt": [
+            0.6064460689558884
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Open drop-down menu against Height",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.061379966070332186,
+          "ious_per_gt": [
+            0.061379966070332186
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "5) Select 1 Page option from menu",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5128796002171404,
+          "ious_per_gt": [
+            0.5128796002171404
+          ],
+          "step_success@0.300": true
+        }
+      ]
+    },
+    {
+      "task": "Task-8",
+      "task_query": "Sort orders by newest Order Date in Sales sheet",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.22040995922680703,
+      "Acc@0.3": 0.2,
+      "Acc@0.5": 0.2,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Navigate to Sales sheet",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1554186046947763,
+          "ious_per_gt": [
+            0.1554186046947763
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click \"order_date\" header",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Open \"Data\" tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.565563957840809,
+          "ious_per_gt": [
+            0.565563957840809
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Click Sort \"Highest to Lowest\" icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1771575589920742,
+          "ious_per_gt": [
+            0.1771575589920742
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "5) Click Sort button",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2039096746063757,
+          "ious_per_gt": [
+            0.2039096746063757
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    },
+    {
+      "task": "Task-9",
+      "task_query": "Highlight the Top 10% Amounts",
+      "exists": true,
+      "task_completed@0.30": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.1502045770102412,
+      "Acc@0.3": 0.2,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click the Amount header",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Open \"Conditional Formatting\" menu",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.008835233099168843,
+          "ious_per_gt": [
+            0.008835233099168843
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click Top/Bottom Rules icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.19607223209420138,
+          "ious_per_gt": [
+            0.19607223209420138
+          ],
+          "step_success@0.300": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Click Top 10%",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.3621859413574667,
+          "ious_per_gt": [
+            0.3621859413574667
+          ],
+          "step_success@0.300": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "5) Click OK in the rule dialog",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.18392947850036923,
+          "ious_per_gt": [
+            0.18392947850036923
+          ],
+          "step_success@0.300": false
+        }
+      ]
+    }
+  ]
+}

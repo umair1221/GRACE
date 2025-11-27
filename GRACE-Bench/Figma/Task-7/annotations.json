@@ -1,0 +1,141 @@
+{
+  "task_name": "Task-7",
+  "task_query": "Add a 4‑column layout grid with 16 margin and 16 gutter",
+  "dataset_root": "D:/MBZUAI/Research Work/DOMINO/Scaling/After/Dinura/Figma/Figma/Final_tasks",
+  "updated_at": "2025-11-24T19:54:03Z",
+  "images": [
+    {
+      "file_name": "1.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 1,
+      "instruction": "Select Mobile/Home frame;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            778.40758312225,
+            115.20032365139096,
+            385.8307601447124,
+            838.0513518355225
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "2.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 2,
+      "instruction": "In right sidebar click Layout grid + icon;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1890.0547294647984,
+            826.1460073314757,
+            15.951226430073348,
+            18.176978955199957
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "3.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 3,
+      "instruction": "Click Grid type dropdown;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1726.347255619191,
+            861.6131634847891,
+            120.26321925955267,
+            20.37245790735585
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "4.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 4,
+      "instruction": "Pick Columns;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1746.3113618040413,
+            887.1778641511025,
+            54.67932036727484,
+            17.95440370268716
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "5.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 5,
+      "instruction": "Type 4 in Count;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1529.810666616719,
+            820.2162491570806,
+            23.259113887572084,
+            20.810786109932906
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "6.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 6,
+      "instruction": "Type 16 in Margin;",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1536.3059336132114,
+            947.3329070353175,
+            19.178567591506862,
+            21.218840739539473
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "7.png",
+      "width": 1920,
+      "height": 1080,
+      "step_index": 7,
+      "instruction": "Type 16 in Gutter",
+      "bboxes": [
+        {
+          "id": 1,
+          "label": "object",
+          "bbox": [
+            1536.8123350986496,
+            980.0746878894992,
+            23.20606678572335,
+            20.243590174779797
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "task": "Task-7",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 7,
+  "num_gt_boxes": 7,
+  "mIoU": 0.181161722976559,
+  "Acc@0.3": 0.14285714285714285,
+  "Acc@0.5": 0.14285714285714285,
+  "Acc@0.8": 0.14285714285714285,
+  "Acc@0.9": 0.14285714285714285,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select Mobile/Home frame;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.9604454938794909,
+      "step_success@0.30": true,
+      "ious_per_gt": [
+        0.9604454938794909
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "In right sidebar click Layout grid + icon;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "3.png",
+      "instruction": "Click Grid type dropdown;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1200552164327722,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.1200552164327722
+      ]
+    },
+    {
+      "image": "4.png",
+      "instruction": "Pick Columns;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.06353635532686697,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.06353635532686697
+      ]
+    },
+    {
+      "image": "5.png",
+      "instruction": "Type 4 in Count;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.03380374888857526,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.03380374888857526
+      ]
+    },
+    {
+      "image": "6.png",
+      "instruction": "Type 16 in Margin;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.04829085291409559,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.04829085291409559
+      ]
+    },
+    {
+      "image": "7.png",
+      "instruction": "Type 16 in Gutter",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.042000393394112205,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.042000393394112205
+      ]
+    }
+  ]
+}

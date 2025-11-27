@@ -1,0 +1,59 @@
+{
+  "task": "Task-2",
+  "task_query": "Save a copy as Working/landscape_work.psd",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 4,
+  "num_gt_boxes": 4,
+  "mIoU": 0.4151334910819086,
+  "Acc@0.3": 0.5,
+  "Acc@0.5": 0.25,
+  "Acc@0.8": 0.25,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Open File menu;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.46803385941895387,
+      "ious_per_gt": [
+        0.46803385941895387
+      ],
+      "step_success@0.300": true
+    },
+    {
+      "image": "2.png",
+      "instruction": "Choose Save As\u2026;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1727208690498006,
+      "ious_per_gt": [
+        0.1727208690498006
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "3.png",
+      "instruction": "Type landscape_work.psd;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.1687976777017431,
+      "ious_per_gt": [
+        0.1687976777017431
+      ],
+      "step_success@0.300": false
+    },
+    {
+      "image": "4.png",
+      "instruction": "Choose Save",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.8509815581571369,
+      "ious_per_gt": [
+        0.8509815581571369
+      ],
+      "step_success@0.300": true
+    }
+  ]
+}

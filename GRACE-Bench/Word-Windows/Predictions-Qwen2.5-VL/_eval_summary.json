@@ -1,0 +1,720 @@
+{
+  "overall": {
+    "num_tasks": 12,
+    "overall_num_gt_boxes": 47,
+    "task_completion_rate@0.250": 0.0,
+    "overall_mIoU": 0.26987989528980205,
+    "Acc@0.2": 0.48936170212765956,
+    "Acc@0.5": 0.2127659574468085,
+    "Acc@0.8": 0.02127659574468085,
+    "Acc@0.9": 0.0
+  },
+  "per_task": [
+    {
+      "task": "Task-1",
+      "task_query": "Set page margins to Narrow",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.37008519304702664,
+      "Acc@0.2": 0.6666666666666666,
+      "Acc@0.5": 0.6666666666666666,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click the Layout tab to show page setup controls",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5098973610900999,
+          "ious_per_gt": [
+            0.5098973610900999
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click \"Margins\" to open preset margin options",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5741830699002871,
+          "ious_per_gt": [
+            0.5741830699002871
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Select \"Narrow\" to apply the slim preset margins.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.02617514815069286,
+          "ious_per_gt": [
+            0.02617514815069286
+          ],
+          "step_success@0.250": false
+        }
+      ]
+    },
+    {
+      "task": "Task-10",
+      "task_query": "AutoFit the catalog table to contents",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.3108446350770396,
+      "Acc@0.2": 0.75,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click inside the first entry of Price column in table",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click the Table Layout tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4935819846071469,
+          "ious_per_gt": [
+            0.4935819846071469
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click AutoFit icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.49666530825890687,
+          "ious_per_gt": [
+            0.49666530825890687
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Select AutoFit to Contents",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.25313124744210463,
+          "ious_per_gt": [
+            0.25313124744210463
+          ],
+          "step_success@0.250": true
+        }
+      ]
+    },
+    {
+      "task": "Task-11",
+      "task_query": "Add a caption below the second product image",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 4,
+      "num_gt_boxes": 3,
+      "mIoU": 0.08226783560088667,
+      "Acc@0.2": 0.25,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click on the second product image to select it",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click the References tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.3290713424035467,
+          "ious_per_gt": [
+            0.3290713424035467
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click Insert Caption",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "5) Click OK",
+          "gt_count": 0,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [],
+          "step_success@0.250": true
+        }
+      ]
+    },
+    {
+      "task": "Task-12",
+      "task_query": "Insert an Automatic Table of Contents",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.19825992175111096,
+      "Acc@0.2": 0.25,
+      "Acc@0.5": 0.25,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click at the start of document body just before the first alphabet",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click the References tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6419651735215474,
+          "ious_per_gt": [
+            0.6419651735215474
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Open Table of Contents drop-down menu",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.12822153871350533,
+          "ious_per_gt": [
+            0.12822153871350533
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Select Automatic Table 2 from the list",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.022852974769391084,
+          "ious_per_gt": [
+            0.022852974769391084
+          ],
+          "step_success@0.250": false
+        }
+      ]
+    },
+    {
+      "task": "Task-15",
+      "task_query": "Switch the handbook to two columns",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.4307721357240075,
+      "Acc@0.2": 0.6666666666666666,
+      "Acc@0.5": 0.6666666666666666,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click the Layout tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5174654872605615,
+          "ious_per_gt": [
+            0.5174654872605615
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click Columns to open different options",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.7301559929087263,
+          "ious_per_gt": [
+            0.7301559929087263
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Choose Two from the list",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0446949270027345,
+          "ious_per_gt": [
+            0.0446949270027345
+          ],
+          "step_success@0.250": false
+        }
+      ]
+    },
+    {
+      "task": "Task-2",
+      "task_query": "Crop image to oval shape",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.37253417791831456,
+      "Acc@0.2": 0.6,
+      "Acc@0.5": 0.4,
+      "Acc@0.8": 0.2,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click the screenshot image in main body text",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.8119999929604018,
+          "ious_per_gt": [
+            0.8119999929604018
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Select the Picture Format tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5021133652018261,
+          "ious_per_gt": [
+            0.5021133652018261
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click crop drop-down icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.2048906865579302,
+          "ious_per_gt": [
+            0.2048906865579302
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Click Crop to Shape option",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.34366684487141497,
+          "ious_per_gt": [
+            0.34366684487141497
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "5.png",
+          "instruction": "5) Click oval shape icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        }
+      ]
+    },
+    {
+      "task": "Task-3",
+      "task_query": "Add a caption under the report screenshot",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 4,
+      "num_gt_boxes": 4,
+      "mIoU": 0.15296331902959195,
+      "Acc@0.2": 0.25,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click the screenshot image to select it",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click the References tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.45626999583266,
+          "ious_per_gt": [
+            0.45626999583266
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click Insert Caption icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Select OK button",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.15558328028570786,
+          "ious_per_gt": [
+            0.15558328028570786
+          ],
+          "step_success@0.250": false
+        }
+      ]
+    },
+    {
+      "task": "Task-4",
+      "task_query": "Apply Subtitle style to the Project name",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.10341738650158964,
+      "Acc@0.2": 0.0,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click in the project name line",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Open the style drop-down menu",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1383153950219792,
+          "ious_per_gt": [
+            0.1383153950219792
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Click Subtitle from the options",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.1719367644827897,
+          "ious_per_gt": [
+            0.1719367644827897
+          ],
+          "step_success@0.250": false
+        }
+      ]
+    },
+    {
+      "task": "Task-6",
+      "task_query": "Insert today\u2019s date in following format: 1 January 2025",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.24343143037554774,
+      "Acc@0.2": 0.6,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click in the dash region of \"Date\"",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click the Insert tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.35216031083575106,
+          "ious_per_gt": [
+            0.35216031083575106
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Select Date & Time option",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.44137961252741387,
+          "ious_per_gt": [
+            0.44137961252741387
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Select the date in required format",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "5.png",
+          "instruction": "5) Click OK.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4236172285145737,
+          "ious_per_gt": [
+            0.4236172285145737
+          ],
+          "step_success@0.250": true
+        }
+      ]
+    },
+    {
+      "task": "Task-7",
+      "task_query": "Add a new comment on a selected action item",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.11491199553401152,
+      "Acc@0.2": 0.2,
+      "Acc@0.5": 0.0,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click on ABC cell from owner column in Action Items table",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click the Review tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.449259688814609,
+          "ious_per_gt": [
+            0.449259688814609
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Select New Comment icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.12530028885544858,
+          "ious_per_gt": [
+            0.12530028885544858
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Click in \"Start a Conversation\" box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "6.png",
+          "instruction": "6) Click on Post Comment icon",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.0,
+          "ious_per_gt": [
+            0.0
+          ],
+          "step_success@0.250": false
+        }
+      ]
+    },
+    {
+      "task": "Task-8",
+      "task_query": "Insert a hyperlink in the body text",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 5,
+      "num_gt_boxes": 5,
+      "mIoU": 0.45948028923468004,
+      "Acc@0.2": 0.8,
+      "Acc@0.5": 0.4,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Double-click on 'link' text in the main body",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.24884575195022243,
+          "ious_per_gt": [
+            0.24884575195022243
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click the Insert tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4528102458286777,
+          "ious_per_gt": [
+            0.4528102458286777
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Choose Link icon from the bar",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6295824050405744,
+          "ious_per_gt": [
+            0.6295824050405744
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "4.png",
+          "instruction": "4) Click the Address box",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.4465366207790969,
+          "ious_per_gt": [
+            0.4465366207790969
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "6.png",
+          "instruction": "6) Click OK.",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.5196264225748287,
+          "ious_per_gt": [
+            0.5196264225748287
+          ],
+          "step_success@0.250": true
+        }
+      ]
+    },
+    {
+      "task": "Task-9",
+      "task_query": "Insert a page break after the recipient address",
+      "exists": true,
+      "task_completed@0.25": false,
+      "num_images": 3,
+      "num_gt_boxes": 3,
+      "mIoU": 0.34746620721851307,
+      "Acc@0.2": 0.6666666666666666,
+      "Acc@0.5": 0.3333333333333333,
+      "Acc@0.8": 0.0,
+      "Acc@0.9": 0.0,
+      "per_image": [
+        {
+          "image": "1.png",
+          "instruction": "1) Click at the end of the address block",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.009372286444512181,
+          "ious_per_gt": [
+            0.009372286444512181
+          ],
+          "step_success@0.250": false
+        },
+        {
+          "image": "2.png",
+          "instruction": "2) Click the Insert tab",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.39293866888021933,
+          "ious_per_gt": [
+            0.39293866888021933
+          ],
+          "step_success@0.250": true
+        },
+        {
+          "image": "3.png",
+          "instruction": "3) Select Page Break from the bar",
+          "gt_count": 1,
+          "pred_count": 1,
+          "best_iou": 0.6400876663308077,
+          "ious_per_gt": [
+            0.6400876663308077
+          ],
+          "step_success@0.250": true
+        }
+      ]
+    }
+  ]
+}

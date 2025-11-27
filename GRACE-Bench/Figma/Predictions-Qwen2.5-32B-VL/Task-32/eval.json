@@ -1,0 +1,36 @@
+{
+  "task": "Task-32",
+  "exists": true,
+  "task_completed@0.30": false,
+  "num_images": 2,
+  "num_gt_boxes": 2,
+  "mIoU": 0.018587619666491917,
+  "Acc@0.3": 0.0,
+  "Acc@0.5": 0.0,
+  "Acc@0.8": 0.0,
+  "Acc@0.9": 0.0,
+  "per_image": [
+    {
+      "image": "1.png",
+      "instruction": "Select the Button Danger component;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.0,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.0
+      ]
+    },
+    {
+      "image": "2.png",
+      "instruction": "Click Effects +;",
+      "gt_count": 1,
+      "pred_count": 1,
+      "best_iou": 0.037175239332983834,
+      "step_success@0.30": false,
+      "ious_per_gt": [
+        0.037175239332983834
+      ]
+    }
+  ]
+}
